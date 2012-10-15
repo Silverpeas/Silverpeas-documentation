@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    Copyright (C) 2000 - 2012 Silverpeas
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU Affero General Public License as
+    published by the Free Software Foundation, either version 3 of the
+    License, or (at your option) any later version.
+
+    As a special exception to the terms and conditions of version 3.0 of
+    the GPL, you may redistribute this Program in connection with Free/Libre
+    Open Source Software ("FLOSS") applications as described in Silverpeas's
+    FLOSS exception.  You should have received a copy of the text describing
+    the FLOSS exception, and it is also available here:
+    "http://www.silverpeas.org/legal/licensing"
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU Affero General Public License for more details.
+
+    You should have received a copy of the GNU Affero General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.silverpeas</groupId>
+    <version>24-SNAPSHOT</version>
+    <artifactId>parent</artifactId>
+  </parent>
+  
+  <groupId>org.silverpeas</groupId>
+  <artifactId>documentation</artifactId>
+  <version>5.11-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>Silverpeas documentation</name>
+  <description>The Silverpeas documentation</description>
+  
+  
+  
+  
+  <properties>
+    <wikbook.version>0.9.40</wikbook.version>
+    <silverpeas.version>${project.version}</silverpeas.version>
+    <wikbook.source>${pom.basedir}/src/main/wikbook</wikbook.source>
+    <wikbook.target>${project.build.directory}/wikbook</wikbook.target>
+  </properties>
+  <dependencies>
+    <dependency>
+      <groupId>org.wikbook</groupId>
+      <artifactId>wikbook.docbkxstyle</artifactId>
+      <version>${wikbook.version}</version>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <!-- The wikbook maven plugin generates the docbook document from the wiki source -->
+      <plugin>
+        <groupId>org.wikbook</groupId>
+        <artifactId>wikbook.maven</artifactId>
+        <version>${wikbook.version}</version>
+        <executions>
+          <execution>
+            <phase>prepare-package</phase>
+            <goals>
+              <goal>transform</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <sourceDirectory>${wikbook.source}/en/en-US</sourceDirectory>
+          <extraSourceDirectory>${wikbook.target}/man</extraSourceDirectory>
+          <sourceFileName>book.wiki</sourceFileName>
+          <destinationDirectory>${wikbook.target}/src</destinationDirectory>
+          <destinationFileName>index.xml</destinationFileName>
+          <emitDoctype>false</emitDoctype>
+          <beforeBookBodyXML><![CDATA[<xi:include href="bookinfo.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />]]></beforeBookBodyXML>
+        </configuration>
+      </plugin>
+      <!-- Unpacks the docbook style resources for the docbkx plugin -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-dependency-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>a</id>
+            <phase>prepare-package</phase>
+            <goals>
+              <goal>unpack-dependencies</goal>
+            </goals>
+            <configuration>
+              <includeGroupIds>org.wikbook</includeGroupIds>
+              <includeArtifactIds>wikbook.docbkxstyle</includeArtifactIds>
+              <excludes>META-INF/**</excludes>
+              <outputDirectory>${wikbook.target}/src/resources</outputDirectory>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+
+      <!-- Dockbx plugin that generates content -->
+      <plugin>
+        <groupId>com.agilejava.docbkx</groupId>
+        <artifactId>docbkx-maven-plugin</artifactId>
+        <version>2.0.14</version>
+        <configuration>
+          <!-- Source -->
+          <sourceDirectory>${wikbook.target}/src</sourceDirectory>
+          <includes>index.xml</includes>
+          <!-- Highlight source code -->
+          <highlightSource>1</highlightSource>
+          <!-- We need to support xinclude -->
+          <xincludeSupported>true</xincludeSupported>
+          <!--
+          |  See http://www.sagehill.net/docbookxsl/AnnotateListing.html
+          |  Callouts on imported text
+          -->
+          <useExtensions>1</useExtensions>
+          <calloutsExtension>1</calloutsExtension>
+          <!-- Copy any docbook XML -->
+          <preProcess>
+            <copy todir="${wikbook.target}/src">
+              <fileset dir="${wikbook.source}/en/en-US">
+                <include name="**/*.xml" />
+              </fileset>
+            </copy>
+          </preProcess>
+        </configuration>
+        <executions>
+          <execution>
+            <id>generate-html</id>
+            <goals>
+              <goal>generate-html</goal>
+            </goals>
+            <phase>package</phase>
+            <configuration>
+              <!-- Output -->
+              <targetDirectory>${wikbook.target}/output/html</targetDirectory>
+              <!-- Stylesheet -->
+              <htmlCustomization>${wikbook.target}/src/resources/xsl/bootstrap/html.xsl</htmlCustomization>
+              <!-- Copy the image -->
+              <postProcess>
+                <copy todir="${wikbook.target}/output/html/images">
+                  <fileset dir="${wikbook.source}/images">
+                    <include name="**" />
+                  </fileset>
+                </copy>
+                <copy todir="${wikbook.target}/output/html">
+                  <fileset dir="${wikbook.target}/src/resources">
+                    <include name="**/*.css" />
+                    <include name="**/*.js" />
+                    <include name="**/*.png" />
+                    <include name="**/*.gif" />
+                    <include name="**/*.jpg" />
+                  </fileset>
+                </copy>
+              </postProcess>
+            </configuration>
+          </execution>
+          <execution>
+            <id>generate-xhtml</id>
+            <goals>
+              <goal>generate-xhtml</goal>
+            </goals>
+            <phase>package</phase>
+            <configuration>
+
+              <!-- Output -->
+              <targetDirectory>${wikbook.target}/output/xhtml</targetDirectory>
+              <targetFileExtension>html</targetFileExtension>
+
+              <!-- Stylesheet -->
+              <xhtmlCustomization>${wikbook.target}/src/resources/xsl/simple/pdf.xsl</xhtmlCustomization>
+
+              <!-- Copy the image -->
+              <postProcess>
+                <copy todir="${wikbook.target}/output/xhtml/images">
+                  <fileset dir="${pom.basedir}/src/main/wikbook/images">
+                    <include name="**" />
+                  </fileset>
+                </copy>
+                <copy todir="${wikbook.target}/output/xhtml">
+                  <fileset dir="${wikbook.target}/src/resources">
+                    <include name="**/*.css" />
+                    <include name="**/*.png" />
+                    <include name="**/*.gif" />
+                    <include name="**/*.jpg" />
+                  </fileset>
+                </copy>
+              </postProcess>
+            </configuration>
+          </execution>
+        </executions>
+        <dependencies>
+          <dependency>
+            <groupId>org.docbook</groupId>
+            <artifactId>docbook-xml</artifactId>
+            <version>4.5</version>
+            <scope>runtime</scope>
+          </dependency>
+        </dependencies>
+      </plugin>
+
+      <plugin>
+        <groupId>org.wikbook</groupId>
+        <artifactId>wikbook.html2pdf</artifactId>
+        <version>${wikbook.version}</version>
+        <executions>
+          <execution>
+            <phase>package</phase>
+            <goals>
+              <goal>transform</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <sourceDirectory>${wikbook.target}/output/xhtml</sourceDirectory>
+          <sourceFileName>index.html</sourceFileName>
+          <destinationDirectory>${wikbook.target}/output/pdf</destinationDirectory>
+          <destinationFileName>index.pdf</destinationFileName>
+        </configuration>
+      </plugin>
+
+      <!-- Attach the HTML zip -->
+      <plugin>
+        <artifactId>maven-assembly-plugin</artifactId>
+        <executions>
+          <execution>
+            <phase>package</phase>
+            <goals>
+              <goal>single</goal>
+            </goals>
+            <configuration>
+              <descriptors>
+                <descriptor>src/main/assembly/html.xml</descriptor>
+                <descriptor>src/main/assembly/docbook.xml</descriptor>
+              </descriptors>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+
+      <!-- Attach the PDF -->
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>build-helper-maven-plugin</artifactId>
+        <version>1.7</version>
+        <executions>
+          <execution>
+            <id>attach-artifacts</id>
+            <phase>package</phase>
+            <goals>
+              <goal>attach-artifact</goal>
+            </goals>
+            <configuration>
+              <artifacts>
+                <artifact>
+                  <file>target/wikbook/output/pdf/index.pdf</file>
+                  <type>pdf</type>
+                </artifact>
+              </artifacts>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+
+      
+
+    </plugins>
+
+  </build>
+
+</project>

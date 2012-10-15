@@ -1,0 +1,16 @@
+= Collaborative workspaces =
+
+Use Silverpeas to build an Intranet or Extranet and feed web 2.0 sites optimizing sharing and performance.
+Based on it's collaborative bus, Silverpeas is used to share documents (EDM Electronic Documentation Management), to optimize project managment, content management and knowledge and skills management.
+Silverpeas improves and encourages best practices and helps the creation of social networks, thanks to improved workflow and information management.
+
+
+= Ready-to-use aplications =
+
+With more than **30 ready-to-use applications**, Silverpeas™ combines all the tools you need to get your collaborative spaces up and running in a few clicks. Applications such as Blog, wiki, forum, directories, project management, ECM, picture gallery, diaries, and many more let you develop your own personalized space. Other features: EDM (Electronic Documentation Management)Collaborative tools, agendas, booking system, chat, yellow pages, social network, survey, quiz, forums,Project management tools (gantt)Knowledge managementContent management tools such as blogs, image gallery, 3D browser, EDM, RSS flows,Workflow engine with XML forms, connections to Databases, and groupware (Domino, Groupwise, Zimbra, Outlook)...
+
+A transverse social Network gives a user centric access to informations and activities.
+
+= Hey, I want to contribute! =
+
+Drop an email on the mailing list ( http://groups.google.com/group/silverpeas-users ), any kind of help is welcome.
