@@ -44,7 +44,7 @@
   
   
   <properties>
-    <wikbook.version>0.9.40</wikbook.version>
+    <wikbook.version>0.9.42-SNAPSHOT</wikbook.version>
     <silverpeas.version>${project.version}</silverpeas.version>
     <wikbook.source>${pom.basedir}/src/main/wikbook</wikbook.source>
     <wikbook.target>${project.build.directory}/wikbook</wikbook.target>
@@ -73,7 +73,7 @@
           </execution>
         </executions>
         <configuration>
-          <sourceDirectory>${wikbook.source}/en/en-US</sourceDirectory>
+          <sourceDirectory>${wikbook.source}/fr/fr-FR</sourceDirectory>
           <extraSourceDirectory>${wikbook.target}/man</extraSourceDirectory>
           <sourceFileName>book.wiki</sourceFileName>
           <destinationDirectory>${wikbook.target}/src</destinationDirectory>
@@ -124,8 +124,8 @@
           <calloutsExtension>1</calloutsExtension>
           <!-- Copy any docbook XML -->
           <preProcess>
-            <copy todir="${wikbook.target}/src">
-              <fileset dir="${wikbook.source}/en/en-US">
+			<copy todir="${wikbook.target}/src">
+              <fileset dir="${wikbook.source}/fr/fr-FR">
                 <include name="**/*.xml" />
               </fileset>
             </copy>

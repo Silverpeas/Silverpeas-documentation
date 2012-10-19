@@ -1,0 +1,81 @@
+﻿[[haut>>#haut]]
+
+{{anchor id=blog /}}
+
+Ce service permet de gérer le contenu d’un blog. Utile pour le suivi quotidien d’un projet par exemple. Il permet de classer les billets par catégories et de laisser des commentaires.
+
+=== Comment mettre à disposition mon billet ? ===
+
+Par défaut, à la création, le billet est en mode brouillon, pour rendre disponible ce billet, il faut le publier.
+
+[[image:images/BLOG-publier_1.jpg]]
+
+Une fois publié, ce billet est alors visible de tous les lecteurs du blog.
+
+[[image:images/BLOG-publier_2.jpg]]
+
+{{important}}
+Une fois publié, le billet reste modifiable par tous les bloggeurs, toutefois il ne peut plus être repassé en brouillon.
+{{/important}}
+
+[[retour>>#blog]]
+
+{{anchor id=categorie /}}
+=== Comment ordonner mes billets ? ===
+
+Afin de pouvoir ordonner les billets, il existe, dans le blog, la notion de catégorie.
+A la création d'un billet (mais aussi en modification) sur la page d'entête la liste des catégories existantes est disponible.
+
+[[image:images/BLOG-categorie_1.jpg]]
+
+Pour un billet classé, sa catégorie est visible en bas de ce dernier.
+
+[[image:images/BLOG-categorie_2.jpg]]
+
+Il est alors possible de réduire le nombre de billets à une catégorie. Pour cela il suffit de cliquer sur le libellé de la catégorie :
+* dans le bas d'un billet
+[[image:images/BLOG-categorie_3.jpg]]
+* dans la liste des catégories
+[[image:images/BLOG-categorie_4.jpg]]
+
+Pour ne voir afficher que les billets classés sur cette dernière.
+
+[[image:images/BLOG-categorie_5.jpg]]
+
+[[retour>>#blog]]
+
+=== Comment gérer les catégories ? ===
+
+La gestion des catégories est indépendantes pour chaque instance de blog.
+L'accès se fait directement depuis l'icône //catégorie//
+
+[[image:images/BLOG-categorie_6.jpg]]
+
+L'ajout d'une catégorie se fait avec l'opération // Ajouter une catégorie//  du menu // Que voules vous faire ? //
+La modification et/ou la suppression des catégories existantes se fait via les icônes [[image:images/modif.jpg]] et [[image:images/suppression.jpg]]
+
+[[retour>>#blog]]
+
+=== Comment retrouver un billet ? ===
+
+Il existe plusieurs façon de chercher un billet :
+* par une expression plein texte
+
+pour cela il existe une zone de recherche [[image:images/BLOG-recherche_1.jpg]]
+* par catégorie
+
+Si la [[catégorie>>#categorie]] est connue, une restriction sur cette dernière permet de réduire le nombre de billet 
+* par date
+
+De la même façon, si la date du billet est connu, il est très facile de faire afficher les billets relatifs à une date.
+
+Il est possible de sélectionner le mois voulu à partir des archives
+[[image:images/BLOG-recherche_2.jpg]]
+
+ou en se déplaçant dans le calendrier
+[[image:images/BLOG-recherche_3.jpg]]
+
+Les jours contennant un ou plusieurs billets sont affichés en gras, en cliquant sur ce dernier, cela permet de réduire la liste aux billets de ce jour.
+[[image:images/BLOG-recherche_4.jpg]]
+
+[[retour>>#blog]]

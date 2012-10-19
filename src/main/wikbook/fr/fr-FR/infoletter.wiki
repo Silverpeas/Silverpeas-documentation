@@ -1,0 +1,104 @@
+[[haut>>#haut]]
+
+{{anchor id=infoletter /}}
+
+Le but de l'application // Lettre informative// est de créer des parutions périodiques.
+Le principe est de publier des parutions de façon périodique, à partir ou non d'un modèle.
+Il est possible de préparer plusieurs parutions et de les publier une par une au moment voulu.
+
+=== Comment gérer les abonnés internes ? ===
+
+Les abonnées internes sont des utilisateurs enregistrés sur la plateforme.
+Dans le menu // Que voulez-vous faire ? //, option // Accéder aux abonnés internes //. 
+L'écran de sélection des utilisateurs est présenté, les abonnés sont les utilisateurs sélectionnés. Il suffit de modifier la liste des utilisateurs et de valider.
+
+[[image:images/INFO-abonnesInternes.jpg]]
+
+[[retour>>#infoletter]]
+
+=== Comment gérer les abonnés externes ? ===
+
+Il est possible de diffuser une lettre informative à des personnes non enregistré sur la plateforme. Pour cela, il faut créer ces utilisateurs en tant qu'abonnés externes.
+Dans le menu // Que voulez-vous faire ? // option // Accéder aux abonnés externes //. 
+L'option // Ajouter un utilisateur // permet de saisir les adresses mails des personnes à abonner.
+
+[[retour>>#infoletter]]
+
+=== Comment créer une nouvelle parution ? ===
+
+Dans le menu // Que voulez-vous faire ? //, option // Créer une publication //.
+
+[[image:images/INFO-nouvelleParution_1.jpg]]
+
+L'onglet // Edition // permet de saisir le contenu de la parution, et de faire une mise en page.
+
+[[image:images/INFO-nouvelleParution_2.jpg]]
+
+Il est aussi possible, via l'onglet // Fichiers joints // de joindre des documents à cette parution.
+
+[[image:images/INFO-nouvelleParution_3.jpg]]
+
+[[retour>>#infoletter]]
+
+=== Comment vais-je recevoir ma parution ? ===
+
+La réception de la lettre ne se fait pas de la même façon suivant que l'on soit utilisateur interne ou externe.
+Un utilisateur interne reçoit une notification lui signalant la présence d'une nouvelle parution :
+
+[[image:images/INFO-recevoirParution_1.jpg]]
+
+avec un lien qui permet d'accéder directement à la visualisation de cette parution :
+
+[[image:images/INFO-recevoirParution_2.jpg]]
+
+Les utilisateurs externes, quand à eux, reçoivent directement le contenu de la parution par mail : 
+
+[[image:images/INFO-recevoirParution_3.jpg]]
+
+[[retour>>#infoletter]]
+
+=== Comment visualiser le résultat de ma parution ? ===
+
+Avant de publier une nouvelle parution, il est possible de la visualiser les différents rendus.
+* l'onglet // Prévisualisation // permet de voir le rendu sur la plateforme
+
+[[image:images/INFO-visuParution_1.jpg]]
+
+* l'option // Envoyer la lettre aux gestionnaires // permet d'effectuer un envoi par mail de cette parution aux gestionnaires de cette application. 
+
+[[image:images/INFO-visuParution_2.jpg]]
+
+[[retour>>#infoletter]]
+
+=== Comment enregistrer un modèle de lettre ? ===
+
+Afin de conserver toujours le même format pour mes parutions, il est possible d'enregistrer une lettre comme modèle.
+Attention, cette opération est à faire avant de mettre en ligne la parution.
+Se positionner sur la lettre et choisir l'option // Enregistrer comme modèle // du menu // Que voulez-vous faire ? //.
+
+[[image:images/INFO-enregModele_1.jpg]]
+
+Le modèle est alors enregistré, il est possible de visualiser ce modèle depuis la page d'accueil.
+
+[[image:images/INFO-enregModele_2.jpg]]
+
+Toute nouvelle parution aura alors ce modèle de contenu dans l'onglet // Edition //.
+
+[[retour>>#infoletter]]
+
+=== Comment mettre en ligne ma parution ? ===
+
+La mise en ligne d'une parution signifie son envoi aux abonnés, par notification de la présence de cette nouvelle parution, pour les abonnés internes et par mail contenant la parution, pour les abonnés externes.
+La mise en ligne est très simple, il suffit, sur la parution de choisir l'option // Mettre en ligne // du menu // Que voulez-vous faire ? //
+Attention toutefois, cette opération est irréversible et une fois mise en ligne, la parution n'est plus modifiable.
+
+[[retour>>#infoletter]]
+
+=== A qui sera envoyée ma nouvelle parution ? ===
+
+Au moment de la mise en ligne d'une parution, cette dernière est envoyée aux abonnés définis au moment de la mise en ligne. 
+L'envoi se fait, par notification de la présence de cette nouvelle parution, pour les abonnés internes et par mail contenant la parution, pour les abonnés externes.
+Les utilisateurs définis sur les différents rôles de cette application sont définis pour gérer les parutions (création, mis en ligne...), ils ne reçoivent pas la parution de façon automatique, il faut les ajouter aux abonnés.
+Une parution reste consultable directement depuis l'application, en cliquant sur son titre.
+
+[[retour>>#infoletter]]

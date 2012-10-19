@@ -1,0 +1,10 @@
+= Applications =
+
+== Lettre informative ==
+{{include document="infoletter.wiki" /}}
+== Questions réponses ==
+{{include document="questionReply.wiki" /}}
+== Liste de diffusion ==
+{{include document="mailingList.wiki" /}}
+== Blog ==
+{{include document="blog.wiki" /}}
