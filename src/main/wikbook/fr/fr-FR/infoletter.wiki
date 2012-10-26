@@ -6,7 +6,7 @@ Le but de l'application // Lettre informative// est de créer des parutions pé
 Le principe est de publier des parutions de façon périodique, à partir ou non d'un modèle.
 Il est possible de préparer plusieurs parutions et de les publier une par une au moment voulu.
 
-=== Comment gérer les abonnés internes ? ===
+= Comment gérer les abonnés internes ? =
 
 Les abonnées internes sont des utilisateurs enregistrés sur la plateforme.
 Dans le menu // Que voulez-vous faire ? //, option // Accéder aux abonnés internes //. 
@@ -16,7 +16,7 @@ L'écran de sélection des utilisateurs est présenté, les abonnés sont les ut
 
 [[retour>>#infoletter]]
 
-=== Comment gérer les abonnés externes ? ===
+= Comment gérer les abonnés externes ? =
 
 Il est possible de diffuser une lettre informative à des personnes non enregistré sur la plateforme. Pour cela, il faut créer ces utilisateurs en tant qu'abonnés externes.
 Dans le menu // Que voulez-vous faire ? // option // Accéder aux abonnés externes //. 
@@ -24,69 +24,69 @@ L'option // Ajouter un utilisateur // permet de saisir les adresses mails des 
 
 [[retour>>#infoletter]]
 
-=== Comment créer une nouvelle parution ? ===
+= Comment créer une nouvelle parution ? =
 
 Dans le menu // Que voulez-vous faire ? //, option // Créer une publication //.
 
-[[image:images/INFO-nouvelleParution_1.jpg]]
+[[image:images/INFO-nouvelleParution_1.jpg||height="100%" width="100%"]]
 
 L'onglet // Edition // permet de saisir le contenu de la parution, et de faire une mise en page.
 
-[[image:images/INFO-nouvelleParution_2.jpg]]
+[[image:images/INFO-nouvelleParution_2.jpg||height="80%" width="80%"]]
 
 Il est aussi possible, via l'onglet // Fichiers joints // de joindre des documents à cette parution.
 
-[[image:images/INFO-nouvelleParution_3.jpg]]
+[[image:images/INFO-nouvelleParution_3.jpg||height="100%" width="100%"]]
 
 [[retour>>#infoletter]]
 
-=== Comment vais-je recevoir ma parution ? ===
+= Comment vais-je recevoir ma parution ? =
 
 La réception de la lettre ne se fait pas de la même façon suivant que l'on soit utilisateur interne ou externe.
 Un utilisateur interne reçoit une notification lui signalant la présence d'une nouvelle parution :
 
-[[image:images/INFO-recevoirParution_1.jpg]]
+[[image:images/INFO-recevoirParution_1.jpg||height="100%" width="100%"]]
 
 avec un lien qui permet d'accéder directement à la visualisation de cette parution :
 
-[[image:images/INFO-recevoirParution_2.jpg]]
+[[image:images/INFO-recevoirParution_2.jpg||height="100%" width="100%"]]
 
 Les utilisateurs externes, quand à eux, reçoivent directement le contenu de la parution par mail : 
 
-[[image:images/INFO-recevoirParution_3.jpg]]
+[[image:images/INFO-recevoirParution_3.jpg||height="60%" width="60%"]]
 
 [[retour>>#infoletter]]
 
-=== Comment visualiser le résultat de ma parution ? ===
+= Comment visualiser le résultat de ma parution ? =
 
 Avant de publier une nouvelle parution, il est possible de la visualiser les différents rendus.
 * l'onglet // Prévisualisation // permet de voir le rendu sur la plateforme
 
-[[image:images/INFO-visuParution_1.jpg]]
+[[image:images/INFO-visuParution_1.jpg||height="100%" width="100%"]]
 
 * l'option // Envoyer la lettre aux gestionnaires // permet d'effectuer un envoi par mail de cette parution aux gestionnaires de cette application. 
 
-[[image:images/INFO-visuParution_2.jpg]]
+[[image:images/INFO-visuParution_2.jpg||height="60%" width="60%"]]
 
 [[retour>>#infoletter]]
 
-=== Comment enregistrer un modèle de lettre ? ===
+= Comment enregistrer un modèle de lettre ? =
 
 Afin de conserver toujours le même format pour mes parutions, il est possible d'enregistrer une lettre comme modèle.
 Attention, cette opération est à faire avant de mettre en ligne la parution.
 Se positionner sur la lettre et choisir l'option // Enregistrer comme modèle // du menu // Que voulez-vous faire ? //.
 
-[[image:images/INFO-enregModele_1.jpg]]
+[[image:images/INFO-enregModele_1.jpg||height="100%" width="100%"]]
 
 Le modèle est alors enregistré, il est possible de visualiser ce modèle depuis la page d'accueil.
 
-[[image:images/INFO-enregModele_2.jpg]]
+[[image:images/INFO-enregModele_2.jpg||height="60%" width="60%"]]
 
 Toute nouvelle parution aura alors ce modèle de contenu dans l'onglet // Edition //.
 
 [[retour>>#infoletter]]
 
-=== Comment mettre en ligne ma parution ? ===
+= Comment mettre en ligne ma parution ? =
 
 La mise en ligne d'une parution signifie son envoi aux abonnés, par notification de la présence de cette nouvelle parution, pour les abonnés internes et par mail contenant la parution, pour les abonnés externes.
 La mise en ligne est très simple, il suffit, sur la parution de choisir l'option // Mettre en ligne // du menu // Que voulez-vous faire ? //
@@ -94,7 +94,7 @@ Attention toutefois, cette opération est irréversible et une fois mise en lign
 
 [[retour>>#infoletter]]
 
-=== A qui sera envoyée ma nouvelle parution ? ===
+= A qui sera envoyée ma nouvelle parution ? =
 
 Au moment de la mise en ligne d'une parution, cette dernière est envoyée aux abonnés définis au moment de la mise en ligne. 
 L'envoi se fait, par notification de la présence de cette nouvelle parution, pour les abonnés internes et par mail contenant la parution, pour les abonnés externes.

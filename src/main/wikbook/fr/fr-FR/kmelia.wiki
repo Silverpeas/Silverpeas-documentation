@@ -1,0 +1,218 @@
+﻿[[haut>>#haut]]
+
+{{anchor id=kmelia /}}
+
+Le service de **Gestion documentaire**, offre la possibilité de créer une arborescence de dossiers dans lesquels des publications seront classées.
+Chaque publication est constituée de diverses informations rassemblées dans des onglets :
+* une entête incluant les métadonnées standard (titre, dates de publication et de modification, auteurs, résumé, mots clefs renforçant le référencement)
+* les axes du plan de classement, sur lesquels la publication sera éventuellement indexée
+* des métadonnées, sous forme de formulaire XML ou d'un contenu WYSIWYG
+* des fichiers joints attachés 
+* des fonctions collaboratives : Contrôle de lecture, commentaires, abonnements, etc
+
+Un Cycle de vie (brouillon, à valider, validé) et des versions sur les fichiers (travail, publique) peuvent être gérées. 
+
+= Comment crèer un dossier ? =
+
+Pour pouvoir créer un dossier, il faut avoir les droits d'administrateur sur cette application.
+Se placer dans la partie gauche de la fenêtre, l'arborescence, à la racine de l'application ou sur un dossier (pour créer un sous-dossier), faire un clic droit et sélectionner l'opération « Créer un thème ».
+
+[[image:images/GED-dossier_1.jpg]]
+
+Cette opération est aussi disponible dans le menu //Que voulez-vous faire ?//.
+
+[[image:images/GED-dossier_2.jpg]]
+
+Une fenêtre apparaît, reste alors à donner le nom du dossier, éventuellement une description.
+L'option « notifications » permet d'envoyer de façon automatique une notification, aux publieurs ou à tous les utilisateurs, fonction du choix, signalant la création d'un nouveau dossier.
+
+[[image:images/GED-dossier_3.jpg]]
+
+Attention, cette option ne conditionne en aucun cas la possibilité d'envoyer des notifications depuis les publications de ce dossier.
+
+[[retour>>#kmelia]]
+
+= Comment créer une publication ? =
+
+Il est possible de créer une publication de différentes manières : 
+* avec l'assistant de publication
+* de [[façon manuelle>>#manuel]], en créant une entête
+* en [[déposant un fichier>>#depose]] dans le dossier 
+
+[[retour>>#kmelia]]
+
+= {{anchor id=depose /}} Comment créer une publication en déposant un fichier ? =
+
+Se positionner dans le dossier voulu, cliquer sur // Pour déposer rapidement un fichier... // pour ouvrir le (ou les) zone de glisser-déposer.
+
+[[image:images/GED-depose_1.jpg]]
+
+Si la gestion documentaire a le mode brouillon activé, 2 zones sont disponibles pour déposer un fichier : en mode brouillon et en mode normal.
+
+[[image:images/GED-depose_2.jpg]]
+
+Une fois le fichier déposé, une publication est créée, le fichier déposé est ajouté aux fichiers joints de la publication et l'entête de cette dernière est préalimentée par les métadonnées du fichier : 
+- le nom de la publication reprend le titre du documentaire
+- la description de la publication reprend le sujet du document 
+- les mots-clés de la publication sont alimentés avec les mots-clés du fichier
+
+[[image:images/GED-depose_3.jpg||height="100%" width="100%"]]
+
+[[retour>>#kmelia]]
+
+= {{anchor id=manuel /}} Comment créer une publication manuellement ? =
+
+Se positionner dans le dossier voulu, dans le menu // Que voulez-vous faire ? // choisir l'option // Créer une publication //.
+
+[[image:images/GED-manuel_1.jpg||height="100%" width="100%"]]
+
+Remplir alors le formulaire d'entête et valider.
+La publication est alors créée, l'utilisateur a la possibilité d'ajouter un contenu et/ou des fichiers.
+Note : Si le mode brouillon est activé, la publication ainsi créée sera en brouillon, pour la rendre visible à tous les lecteurs de ce dossier, il faut la sortir du mode brouillon par l'opération // sortir du mode brouillon // du menu // Que voulez-vous faire ? //.
+
+[[retour>>#kmelia]]
+
+= Comment ajouter un fichier à une publication ? =
+
+Se positionner  sur l'onglet ** Prévisualisation ** de la publication.
+2 méthodes sont offertes pour ajouter un fichier : 
+1. par glisser-déposer
+Sur le pavé ** Fichiers joints **, cliquer sur // Pour déposer rapidement un fichier... // pour ouvrir la zone de glisser-déposer.
+
+[[image:images/GED-fichier_1.jpg||height="100%" width="100%"]]
+
+[[image:images/GED-fichier_2.jpg]]
+
+2. par recherche du fichier
+Il est possible d'ajouter un fichier sans passer par la zone de glisser-déposer, pour cela, sélectionner l'opération // Ajouter un fichier // dans le menu // Que voulez-vous faire ? //. 
+Une fenêtre s'ouvre, permettant d'aller sélectionner le fichier à ajouter.
+
+[[retour>>#kmelia]]
+
+= Je veux déplacer ma publication, comment faire ? =
+
+
+**EN COURS**
+Le déplacement d'une publication se fait par couper-coller.
+Une autre solution consiste à la déplacer en passant par l'onglet des emplacements.
+
+[[retour>>#kmelia]]
+
+= Je veux partager mon fichier avec une personne extérieur, comment faire ? =
+
+Par principe, toute information présente dans la plateforme n'est accessible qu'aux utilisateurs déclarés dans le référentiel et ayant les droits d'accès à cette information. 
+Toutefois, la possibilité existe de pouvoir donner accès à un fichier joint à un utilisateur n'ayant pas les droits suffisant pour accéder à la publication ou à une personne non déclarée dans le référentiel.
+
+Cette option n'est disponible que sur les gestions documentaires ayant le paramètre ** Fichiers partageables ** activé et n'est accessible qu'aux gestionnaires de l'application.
+
+Dans le menu contextuel du fichier, l'opération // Partager ce fichier //, 
+
+[[image:images/GED-partage_1.jpg]]
+
+permets de générer un ticket d'accès (lien privé) pour donner accès à ce fichier.
+Une fenêtre de paramétrage de ce ticket apparaît 
+
+elle permet à l'utilisateur de renseigner les caractéristiques du ticket.
+Il est possible de renseigner :
+
+- le nombre d'accès maximum et la date de fin de validité
+
+- ou simplement de rendre ce ticket permanent.
+
+[[image:images/GED-partage_2.jpg||height="80%" width="80%"]]
+
+La création d'un ticket génère une url qui devra être transmise à l'utilisateur.
+
+[[image:images/GED-partage_3.jpg||height="90%" width="90%"]]
+
+{{important}}
+la centralisation de tous mes tickets se fait depuis mon espace personnel dans le rubrique ** Mes tickets **. 
+Ce service permet de visualiser tous les partages, mais aussi de modifier les paramètres des tickets existants.
+Les accès à un ticket sont tracés par adresse IP et par date.
+{{/important}}
+
+[[retour>>#kmelia]]
+
+= Comment ordonner les dossiers ? =
+
+Il est possible d'ordonner les dossiers de premier niveau d'une application de gestion documentaire, mais aussi d'ordonner les sous dossiers d'un dossier.
+L'opération //Ordonner les dossiers// est disponible dans le menu contextuel sur le dossier parent ou dans le menu //Que voulez-vous faire ?//
+L'ordonnancement se fait pas glisser-déposer des dossiers.
+
+[[image:images/GED-ordonner.jpg]]
+
+[[retour>>#kmelia]]
+
+= Afin de rendre mon dossier plus explicite, je voudrais saisir un descriptif, comment faire ? =
+
+Il existe la possibilité de mettre un descriptif sur le dossier, afin de rendre plus conviviale l'arrivée sur ce dernier, avant la liste des publications.
+L'option // Descriptif wysiwyg du dossier//, disponible dans le menu contextuel du dossier et dans le menu //Que voulez-vous faire ?// permet de saisir un contenu riche.
+
+[[image:images/GED-descriptifDossier.jpg||height="100%" width="100%"]]
+
+[[retour>>#kmelia]]
+
+= Comment gérer les fichiers joints ? =
+
+Les fichiers joints apparaissent sur l'onglet de // Prévisualisation // d'une publication.
+A coté de chaque fichier, le bouton [[image:images/GED-fichier.jpg]] donne accès aux opérations disponibles pour ce fichier, en fonction des droits et du paramétrage de l'application.
+Les lecteurs n'ont le choix que de télécharger le fichier, en cliquant directement sur le nom de ce dernier.
+Pour les autres utilisateurs, les opérations toujours disponibles sont : 
+
+- Réserver
+- Réserver et télécharger
+- Libérer
+- Modifier
+- Supprimer
+- [[Notifier>>#notification]]
+
+[[retour>>#kmelia]]
+
+= Comment éditer en ligne mon fichier ? =
+
+Cette fonctionnalité permet d'éditer et de modifier un fichier joint directement en ligne, sans avoir besoin de le télécharger sur son poste.
+Choisir l'option // Editer en ligne // du menu du fichier à éditer.
+
+[[image:images/GED-editer_1.jpg]]
+
+Dès son ouverture, le fichier est automatiquement réservé, ce qui interdit toute modification de la part d'un autre utilisateur. 
+
+Ouvrir avec Java :
+
+[[image:images/GED-editer_2.jpg]]
+
+une fois authentifié (avec le login et le mot de passe d'accès à la plteforme Silverpeas), 
+
+[[image:images/GED-editer_3.jpg]]
+
+Le fichier est ouvert et prêt à être modifié !
+La modification terminée, enregistrer le fichier et le fermer, puis le libérer.
+C'est à ce stade, qu'il vous est demandé si vous voulez enregistrer vos modifications.
+
+[[retour>>#kmelia]]
+
+= Comment ajouter une nouvelle version à mon fichier ? =
+
+Comme pour toutes les opérations sur les fichiers, c'est dans le menu associé au fichier que l'opération //Créer une nouvelle version // est disponible.
+Le fichier en cours de modification est alors automatiquement réservé.
+La nouvelle version peut être déposée directement par glisser-déposer ou être recherchée sur le poste.
+
+[[image:images/GED-version_1.jpg||height="60%" width="60%"]]
+
+Le choix de la version, publique ou de travail est demandé : 
+une version de travail ne sera visible que par les gestionnaires et les publieurs, alors qu'une version publique sera disponible pour les utilisateurs ayant des droits de lecture sur ce fichier.
+Le numéro de version est incrémenté en fonction du type de version (premier chiffre pour les versions publiques, second pour les versions de travail).
+
+Les utilisateurs ont la possiblité de voir et télécharger toutes les versions disponibles en fonction de leur droits.
+En cliquant sur la ligne // Toutes les versions... //, sous le fichier, 
+
+[[image:images/GED-version_2.jpg]]
+
+les utilisateurs auront la possibilité de visualiser et télécharger toutes les versions disponibles (en fonction de leurs droits).
+
+[[image:images/GED-version_3.jpg||height="80%" width="80%"]]
+
+[[retour>>#kmelia]]
+
+
+
