@@ -89,15 +89,6 @@ Une fenêtre s'ouvre, permettant d'aller sélectionner le fichier à ajouter.
 
 [[retour>>#kmelia]]
 
-= Je veux déplacer ma publication, comment faire ? =
-
-
-**EN COURS**
-Le déplacement d'une publication se fait par couper-coller.
-Une autre solution consiste à la déplacer en passant par l'onglet des emplacements.
-
-[[retour>>#kmelia]]
-
 = Je veux partager mon fichier avec une personne extérieur, comment faire ? =
 
 Par principe, toute information présente dans la plateforme n'est accessible qu'aux utilisateurs déclarés dans le référentiel et ayant les droits d'accès à cette information. 
@@ -214,5 +205,16 @@ les utilisateurs auront la possibilité de visualiser et télécharger toutes le
 
 [[retour>>#kmelia]]
 
-
+{{note}}
+**EN COURS DE CREATION : POINTS A ABORDER**
+* Copier-coller de publication
+* abonnement, favoris et notification => lien vers les paragraphes globaux
+* Validation (ou refus) de publication
+* paramétrage et utilisation (classement) du PDC
+* définition et utilisation des permaliens
+* référencement de publications
+* tri des publications => ordonnancement des publications par gestionnaire
+* gestion des droits sur dossiers
+* partage de dossier
+{{/note}}
 

@@ -11,6 +11,7 @@
 == Gestion documentaire ==
 {{include document="kmelia.wiki" /}}
 
+
 = Les services transverses =
 
 == Abonnement ==
@@ -18,3 +19,4 @@
 == Commentaires ==
 
 == Notifications ==
+{{include document="notification.wiki" / }}
