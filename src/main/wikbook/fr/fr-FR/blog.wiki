@@ -30,7 +30,7 @@ A la création d'un billet (mais aussi en modification) sur la page d'entête la
 
 Pour un billet classé, sa catégorie est visible en bas de ce dernier.
 
-[[image:images/BLOG-categorie_2.jpg]]
+[[image:images/BLOG-categorie_2.jpg||height="60%" width="60%"]]
 
 Il est alors possible de réduire le nombre de billets à une catégorie. Pour cela il suffit de cliquer sur le libellé de la catégorie :
 * dans le bas d'un billet

@@ -45,7 +45,7 @@ Il est aussi possible, via l'onglet // Fichiers joints // de joindre des docum
 La réception de la lettre ne se fait pas de la même façon suivant que l'on soit utilisateur interne ou externe.
 Un utilisateur interne reçoit une notification lui signalant la présence d'une nouvelle parution :
 
-[[image:images/INFO-recevoirParution_1.jpg||height="100%" width="100%"]]
+[[image:images/INFO-recevoirParution_1.jpg||height="60%" width="60%"]]
 
 avec un lien qui permet d'accéder directement à la visualisation de cette parution :
 

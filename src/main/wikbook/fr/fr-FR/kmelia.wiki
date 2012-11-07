@@ -114,7 +114,7 @@ Il est possible de renseigner :
 
 La création d'un ticket génère une url qui devra être transmise à l'utilisateur.
 
-[[image:images/GED-partage_3.jpg||height="90%" width="90%"]]
+[[image:images/GED-partage_3.jpg||height="80%" width="80%"]]
 
 {{important}}
 la centralisation de tous mes tickets se fait depuis mon espace personnel dans le rubrique ** Mes tickets **. 
@@ -130,7 +130,7 @@ Il est possible d'ordonner les dossiers de premier niveau d'une application de g
 L'opération //Ordonner les dossiers// est disponible dans le menu contextuel sur le dossier parent ou dans le menu //Que voulez-vous faire ?//
 L'ordonnancement se fait pas glisser-déposer des dossiers.
 
-[[image:images/GED-ordonner.jpg]]
+[[image:images/GED-ordonner.jpg||height="60%" width="60%"]]
 
 [[retour>>#kmelia]]
 
@@ -170,11 +170,11 @@ Dès son ouverture, le fichier est automatiquement réservé, ce qui interdit to
 
 Ouvrir avec Java :
 
-[[image:images/GED-editer_2.jpg]]
+[[image:images/GED-editer_2.jpg||height="60%" width="60%"]]
 
 une fois authentifié (avec le login et le mot de passe d'accès à la plteforme Silverpeas), 
 
-[[image:images/GED-editer_3.jpg]]
+[[image:images/GED-editer_3.jpg||height="60%" width="60%"]]
 
 Le fichier est ouvert et prêt à être modifié !
 La modification terminée, enregistrer le fichier et le fermer, puis le libérer.

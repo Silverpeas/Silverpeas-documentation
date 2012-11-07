@@ -43,13 +43,13 @@ En fonction du paramétrage global de la plateforme, le choix est donné à l'ut
 L'utilisateur a le choix entre :
 * Affichage d'une fenêtre : ouvre une popup contenant l'auteur de la notification, le message et l'objet notifié.
 
-[[image:images/NOTIF-10.jpg]]
+[[image:images/NOTIF-10.jpg||height="60%" width="60%"]]
 * boite de notification : la notification arrive dans la boite de notification présente dans la partie //Mes notifications//. 
 Elle contient l'auteur de la notification, le message, l'objet notifié et un lien pour accéder directement à ce dernier.
 
 [[image:images/NOTIF-11.jpg||height="100%" width="100%"]]
 
-[[image:images/NOTIF-5.jpg]]
+[[image:images/NOTIF-5.jpg||height="60%" width="60%"]]
 * Messagerie par défaut : la notification arrive dans le boite mail définie dans défaut dans le profil de l'utilisateur.
 Elle contient l'auteur de la notification, le message, l'objet notifié et un lien pour accéder directement à ce dernier.
 
@@ -64,7 +64,7 @@ Par défaut, les canaux pour recevoir les notifications sont : popup, boite de 
 Il est toutefois possible d'ajouter un nouveau canal de notification. 
 Sur l'onglet //Paramétrage//, l'option //Ajouter un canal de notification// du menu //Que voulez-vous faire ?// permet de configurer un nouveau canal de notification.
 
-[[image:images/NOTIF-12.jpg]]
+[[image:images/NOTIF-12.jpg||height="60%" width="60%"]]
 
 Ce nouveau canal est alors disponible dans la liste des choix du canal, il est aussi utilisable dans les [[règles>>#regle]] de réception.
 

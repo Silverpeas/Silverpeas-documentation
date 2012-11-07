@@ -10,7 +10,8 @@
 {{include document="blog.wiki" /}}
 == Gestion documentaire ==
 {{include document="kmelia.wiki" /}}
-
+== Galerie d'images ==
+{{include document="gallery.wiki" /}}
 
 = Les services transverses =
 
