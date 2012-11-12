@@ -1,0 +1,233 @@
+[[haut>>#haut]]
+
+{{anchor id=gallery /}}
+
+L'application //galerie d'images// permet de gérer et d'organiser des images.
+Chaque image peut être définie avec précision grâce à un formulaire personnalisable.
+Organisées en album, les images peuvent être ajoutées par glisser-déposer.
+
+= Comment obtenir une image en Haute définition ? =
+
+Sur chaque image, il existe une donnée qui permet au publieur de mettre à disposition la haute définition de celle-ci aux lecteurs.
+Si cette donnée est cochée par le créateur de l'image, il suffit alors de cliquer sur le lien //cliquer ici pour télécharger l'image// pour accéder à l'image en haute définition.
+
+[[image:images/GAL-HD_1.jpg||height="100%" width="100%"]]
+
+Si cette possibilité n'est pas disponible, une demande d'images via le [[panier>>#panier]] est alors nécessaire.
+
+[[retour>>#gallery]]
+
+{{anchor id=panier /}}
+= A quoi sert le panier ? =
+
+En fonction du paramétrage, le publieur ne donne pas forcément accès à l'image en haute définition aux lecteurs.
+Si un lecteur a besoin d'obtenir une ou plusieurs images en haute définition, et si le paramétrage est activé pour cela, il peut alors en faire la demande.
+Pour cela, il doit ajouter, dans son panier, les images voulues puis devra transformer ce panier en demande.
+
+Sur chaque image, l'option //Ajouter au panier// est disponible dans le menu //Que voulez-vous faire ?//.
+Il est aussi possible d'ajouter plusieurs photos sélectionnées depuis un album, pour cela, utiliser l'option //Ajouter les images sélectionnées au panier//.
+
+A chaque ajout d'images (unitaire ou par lot), l'utilisateur visualise le contenu de son panier. 
+Il peut aussi y revenir par l'option //Voir le panier//. 
+Dans le panier, les images sont supprimables, de façon unitaire avec l'icône [[image:images/suppression.jpg]], par lot, après sélection des images via les cases à cocher ou simplement vider complètement le panier.
+
+Une fois toutes les images choisies, l'utilisateur peut créer sa demande par l'option //Créer une demande// :
+
+[[image:images/GAL-HD_2.jpg||height="100%" width="100%"]]
+
+La demande peut contenir, de façon optionnelle, un formulaire et/ou une charte à valider.
+
+[[image:images/GAL-HD_3.jpg||height="100%" width="100%"]]
+
+Une fois validée, cette demande est transmise aux gestionnaires qui sont prévenus par notification.
+Ces derniers doivent, image par image, autoriser ou non le téléchargement.
+L'utilisateur peut suivre l'état de sa ou ses demandes depuis la liste des demandes (option //Liste des demandes//).
+
+[[image:images/GAL-HD_6.jpg||height="100%" width="100%"]]
+
+Mais bien évidemment, l'utilisateur est prévenu par notification dès que sa demande est traitée.
+Il doit se rendre de nouveau sur sa demande, par le lien de la notification ou en passant par la liste des demandes.
+Il peut alors télécharger les images rendues disponibles : 
+
+[[image:images/GAL-HD_4.jpg||height="100%" width="100%"]]
+
+Une fois l'image téléchargée, le lien n'est plus disponible et date de téléchargement apparaît.
+
+[[image:images/GAL-HD_5.jpg||height="100%" width="100%"]]
+
+[[retour>>#gallery]]
+
+= Comment mettre en place la demande d'image pour les lecteurs ? =
+
+Il n'est pas toujours possible de rendre toutes les images disponibles en haute définition aux lecteurs.
+Afin de pouvoir gérer les téléchargements de ces images, un mécanisme de demande est disponible.
+Les options //Panier// et //Demande de photos// doivent être activées.
+Il est possible d'ajouter un formulaire aux demandes, ce dernier devra être renseigné dans le paramètre //Formulaire XML associé aux demandes//. 
+De la même façon, il est possible d'associer une charte dont l'url devra être renseignée dans le paramètre //Url de la charte//.
+
+[[image:images/GAL-HD_7.jpg||height="100%" width="100%"]]
+
+Seul les gestionnaires sont à même de valider les demandes des lecteurs.
+Toutes les demandes sont centralisées dans la //liste des demandes//.
+
+[[image:images/GAL-HD_8.jpg||height="100%" width="100%"]]
+
+Chaque demande reprend le nom du demandeur, la date, le contenu du formulaire (si un formulaire est associé aux demandes) ainsi que la liste des images demandées. Pour chaque image, le gestionnaire valide ou non le droit de la télécharger.
+
+[[image:images/GAL-HD_9.jpg||height="100%" width="100%"]]
+
+[[retour>>#gallery]]
+
+= Puis-je faire apposer un watermark sur mes images ? =
+
+Il existe la possibilité d'apposer un watermark sur les images déposées dans une galerie.
+Pour cela, le paramètre //Watermark// doit être activé.
+__Attention__ : pour que cette option fonctionne, il faut que les métadonnées soient activées (option //Méta-données// cochée) et que les [[méta-données>>#metadata]] demandées en watermark soient référencées pour cette photothèque.
+Par défaut, c'est le nom du photographe qui est apposé sur les images. 
+Mais le gestionnaire peut choisir, pour chaque photothèque, la méta-donnée à afficher, en diférenciant le watermark à apposer sur les images haute définition (téléchargée) et les vignettes.
+
+[[image:images/GAL-watermark_1.jpg||height="100%" width="100%"]]
+
+Dans cet exemple, nous avons choisit de faire afficher la donnée IPTC 628 (copyright [[image:images/1.jpg]]) sur les images en haute défintion et la donnée IPTC 592 (créateur [[image:images/2.jpg]]) sur les vignettes.
+Pour trouver quelle méta donnée afficher, il faut regarder dans les fichiers de properties : 
+**metadataBundle.properties** et **metadataSettings.properties**
+
+[[image:images/GAL-watermark_2.jpg]]
+
+[[image:images/GAL-watermark_3.jpg]]
+
+Le nom du créateur est alors apposé sur toutes les vignettes et le copyright sur l'image haute définition.
+
+[[image:images/GAL-watermark_4.jpg||height="60%" width="60%"]]
+
+__Note__ : si le paramétrage du watermark est ajouté alors qu'il existe déjà des images dans la galerie, ces dernières devront être de nouveau uploadées pour intégrer le watermark.
+Afin de ne perdre, ni le lien (qui peut être utilisé) vers ces images, ni les informations de ces images (formulaire par exemple), il faut effectuer une mise à jour de celles-ci : se positionner sur l'onglet //Information// et uploader de nouveau l'image via le bouton //Parcourir//.
+
+[[retour>>#gallery]]
+
+{{anchor id=metadata /}}
+= Je veux afficher des métadonnées différentes en fonction de ma photothèque, est-ce possible ?= 
+
+Pour faire afficher les méta-données des images, il faut cocher le paramètre //Méta-données// sur l'instance.
+La liste des méta-données suceptibles d'être affichées est définie par le gestionnaire de la plateforme via le fichier //metadataSettings.properties// dans les properties de l'application galery.
+Ce fichier contient, en plus de la description de chaque méta-donnée, une donnée **display** qui permet de lister les méta-données à afficher.
+Cette liste contient toutes les données suceptibles d'être affichées, mais seule celles contenant une valeur sont affichées sur les images.
+
+Ce fichier, est commun à toutes les photothèques.
+Toutefois, il est possible, pour une photothèque donnée, de créer une liste différente des méta-données à afficher.
+Pour cela, sur le modèle du fichier //metadataSettings_galleryXXX.properties//, il faut créer un fichier pour une instance particulière de l'application gallery, en remplaçant les XXX par l'id de l'instance : 
+par exemple pour l'instance gallery138, il faut créer le fichier //metadataSettings_gallery138.properties//. Ce fichier contient simplement le paramètre display reprenant la liste des 
+méta-données à afficher sur cette instance.
+
+[[retour>>#gallery]]
+
+=Comment rechercher une image ? = 
+
+La recherche globale sur la plateforme, permet de rechercher une image, en fonction de son nom, sa description, ses mots clés.
+
+[[image:images/GAL-recherche_1.jpg||height="100%" width="100%"]]
+
+Il est possible, sur les résultats de cette recherche, de réduire le nombre de réponse en choisissant 
+* par type de contribution (les images) [[image:images/1.jpg]]
+* plus précisement, par instance [[image:images/2.jpg]]
+
+Afin de faire une recherche de façon spécifique dans une photothèque précise, il existe le paramètre //Moteur de recherche dédié//.
+Ce paramètre permet d'obtenir une zone de recherche propre à la photothèque, mais aussi une recherche avancée 
+
+[[image:images/GAL-recherche_2.jpg||height="100%" width="100%"]]
+
+qui permet de coupler :
+* une recherche plein texte [[image:images/1.jpg]]
+* une recherche sur les méta-données (la liste présentée est celle définie pour cette instance, voir [[affichage des méta-données>>#metadata]]) [[image:images/2.jpg]]
+* une recherche sur le formulaire associé aux images (voir comment associer un [[formulaire aux images>>#formImage]]) [[image:images/3.jpg]]
+* une recherche sur le plan de classement [[image:images/4.jpg]]
+
+[[retour>>#gallery]]
+
+{{anchor id=formImage /}}
+= Comment associer un formulaire aux images ? =
+
+Pour associer un formulaire aux images, il faut renseigner le nom du formulaire voulu dans le paramètre //Formulaire XML//.
+Au moment de l'ajout d'une image de façon manuelle, en dessous des zones de l'entête, les zones du formulaire sont proposées :
+
+[[image:images/GAL-form_1.jpg||height="100%" width="100%"]]
+
+Au moment du téléchargement des images, par glisser-déposer, ce formulaire n'est pas pris en compte, il faut alors retourner sur chaque image (ou faire une [[mise à jour par lot>>#modifLot]]) pour compléter le formulaire.
+
+[[image:images/GAL-form_2.jpg||height="100%" width="100%"]]
+
+[[retour>>#gallery]]
+
+{{anchor id=modifLot /}}
+= Puis-je modifier plusieurs images en même temps ?=
+
+Afin de pouvoir effectuer des modifications de façon massive, la possibilité est offerte aux gestionnaires et aux publieurs de modifier par lot des images sélectionnées.
+Pour cela il suffit, depuis un album, de cocher les images voulues, de choisir l'option //Modifier les images sélectionnées// et de compléter l'écran de modification contenant l'entête et le formulaire associé s'il existe.
+
+[[image:images/GAL-modifLot_3.jpg||height="100%" width="100%"]]
+
+[[image:images/GAL-modifLot_4.jpg||height="100%" width="100%"]]
+
+Attention toutefois, les images sélectionnées seront modifiées même si elles contiennent des informations, par exemple une image contenant une description et des informations dans le formulaire :
+
+[[image:images/GAL-modifLot_1.jpg||height="100%" width="100%"]]
+
+après la modification ci dessus, devient : 
+
+[[image:images/GAL-modifLot_6.jpg||height="100%" width="100%"]]
+
+Alors qu'une image n'ayant aucune information au préalable
+
+[[image:images/GAL-modifLot_2.jpg||height="100%" width="100%"]]
+
+deviens :
+
+[[image:images/GAL-modifLot_5.jpg||height="100%" width="100%"]]
+
+[[retour>>#gallery]]
+
+= Comment ajouter des images ? =
+
+Les gestionnaires, publieurs et contributeurs peuvent ajouter des images dans les albums de la photothèque.
+Pour cela, l'utilisateur se positionne dans l'album voulu, 2 possibilités sont offertes : 
+
+1/ L'option //Ajouter une image// dans le menu //Que voulez-vous faire ?// permet d'ajouter une image unitaire
+Cette option permet d'aller chercher l'image voulue et de remplir en même temps toutes les informations liées à cette image, y compris le formulaire associé.
+
+[[image:images/GAL-ajout_1.jpg||height="100%" width="100%"]]
+
+2/ La //zone de glisser-déposer// permet de déposer des images de façon rapide.
+Pour obtenir cette zone il faut cliquer sur //Pour déposer rapidement un fichier...//.
+Dans cette zone, l'utilisateur peut déposer :
+* une ou plusieurs images 
+cela permet d'ajouter une ou plusieurs images de façon rapide dans l'album courant
+* un répertoire contenant des images et éventuellement une arborescence
+permet d'ajouter de façon massive toutes les images contenues dans toute l'arborescence
+* un fichier zip contenant des images et éventuellement une arborescence
+Permet d'ajouter de façon massive toutes les images en respectant l'organisation par dossier, c'est à dire que pour chaque dossier, un album sera créé et les images contenues seront ajoutés dans cet album.
+
+le fichier
+
+[[image:images/GAL-ajout_3.jpg]]
+
+produira l'arborescence d'albums suivante : 
+
+[[image:images/GAL-ajout_4.jpg||height="100%" width="100%"]]
+
+[[retour>>#gallery]]
+
+= Comment puis-je réorganier mes albums ? =
+
+Par défaut les albums sont classés par ordre de création. 
+
+[[retour>>#gallery]]
+
+{{note}}
+**EN COURS DE CREATION : POINTS A ABORDER**
+* ajout d'image unitaire, par zip
+* placement par lot
+* classement par lot
+* copier-coller de photos, copier-coller d'album
+* images non visibles
+* ordonnancement des albums
+{{/note}}

@@ -89,6 +89,7 @@ Une fenêtre s'ouvre, permettant d'aller sélectionner le fichier à ajouter.
 
 [[retour>>#kmelia]]
 
+{{anchor id=partageFichier /}}
 = Je veux partager mon fichier avec une personne extérieur, comment faire ? =
 
 Par principe, toute information présente dans la plateforme n'est accessible qu'aux utilisateurs déclarés dans le référentiel et ayant les droits d'accès à cette information. 
@@ -110,14 +111,14 @@ Il est possible de renseigner :
 
 - ou simplement de rendre ce ticket permanent.
 
-[[image:images/GED-partage_2.jpg||height="80%" width="80%"]]
+[[image:images/GED-partage_2.jpg||height="60%" width="60%"]]
 
 La création d'un ticket génère une url qui devra être transmise à l'utilisateur.
 
-[[image:images/GED-partage_3.jpg||height="80%" width="80%"]]
+[[image:images/GED-partage_3.jpg||height="60%" width="60%"]]
 
 {{important}}
-la centralisation de tous mes tickets se fait depuis mon espace personnel dans le rubrique ** Mes tickets **. 
+la centralisation de tous mes tickets se fait depuis mon espace personnel dans le rubrique **Mes tickets**. 
 Ce service permet de visualiser tous les partages, mais aussi de modifier les paramètres des tickets existants.
 Les accès à un ticket sont tracés par adresse IP et par date.
 {{/important}}
@@ -170,11 +171,11 @@ Dès son ouverture, le fichier est automatiquement réservé, ce qui interdit to
 
 Ouvrir avec Java :
 
-[[image:images/GED-editer_2.jpg||height="60%" width="60%"]]
+[[image:images/GED-editer_2.jpg||height="40%" width="40%"]]
 
 une fois authentifié (avec le login et le mot de passe d'accès à la plteforme Silverpeas), 
 
-[[image:images/GED-editer_3.jpg||height="60%" width="60%"]]
+[[image:images/GED-editer_3.jpg||height="40%" width="40%"]]
 
 Le fichier est ouvert et prêt à être modifié !
 La modification terminée, enregistrer le fichier et le fermer, puis le libérer.
@@ -205,16 +206,84 @@ les utilisateurs auront la possibilité de visualiser et télécharger toutes le
 
 [[retour>>#kmelia]]
 
+= Puis-je partager plus qu'un fichier ? = 
+
+Par principe, toute information présente dans la plateforme n'est accessible qu'aux utilisateurs déclarés dans le référentiel et ayant les droits d'accès à cette information. 
+Toutefois, la possibilité existe de pouvoir donner [[accès à un fichier joint>>#partageFichier]] particulier, à un utilisateur n'ayant pas les droits suffisant pour accéder à la publication ou à une personne non déclarée dans le référentiel.
+
+Mais il est possible d'aller encore plus loin et de partager tous les fichiers joints d'un dossier !
+Cette option sera disponible pour les gestionnaire seulement, et sur les gestion documentaires ayant le paramètre **Dossiers partageables** activé.
+
+Dans le menu //Que voulez-vous faire ?// du dossier à partager, choisir l'option //Partager le dossier//.
+Tout comme pour le partage d'un fichier, une fenêtre permet de paramétrer le ticket associé à ce partage : avec une date de fin de validité ou permanent.
+
+[[image:images/GED-partage_4.jpg||height="60%" width="60%"]]
+
+Ce ticket génère l'url qui devra être transmise à l'utilisateur destinataire.
+
+[[image:images/GED-partage_3.jpg||height="60%" width="60%"]]
+
+Il est possible de partager un dossier, mais aussi toute une gestion documentaire, en se plaçant sur le dossier racine.
+La restitution se présente de façon arborescente, reprenant la structure du dossier partagé, avec des liens disponibles pour chaque fichier joint des publications de ce(s) dossier(s).
+
+[[image:images/GED-partage_6.jpg]]
+
+{{important}}
+la centralisation de tous mes tickets se fait depuis mon espace personnel dans le rubrique **Mes tickets**. 
+Ce service permet de visualiser tous les partages, mais aussi de modifier les paramètres des tickets existants.
+{{/important}}
+
+[[retour>>#kmelia]]
+
+= Puis-je réorganiser les droits sur les dossiers ? =
+
+Par principe, sur toutes les applications, les droits sont affectés sur les différents rôles par le gestionnaire de la plateforme.
+Pour la gestion documentaire, le principe est le même, mais, afin de pouvoir affiner les droits, il existe une option qui permet aux gestionnaire de l'application de redéfinir les droits dossier par dossier.
+Pour cela, il faut que l'option **Droits sur les dossiers** soit activée.
+
+L'écran de modification d'un dossier, passe de 
+
+[[image:images/GED-droits_1.jpg]]
+
+et devient
+
+[[image:images/GED-droits_2.jpg]]
+
+Le gestionnaire peut alors choisir de laisser les droits hérités (défini au niveau de l'application ou du dossier précédent) ou de redéfinir les droits pour ce dossier.
+Pour redéfinir les droits, il faut cocher //Droits spécifiques à ce dossier// sur le dossier et réaffecter tous les droits sur les onglets //Gestionnaires//, //Publieurs//, //Rédacteurs// et //Lecteurs//.
+Le choix de l'héritage se répercute dans l'arborescence, si un dossier a des droits redéfinis, ses sous dossiers auront par défaut (option //Droits hérités//) les droits redéfinis du dossier parent.
+
+Sur un dossier sensible, le gestionnaire peut decider de passer en simple lecteur tous les publieurs et rédacteurs.
+A l'inverse, sur un dossier plus générique, il est possible de passer publieur un utilisateur qui serait simple lecteur sur l'application. 
+Mais il n'est toutefois pas possible d'ajouter un utilisateur, la rédéfinition des droits permet simplement de réorganiser, par dossier, les utilisateurs affectés à cette application.
+
+[[retour>>#kmelia]] [[image:images/to-the-top.png]] 
+
+= A quoi sert le "voir aussi" ?=
+
+L'onglet **Voir aussi** permet de référencer d'autres publications, sur la publication.
+Cet onglet permet aussi de visualiser rapidement la liste des publications : 
+* du même dossier : liste des publications présentes dans le dossier.
+* du même sujet : 
+* les publications qui référencent la publication présente
+
+Pour référencer de façon manuelle une publication, choisir l'option //Référencer des publications//, naviguer dans l'arborescence représentant toutes les gestions documentaires, cocher les publications à référencer.
+
+[[image:images/GED-ref_1.jpg]] 
+
+Ces dernières sont alors listées pour les lecteurs et accessibles d'un simple clic !
+
+[[image:images/GED-ref_2.jpg]] 
+
+[[retour>>#kmelia]] [[image:images/to-the-top.png]] 
+
 {{note}}
 **EN COURS DE CREATION : POINTS A ABORDER**
-* Copier-coller de publication
+* Copier-coller de publication => attendre le glisser-déposer de publication...
 * abonnement, favoris et notification => lien vers les paragraphes globaux
 * Validation (ou refus) de publication
 * paramétrage et utilisation (classement) du PDC
 * définition et utilisation des permaliens
-* référencement de publications
 * tri des publications => ordonnancement des publications par gestionnaire
-* gestion des droits sur dossiers
-* partage de dossier
 {{/note}}
 
