@@ -26,17 +26,14 @@ Une fois publié, le billet reste modifiable par tous les bloggeurs, toutefois i
 Afin de pouvoir ordonner les billets, il existe, dans le blog, la notion de catégorie.
 A la création d'un billet (mais aussi en modification) sur la page d'entête la liste des catégories existantes est disponible.
 
-[[image:images/BLOG-categorie_1.jpg||height="100%" width="100%"]]
-
 Pour un billet classé, sa catégorie est visible en bas de ce dernier.
 
 [[image:images/BLOG-categorie_2.jpg||height="60%" width="60%"]]
 
-Il est alors possible de réduire le nombre de billets à une catégorie. Pour cela il suffit de cliquer sur le libellé de la catégorie :
+Il est alors possible de réduire le nombre de billets affiché, à une catégorie. Pour cela il suffit de cliquer sur le libellé de la catégorie :
 * dans le bas d'un billet
-[[image:images/BLOG-categorie_3.jpg]]
 * dans la liste des catégories
-[[image:images/BLOG-categorie_4.jpg]]
+[[image:images/BLOG-categorie_4.jpg||height="25%" width="25%"]]
 
 Pour ne voir afficher que les billets classés sur cette dernière.
 
@@ -46,25 +43,33 @@ Pour ne voir afficher que les billets classés sur cette dernière.
 
 = Comment gérer les catégories ? =
 
-La gestion des catégories est indépendantes pour chaque instance de blog.
-L'accès se fait directement depuis l'icône //catégorie//
+La gestion des catégories est indépendante pour chaque instance de blog.
+L'accès se fait 
+* directement en cliquant sur l'icône //catégorie//  [[image:images/BLOG-categorie_6.jpg||height="25%" width="25%"]]
+* en choisissant l'option //Gérer les catégories// dans le menu //Que voulez-vous faire ?//
 
-[[image:images/BLOG-categorie_6.jpg]]
-
-L'ajout d'une catégorie se fait avec l'opération // Ajouter une catégorie//  du menu // Que voules vous faire ? //
+L'ajout d'une catégorie se fait avec l'opération //Ajouter une catégorie//  du menu //Que voulez-vous faire ?//
 La modification et/ou la suppression des catégories existantes se fait via les icônes [[image:images/modif.jpg]] et [[image:images/suppression.jpg]]
+
+Une fois créées, les catégories peuvent être ordonnées pas simple déplacement par glisser/déposer.
+
+[[image:images/BLOG-categorie_7.jpg||height="100%" width="100%"]]
+
+Ce nouvel ordre, sera alors disponible pour les lecteurs.
+
+[[image:images/BLOG-categorie_8.jpg]]
 
 [[retour>>#blog]]
 
 = Comment retrouver un billet ? =
 
-Il existe plusieurs façon de chercher un billet :
+Il existe plusieurs façons de chercher un billet :
 * par une expression plein texte
 pour cela il existe une zone de recherche [[image:images/BLOG-recherche_1.jpg]]
 * par catégorie
 Si la [[catégorie>>#categorie]] est connue, une restriction sur cette dernière permet de réduire le nombre de billet 
 * par date
-De la même façon, si la date du billet est connu, il est très facile de faire afficher les billets relatifs à une date.
+De la même façon, si la date du billet est connue, il est très facile de faire afficher les billets relatifs à une date.
 
 Il est possible de sélectionner le mois voulu à partir des archives
 
@@ -74,7 +79,7 @@ ou en se déplaçant dans le calendrier
 
 [[image:images/BLOG-recherche_3.jpg]]
 
-Les jours contennant un ou plusieurs billets sont affichés en gras (ces derniers sont cliquables pour n'afficher que les billets du jour).
+Les jours contenant un ou plusieurs billets sont signalés (ces derniers sont cliquables pour afficher les billets de ce jour).
 
 [[image:images/BLOG-recherche_4.jpg]]
 

@@ -10,25 +10,27 @@ Chaque publication est constituée de diverses informations rassemblées dans de
 * des fichiers joints attachés 
 * des fonctions collaboratives : Contrôle de lecture, commentaires, abonnements, etc
 
-Un Cycle de vie (brouillon, à valider, validé) et des versions sur les fichiers (travail, publique) peuvent être gérées. 
+Un cycle de vie (brouillon, à valider, validé) et des versions sur les fichiers (travail, publique) peuvent être gérées. 
 
-= Comment crèer un dossier ? =
+= Comment créer un dossier ? =
 
 Pour pouvoir créer un dossier, il faut avoir les droits d'administrateur sur cette application.
-Se placer dans la partie gauche de la fenêtre, l'arborescence, à la racine de l'application ou sur un dossier (pour créer un sous-dossier), faire un clic droit et sélectionner l'opération « Créer un thème ».
+3 options possibles :
+* Depuis la page d'accueil, en cliquant directement sur le bouton [[image:images/GED-add.jpg]]
+* Depuis l'arborescence, dans la partie gauche de la fenêtre, à la racine de l'application ou sur un dossier (pour créer un sous-dossier), 
+faire un clic droit et sélectionner l'opération //Créer un dossier//.
 
-[[image:images/GED-dossier_1.jpg]]
+[[image:images/GED-dossier_1.jpg||height="30%" width="30%"]]
+* Depuis le menu //Que voulez-vous faire ?//, option //Créer un dossier//.
 
-Cette opération est aussi disponible dans le menu //Que voulez-vous faire ?//.
+[[image:images/GED-dossier_2.jpg||height="25%" width="25%"]]
 
-[[image:images/GED-dossier_2.jpg]]
+Une fenêtre apparaît, il faut renseigner le nom du dossier et éventuellement une description.
+L'option //notifications// permet d'envoyer de façon automatique une notification, aux publieurs ou à tous les utilisateurs, leur signalant la création de ce nouveau dossier.
 
-Une fenêtre apparaît, reste alors à donner le nom du dossier, éventuellement une description.
-L'option « notifications » permet d'envoyer de façon automatique une notification, aux publieurs ou à tous les utilisateurs, fonction du choix, signalant la création d'un nouveau dossier.
+[[image:images/GED-dossier_3.jpg||height="20%" width="20%"]]
 
-[[image:images/GED-dossier_3.jpg]]
-
-Attention, cette option ne conditionne en aucun cas la possibilité d'envoyer des notifications depuis les publications de ce dossier.
+Cette option ne conditionne en aucun cas la possibilité d'envoyer des notifications depuis les publications de ce dossier.
 
 [[retour>>#kmelia]]
 
@@ -43,15 +45,16 @@ Il est possible de créer une publication de différentes manières :
 
 = {{anchor id=depose /}} Comment créer une publication en déposant un fichier ? =
 
-Se positionner dans le dossier voulu, cliquer sur // Pour déposer rapidement un fichier... // pour ouvrir le (ou les) zone de glisser-déposer.
+Se positionner dans le dossier voulu, cliquer sur //Pour déposer rapidement un fichier...// pour ouvrir le (ou les) zone(s) de glisser-déposer.
 
-[[image:images/GED-depose_1.jpg]]
+[[image:images/GED-depose_1.jpg||height="60%" width="60%"]]
 
 Si la gestion documentaire a le mode brouillon activé, 2 zones sont disponibles pour déposer un fichier : en mode brouillon et en mode normal.
 
-[[image:images/GED-depose_2.jpg]]
+[[image:images/GED-depose_2.jpg||height="60%" width="60%"]]
 
 Une fois le fichier déposé, une publication est créée, le fichier déposé est ajouté aux fichiers joints de la publication et l'entête de cette dernière est préalimentée par les métadonnées du fichier : 
+
 - le nom de la publication reprend le titre du documentaire
 - la description de la publication reprend le sujet du document 
 - les mots-clés de la publication sont alimentés avec les mots-clés du fichier
@@ -62,44 +65,44 @@ Une fois le fichier déposé, une publication est créée, le fichier déposé e
 
 = {{anchor id=manuel /}} Comment créer une publication manuellement ? =
 
-Se positionner dans le dossier voulu, dans le menu // Que voulez-vous faire ? // choisir l'option // Créer une publication //.
+Se positionner dans le dossier voulu, et choisir le bouton [[image:images/GED-addPubli.jpg]] ou choisir l'option //Créer une publication// dans le menu //Que voulez-vous faire ?//.
 
 [[image:images/GED-manuel_1.jpg||height="100%" width="100%"]]
 
 Remplir alors le formulaire d'entête et valider.
 La publication est alors créée, l'utilisateur a la possibilité d'ajouter un contenu et/ou des fichiers.
-Note : Si le mode brouillon est activé, la publication ainsi créée sera en brouillon, pour la rendre visible à tous les lecteurs de ce dossier, il faut la sortir du mode brouillon par l'opération // sortir du mode brouillon // du menu // Que voulez-vous faire ? //.
+Note : Si le mode brouillon est activé, la publication ainsi créée sera en brouillon, pour la rendre visible à tous les lecteurs de ce dossier, il faut la sortir du mode brouillon par l'opération //sortir du mode brouillon// du menu //Que voulez-vous faire ?//.
 
 [[retour>>#kmelia]]
 
 = Comment ajouter un fichier à une publication ? =
 
-Se positionner  sur l'onglet ** Prévisualisation ** de la publication.
+Se positionner  sur l'onglet **Prévisualisation** de la publication.
 2 méthodes sont offertes pour ajouter un fichier : 
 1. par glisser-déposer
-Sur le pavé ** Fichiers joints **, cliquer sur // Pour déposer rapidement un fichier... // pour ouvrir la zone de glisser-déposer.
+Sur le pavé **Fichiers joints**, cliquer sur //Pour déposer rapidement un fichier...// pour ouvrir la zone de glisser-déposer.
 
 [[image:images/GED-fichier_1.jpg||height="100%" width="100%"]]
 
-[[image:images/GED-fichier_2.jpg]]
+[[image:images/GED-fichier_2.jpg||height="25%" width="25%"]]
 
 2. par recherche du fichier
-Il est possible d'ajouter un fichier sans passer par la zone de glisser-déposer, pour cela, sélectionner l'opération // Ajouter un fichier // dans le menu // Que voulez-vous faire ? //. 
+Il est possible d'ajouter un fichier sans passer par la zone de glisser-déposer, pour cela, sélectionner l'opération //Ajouter un fichier// dans le menu //Que voulez-vous faire ?//. 
 Une fenêtre s'ouvre, permettant d'aller sélectionner le fichier à ajouter.
 
 [[retour>>#kmelia]]
 
 {{anchor id=partageFichier /}}
-= Je veux partager mon fichier avec une personne extérieur, comment faire ? =
+= Je veux partager mon fichier avec une personne extérieure, comment faire ? =
 
 Par principe, toute information présente dans la plateforme n'est accessible qu'aux utilisateurs déclarés dans le référentiel et ayant les droits d'accès à cette information. 
 Toutefois, la possibilité existe de pouvoir donner accès à un fichier joint à un utilisateur n'ayant pas les droits suffisant pour accéder à la publication ou à une personne non déclarée dans le référentiel.
 
-Cette option n'est disponible que sur les gestions documentaires ayant le paramètre ** Fichiers partageables ** activé et n'est accessible qu'aux gestionnaires de l'application.
+Cette option n'est disponible que sur les gestions documentaires ayant le paramètre **Fichiers partageables** activé et n'est accessible qu'aux gestionnaires de l'application.
 
-Dans le menu contextuel du fichier, l'opération // Partager ce fichier //, 
+Dans le menu contextuel du fichier, l'opération //Partager ce fichier//, 
 
-[[image:images/GED-partage_1.jpg]]
+[[image:images/GED-partage_1.jpg||height="25%" width="25%"]]
 
 permets de générer un ticket d'accès (lien privé) pour donner accès à ce fichier.
 Une fenêtre de paramétrage de ce ticket apparaît 
@@ -118,7 +121,7 @@ La création d'un ticket génère une url qui devra être transmise à l'utilis
 [[image:images/GED-partage_3.jpg||height="60%" width="60%"]]
 
 {{important}}
-la centralisation de tous mes tickets se fait depuis mon espace personnel dans le rubrique **Mes tickets**. 
+la centralisation de tous mes tickets se fait depuis mon espace personnel sous la rubrique **Mes tickets**. 
 Ce service permet de visualiser tous les partages, mais aussi de modifier les paramètres des tickets existants.
 Les accès à un ticket sont tracés par adresse IP et par date.
 {{/important}}
@@ -127,7 +130,7 @@ Les accès à un ticket sont tracés par adresse IP et par date.
 
 = Comment ordonner les dossiers ? =
 
-Il est possible d'ordonner les dossiers de premier niveau d'une application de gestion documentaire, mais aussi d'ordonner les sous dossiers d'un dossier.
+Il est possible d'ordonner les dossiers de premier niveau d'une application de gestion documentaire, mais aussi d'ordonner les sous-dossiers d'un dossier.
 L'opération //Ordonner les dossiers// est disponible dans le menu contextuel sur le dossier parent ou dans le menu //Que voulez-vous faire ?//
 L'ordonnancement se fait pas glisser-déposer des dossiers.
 
@@ -138,7 +141,7 @@ L'ordonnancement se fait pas glisser-déposer des dossiers.
 = Afin de rendre mon dossier plus explicite, je voudrais saisir un descriptif, comment faire ? =
 
 Il existe la possibilité de mettre un descriptif sur le dossier, afin de rendre plus conviviale l'arrivée sur ce dernier, avant la liste des publications.
-L'option // Descriptif wysiwyg du dossier//, disponible dans le menu contextuel du dossier et dans le menu //Que voulez-vous faire ?// permet de saisir un contenu riche.
+L'option //Descriptif wysiwyg du dossier//, disponible dans le menu contextuel du dossier et dans le menu //Que voulez-vous faire ?// permet de saisir un contenu riche.
 
 [[image:images/GED-descriptifDossier.jpg||height="100%" width="100%"]]
 
@@ -146,8 +149,8 @@ L'option // Descriptif wysiwyg du dossier//, disponible dans le menu contextuel
 
 = Comment gérer les fichiers joints ? =
 
-Les fichiers joints apparaissent sur l'onglet de // Prévisualisation // d'une publication.
-A coté de chaque fichier, le bouton [[image:images/GED-fichier.jpg]] donne accès aux opérations disponibles pour ce fichier, en fonction des droits et du paramétrage de l'application.
+Les fichiers joints apparaissent sur l'onglet de //Prévisualisation// d'une publication.
+A côté de chaque fichier, le bouton [[image:images/GED-fichier.jpg]] donne accès aux opérations disponibles pour ce fichier, en fonction des droits et du paramétrage de l'application.
 Les lecteurs n'ont le choix que de télécharger le fichier, en cliquant directement sur le nom de ce dernier.
 Pour les autres utilisateurs, les opérations toujours disponibles sont : 
 
@@ -163,9 +166,9 @@ Pour les autres utilisateurs, les opérations toujours disponibles sont :
 = Comment éditer en ligne mon fichier ? =
 
 Cette fonctionnalité permet d'éditer et de modifier un fichier joint directement en ligne, sans avoir besoin de le télécharger sur son poste.
-Choisir l'option // Editer en ligne // du menu du fichier à éditer.
+Choisir l'option //Editer en ligne// du menu du fichier à éditer.
 
-[[image:images/GED-editer_1.jpg]]
+[[image:images/GED-editer_1.jpg||height="25%" width="25%"]]
 
 Dès son ouverture, le fichier est automatiquement réservé, ce qui interdit toute modification de la part d'un autre utilisateur. 
 
@@ -173,7 +176,7 @@ Ouvrir avec Java :
 
 [[image:images/GED-editer_2.jpg||height="40%" width="40%"]]
 
-une fois authentifié (avec le login et le mot de passe d'accès à la plteforme Silverpeas), 
+une fois authentifié (avec le login et le mot de passe d'accès à la plateforme Silverpeas), 
 
 [[image:images/GED-editer_3.jpg||height="40%" width="40%"]]
 
@@ -185,7 +188,7 @@ C'est à ce stade, qu'il vous est demandé si vous voulez enregistrer vos modifi
 
 = Comment ajouter une nouvelle version à mon fichier ? =
 
-Comme pour toutes les opérations sur les fichiers, c'est dans le menu associé au fichier que l'opération //Créer une nouvelle version // est disponible.
+Comme pour toutes les opérations sur les fichiers, c'est dans le menu associé au fichier que l'opération //Créer une nouvelle version// est disponible.
 Le fichier en cours de modification est alors automatiquement réservé.
 La nouvelle version peut être déposée directement par glisser-déposer ou être recherchée sur le poste.
 
@@ -195,8 +198,8 @@ Le choix de la version, publique ou de travail est demandé :
 une version de travail ne sera visible que par les gestionnaires et les publieurs, alors qu'une version publique sera disponible pour les utilisateurs ayant des droits de lecture sur ce fichier.
 Le numéro de version est incrémenté en fonction du type de version (premier chiffre pour les versions publiques, second pour les versions de travail).
 
-Les utilisateurs ont la possiblité de voir et télécharger toutes les versions disponibles en fonction de leur droits.
-En cliquant sur la ligne // Toutes les versions... //, sous le fichier, 
+Les utilisateurs ont la possibilité de voir et télécharger toutes les versions disponibles en fonction de leur droits.
+En cliquant sur la ligne //Toutes les versions...//, sous le fichier, 
 
 [[image:images/GED-version_2.jpg]]
 
@@ -212,7 +215,7 @@ Par principe, toute information présente dans la plateforme n'est accessible qu
 Toutefois, la possibilité existe de pouvoir donner [[accès à un fichier joint>>#partageFichier]] particulier, à un utilisateur n'ayant pas les droits suffisant pour accéder à la publication ou à une personne non déclarée dans le référentiel.
 
 Mais il est possible d'aller encore plus loin et de partager tous les fichiers joints d'un dossier !
-Cette option sera disponible pour les gestionnaire seulement, et sur les gestion documentaires ayant le paramètre **Dossiers partageables** activé.
+Cette option sera disponible pour les gestionnaires seulement, et sur les //gestion documentaire// ayant le paramètre **Dossiers partageables** activé.
 
 Dans le menu //Que voulez-vous faire ?// du dossier à partager, choisir l'option //Partager le dossier//.
 Tout comme pour le partage d'un fichier, une fenêtre permet de paramétrer le ticket associé à ce partage : avec une date de fin de validité ou permanent.
@@ -226,10 +229,10 @@ Ce ticket génère l'url qui devra être transmise à l'utilisateur destinataire
 Il est possible de partager un dossier, mais aussi toute une gestion documentaire, en se plaçant sur le dossier racine.
 La restitution se présente de façon arborescente, reprenant la structure du dossier partagé, avec des liens disponibles pour chaque fichier joint des publications de ce(s) dossier(s).
 
-[[image:images/GED-partage_6.jpg]]
+[[image:images/GED-partage_6.jpg||height="100%" width="100%"]]
 
 {{important}}
-la centralisation de tous mes tickets se fait depuis mon espace personnel dans le rubrique **Mes tickets**. 
+la centralisation de tous mes tickets se fait depuis mon espace personnel sous la rubrique **Mes tickets**. 
 Ce service permet de visualiser tous les partages, mais aussi de modifier les paramètres des tickets existants.
 {{/important}}
 
@@ -238,24 +241,24 @@ Ce service permet de visualiser tous les partages, mais aussi de modifier les pa
 = Puis-je réorganiser les droits sur les dossiers ? =
 
 Par principe, sur toutes les applications, les droits sont affectés sur les différents rôles par le gestionnaire de la plateforme.
-Pour la gestion documentaire, le principe est le même, mais, afin de pouvoir affiner les droits, il existe une option qui permet aux gestionnaire de l'application de redéfinir les droits dossier par dossier.
+Pour la gestion documentaire, le principe est le même, mais, afin de pouvoir affiner les droits, il existe une option qui permet aux gestionnaires de l'application de redéfinir les droits, dossier par dossier.
 Pour cela, il faut que l'option **Droits sur les dossiers** soit activée.
 
 L'écran de modification d'un dossier, passe de 
 
-[[image:images/GED-droits_1.jpg]]
+[[image:images/GED-droits_1.jpg||height="100%" width="100%"]]
 
 et devient
 
-[[image:images/GED-droits_2.jpg]]
+[[image:images/GED-droits_2.jpg||height="100%" width="100%"]]
 
-Le gestionnaire peut alors choisir de laisser les droits hérités (défini au niveau de l'application ou du dossier précédent) ou de redéfinir les droits pour ce dossier.
+Le gestionnaire peut alors choisir de laisser les droits hérités (définis au niveau de l'application ou du dossier précédent) ou de redéfinir les droits pour ce dossier.
 Pour redéfinir les droits, il faut cocher //Droits spécifiques à ce dossier// sur le dossier et réaffecter tous les droits sur les onglets //Gestionnaires//, //Publieurs//, //Rédacteurs// et //Lecteurs//.
-Le choix de l'héritage se répercute dans l'arborescence, si un dossier a des droits redéfinis, ses sous dossiers auront par défaut (option //Droits hérités//) les droits redéfinis du dossier parent.
+Le choix de l'héritage se répercute dans l'arborescence, si un dossier a des droits redéfinis, ses sous-dossiers auront par défaut (option //Droits hérités//) les droits redéfinis du dossier parent.
 
-Sur un dossier sensible, le gestionnaire peut decider de passer en simple lecteur tous les publieurs et rédacteurs.
+Sur un dossier sensible, le gestionnaire peut décider de passer en simple lecteur tous les publieurs et rédacteurs.
 A l'inverse, sur un dossier plus générique, il est possible de passer publieur un utilisateur qui serait simple lecteur sur l'application. 
-Mais il n'est toutefois pas possible d'ajouter un utilisateur, la rédéfinition des droits permet simplement de réorganiser, par dossier, les utilisateurs affectés à cette application.
+Mais il n'est toutefois pas possible d'ajouter un utilisateur, la redéfinition des droits permet simplement de réorganiser, par dossier, les utilisateurs affectés à cette application.
 
 [[retour>>#kmelia]] [[image:images/to-the-top.png]] 
 
@@ -269,16 +272,17 @@ Cet onglet permet aussi de visualiser rapidement la liste des publications :
 
 Pour référencer de façon manuelle une publication, choisir l'option //Référencer des publications//, naviguer dans l'arborescence représentant toutes les gestions documentaires, cocher les publications à référencer.
 
-[[image:images/GED-ref_1.jpg]] 
+[[image:images/GED-ref_1.jpg||height="60%" width="60%"]] 
 
 Ces dernières sont alors listées pour les lecteurs et accessibles d'un simple clic !
 
-[[image:images/GED-ref_2.jpg]] 
+[[image:images/GED-ref_2.jpg||height="100%" width="100%"]] 
 
 [[retour>>#kmelia]] [[image:images/to-the-top.png]] 
 
 {{note}}
 **EN COURS DE CREATION : POINTS A ABORDER**
+* Voir aussi : compléter "même sujet"
 * Copier-coller de publication => attendre le glisser-déposer de publication...
 * abonnement, favoris et notification => lien vers les paragraphes globaux
 * Validation (ou refus) de publication

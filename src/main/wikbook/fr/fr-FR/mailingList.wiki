@@ -18,11 +18,11 @@ Une fois stocké par l'application, le courriel est transmis aux abonnés (inter
 
 [[retour>>#mailinglist]]
 
-= Quelle est la différences entre un abonné interne et un abonné externe ? =
+= Quelle est la différence entre un abonné interne et un abonné externe ? =
 
 Comme l'application Lettre d'informations, un abonné interne est un utilisateur de la plate-forme. Un abonné externe n'utilise pas la plate-forme et n'est connu que par son adresse mail.
 Lorsque l'application ne fait que de l'archivage (cas par défaut), les abonnés internes reçoivent une notification contenant un lien vers le message archivé.
-Lorsque l'application est paramétrée en tant que liste de diffusion, le message est transmis tel quel aux abonnés internes  et externes.
+Lorsque l'application est paramétrée en tant que liste de diffusion, le message est transmis tel quel aux abonnés internes et externes.
 
 [[retour>>#mailinglist]]
 

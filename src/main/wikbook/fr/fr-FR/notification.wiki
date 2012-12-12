@@ -43,14 +43,14 @@ En fonction du paramétrage global de la plateforme, le choix est donné à l'ut
 L'utilisateur a le choix entre :
 * Affichage d'une fenêtre : ouvre une popup contenant l'auteur de la notification, le message et l'objet notifié.
 
-[[image:images/NOTIF-10.jpg||height="60%" width="60%"]]
-* boite de notification : la notification arrive dans la boite de notification présente dans la partie //Mes notifications//. 
+[[image:images/NOTIF-10.jpg	||height="60%" width="60%"]]
+* boîte de notification : la notification arrive dans la boîte de notification présente dans la partie //Mes notifications//. 
 Elle contient l'auteur de la notification, le message, l'objet notifié et un lien pour accéder directement à ce dernier.
 
 [[image:images/NOTIF-11.jpg||height="100%" width="100%"]]
 
 [[image:images/NOTIF-5.jpg||height="60%" width="60%"]]
-* Messagerie par défaut : la notification arrive dans le boite mail définie dans défaut dans le profil de l'utilisateur.
+* Messagerie par défaut : la notification arrive dans la boîte mail définie dans défaut dans le profil de l'utilisateur.
 Elle contient l'auteur de la notification, le message, l'objet notifié et un lien pour accéder directement à ce dernier.
 
 [[image:images/NOTIF-4.jpg||height="80%" width="80%"]]
@@ -60,7 +60,7 @@ Elle contient l'auteur de la notification, le message, l'objet notifié et un li
 
 = Puis-je recevoir mes notifications sur une autre adresse mail ? =
 
-Par défaut, les canaux pour recevoir les notifications sont : popup, boite de notification et messagerie par défaut.
+Par défaut, les canaux pour recevoir les notifications sont : popup, boîte de notification et messagerie par défaut.
 Il est toutefois possible d'ajouter un nouveau canal de notification. 
 Sur l'onglet //Paramétrage//, l'option //Ajouter un canal de notification// du menu //Que voulez-vous faire ?// permet de configurer un nouveau canal de notification.
 
@@ -75,7 +75,7 @@ Ce nouveau canal est alors disponible dans la liste des choix du canal, il est a
 
 Par défaut toutes les notifications arrivent sur un seul canal de réception.
 Mais afin de différencier les notifications en fonction de leur provenance, il est possible  d'éditer des règles de réception.
-Une règle permet de définir, pour une provenance données (une application d'un espace) sur quel canal les notifications seront reçues.  
+Une règle permet de définir, pour une provenance donnée (une application d'un espace) sur quel canal les notifications seront reçues.  
 Les règles sont visibles dans l'option //Editer les règles// du menu //Que voulez vous faire ?//.
 
 [[image:images/NOTIF-13.jpg||height="60%" width="60%"]]
@@ -90,7 +90,7 @@ On notera que toutes les notifications provenant des autres applications (non d�
 
 = Je reçois trop de notifications, puis-je recevoir des récapitulatifs ? =
 
-Les notifications peuvent se recevoir sur différents canaux : popup, boite de notification, messagerie extérieure.
+Les notifications peuvent se recevoir sur différents canaux : popup, boîte de notification, messagerie extérieure.
 Si le choix est fait de recevoir les notifications par mail, il existe la possibilité de recevoir des récapitulatifs quotidien, hebdomadaire ou mensuel.
 Sur l'onglet //Paramétrage//.
 

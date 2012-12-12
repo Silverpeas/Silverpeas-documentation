@@ -2,7 +2,7 @@
 
 {{anchor id=gallery /}}
 
-L'application //galerie d'images// permet de gérer et d'organiser des images.
+L'application **galerie d'images** permet de gérer et d'organiser des images.
 Chaque image peut être définie avec précision grâce à un formulaire personnalisable.
 Organisées en album, les images peuvent être ajoutées par glisser-déposer.
 
@@ -84,17 +84,17 @@ Il existe la possibilité d'apposer un watermark sur les images déposées dans 
 Pour cela, le paramètre //Watermark// doit être activé.
 __Attention__ : pour que cette option fonctionne, il faut que les métadonnées soient activées (option //Méta-données// cochée) et que les [[méta-données>>#metadata]] demandées en watermark soient référencées pour cette photothèque.
 Par défaut, c'est le nom du photographe qui est apposé sur les images. 
-Mais le gestionnaire peut choisir, pour chaque photothèque, la méta-donnée à afficher, en diférenciant le watermark à apposer sur les images haute définition (téléchargée) et les vignettes.
+Mais le gestionnaire peut choisir, pour chaque photothèque, la méta-donnée à afficher, en différenciant le watermark à apposer sur les images haute définition (téléchargée) et les vignettes.
 
 [[image:images/GAL-watermark_1.jpg||height="100%" width="100%"]]
 
-Dans cet exemple, nous avons choisit de faire afficher la donnée IPTC 628 (copyright [[image:images/1.jpg]]) sur les images en haute défintion et la donnée IPTC 592 (créateur [[image:images/2.jpg]]) sur les vignettes.
-Pour trouver quelle méta donnée afficher, il faut regarder dans les fichiers de properties : 
+Dans cet exemple, nous avons choisi de faire afficher la donnée IPTC 628 (copyright [[image:images/1.jpg]]) sur les images en haute définition et la donnée IPTC 592 (créateur [[image:images/2.jpg]]) sur les vignettes.
+Pour trouver quelle métadonnée afficher, il faut regarder dans les fichiers de properties : 
 **metadataBundle.properties** et **metadataSettings.properties**
 
-[[image:images/GAL-watermark_2.jpg]]
+[[image:images/GAL-watermark_2.jpg||height="20%" width="20%"]]
 
-[[image:images/GAL-watermark_3.jpg]]
+[[image:images/GAL-watermark_3.jpg||height="25%" width="25%"]]
 
 Le nom du créateur est alors apposé sur toutes les vignettes et le copyright sur l'image haute définition.
 
@@ -109,7 +109,7 @@ Afin de ne perdre, ni le lien (qui peut être utilisé) vers ces images, ni les 
 = Je veux afficher des métadonnées différentes en fonction de ma photothèque, est-ce possible ?= 
 
 Pour faire afficher les méta-données des images, il faut cocher le paramètre //Méta-données// sur l'instance.
-La liste des méta-données suceptibles d'être affichées est définie par le gestionnaire de la plateforme via le fichier //metadataSettings.properties// dans les properties de l'application galery.
+La liste des méta-données susceptibles d'être affichées est définie par le gestionnaire de la plateforme via le fichier //metadataSettings.properties// dans les properties de l'application gallery.
 Ce fichier contient, en plus de la description de chaque méta-donnée, une donnée **display** qui permet de lister les méta-données à afficher.
 Cette liste contient toutes les données suceptibles d'être affichées, mais seule celles contenant une valeur sont affichées sur les images.
 
@@ -123,13 +123,13 @@ méta-données à afficher sur cette instance.
 
 =Comment rechercher une image ? = 
 
-La recherche globale sur la plateforme, permet de rechercher une image, en fonction de son nom, sa description, ses mots clés.
+La recherche globale sur la plateforme, permet de rechercher une image, en fonction de son nom, sa description, ses mots-clés.
 
 [[image:images/GAL-recherche_1.jpg||height="100%" width="100%"]]
 
-Il est possible, sur les résultats de cette recherche, de réduire le nombre de réponse en choisissant 
+Il est possible, sur les résultats de cette recherche, de réduire le nombre de réponses en choisissant 
 * par type de contribution (les images) [[image:images/1.jpg]]
-* plus précisement, par instance [[image:images/2.jpg]]
+* plus précisément, par instance [[image:images/2.jpg]]
 
 Afin de faire une recherche de façon spécifique dans une photothèque précise, il existe le paramètre //Moteur de recherche dédié//.
 Ce paramètre permet d'obtenir une zone de recherche propre à la photothèque, mais aussi une recherche avancée 
@@ -172,7 +172,7 @@ Attention toutefois, les images sélectionnées seront modifiées même si elles
 
 [[image:images/GAL-modifLot_1.jpg||height="100%" width="100%"]]
 
-après la modification ci dessus, devient : 
+après la modification ci-dessus, devient : 
 
 [[image:images/GAL-modifLot_6.jpg||height="100%" width="100%"]]
 
@@ -180,7 +180,7 @@ Alors qu'une image n'ayant aucune information au préalable
 
 [[image:images/GAL-modifLot_2.jpg||height="100%" width="100%"]]
 
-deviens :
+devient :
 
 [[image:images/GAL-modifLot_5.jpg||height="100%" width="100%"]]
 
@@ -191,7 +191,7 @@ deviens :
 Les gestionnaires, publieurs et contributeurs peuvent ajouter des images dans les albums de la photothèque.
 Pour cela, l'utilisateur se positionne dans l'album voulu, 2 possibilités sont offertes : 
 
-1/ L'option //Ajouter une image// dans le menu //Que voulez-vous faire ?// permet d'ajouter une image unitaire
+1/ Le bouton [[image:images/GAL-addImage.jpg]] ou l'option //Créer une image// dans le menu //Que voulez-vous faire ?// permet d'ajouter une image unitaire
 Cette option permet d'aller chercher l'image voulue et de remplir en même temps toutes les informations liées à cette image, y compris le formulaire associé.
 
 [[image:images/GAL-ajout_1.jpg||height="100%" width="100%"]]
@@ -204,11 +204,11 @@ cela permet d'ajouter une ou plusieurs images de façon rapide dans l'album cour
 * un répertoire contenant des images et éventuellement une arborescence
 permet d'ajouter de façon massive toutes les images contenues dans toute l'arborescence
 * un fichier zip contenant des images et éventuellement une arborescence
-Permet d'ajouter de façon massive toutes les images en respectant l'organisation par dossier, c'est à dire que pour chaque dossier, un album sera créé et les images contenues seront ajoutés dans cet album.
+Permet d'ajouter de façon massive toutes les images en respectant l'organisation par dossier, c'est-à-dire que pour chaque dossier, un album sera créé et les images contenues seront ajoutées dans cet album.
 
-le fichier
+le fichier zip suivant : 
 
-[[image:images/GAL-ajout_3.jpg]]
+[[image:images/GAL-ajout_3.jpg||height="50%" width="50%"]]
 
 produira l'arborescence d'albums suivante : 
 
@@ -216,18 +216,24 @@ produira l'arborescence d'albums suivante :
 
 [[retour>>#gallery]]
 
-= Comment puis-je réorganier mes albums ? =
+= Comment puis-je réorganiser mes albums ? =
 
 Par défaut les albums sont classés par ordre de création. 
+Il est toutefois possible de les réorganiser à posteriori, au fur et à mesure des ajouts d'albums.
+Cette réorganisation se fait directement depuis la liste des albums, en déplaçant simplement les albums :
+
+[[image:images/GAL-orga_1.jpg||height="90%" width="90%"]]
+
+[[image:images/GAL-orga_2.jpg||height="90%" width="90%"]]
+
+[[image:images/GAL-orga_3.jpg||height="90%" width="90%"]]
 
 [[retour>>#gallery]]
 
 {{note}}
 **EN COURS DE CREATION : POINTS A ABORDER**
-* ajout d'image unitaire, par zip
 * placement par lot
 * classement par lot
 * copier-coller de photos, copier-coller d'album
 * images non visibles
-* ordonnancement des albums
 {{/note}}
