@@ -1,11 +1,12 @@
-﻿[[haut>>#haut]]
+[[haut>>#haut]]
 
 {{anchor id=notification /}}
+= Notifications =
 
 Une notification sert à informer une ou plusieurs personnes (internes à la plateforme) de l'existence d'une information.
 L'option de notification est disponible sur la plupart des éléments de la plateforme, en fonction toutefois du paramétrage de chaque instance.
 
-= Comment notifier ? =
+== Comment notifier ? ==
 
 Pour notifier de la présence d'un élément, une publication par exemple, il faut au préalable se placer sur cette dernière.
 Dans le menu //Que voulez-vous faire ?// l'option //Notifier// est proposée à tous les utilisateurs ayant accès à cette information, quel que soit son rôle.
@@ -22,7 +23,7 @@ Chaque utilisateur la recevra sur le canal défini par son paramétrage.
 
 [[retour>>#notification]]
 
-= Comment vais-je recevoir mes notifications ? =
+== Comment vais-je recevoir mes notifications ? ==
 
 Chaque utilisateur peut paramétrer la façon de recevoir ses notifications.
 A la création du compte utilisateur, le paramétrage par défaut du canal de réception des notifications est l'adresse de messagerie associée au compte utilisateur.
@@ -58,7 +59,7 @@ Elle contient l'auteur de la notification, le message, l'objet notifié et un li
 
 [[retour>>#notification]]
 
-= Puis-je recevoir mes notifications sur une autre adresse mail ? =
+== Puis-je recevoir mes notifications sur une autre adresse mail ? ==
 
 Par défaut, les canaux pour recevoir les notifications sont : popup, boîte de notification et messagerie par défaut.
 Il est toutefois possible d'ajouter un nouveau canal de notification. 
@@ -71,7 +72,7 @@ Ce nouveau canal est alors disponible dans la liste des choix du canal, il est a
 [[retour>>#notification]]
 
 {{anchor id=regle /}}
-= Je ne veux pas recevoir toutes mes notifications de la même façon, est-ce possible ? =
+== Je ne veux pas recevoir toutes mes notifications de la même façon, est-ce possible ? ==
 
 Par défaut toutes les notifications arrivent sur un seul canal de réception.
 Mais afin de différencier les notifications en fonction de leur provenance, il est possible  d'éditer des règles de réception.
@@ -88,7 +89,7 @@ On notera que toutes les notifications provenant des autres applications (non d�
 
 [[retour>>#notification]]
 
-= Je reçois trop de notifications, puis-je recevoir des récapitulatifs ? =
+== Je reçois trop de notifications, puis-je recevoir des récapitulatifs ? ==
 
 Les notifications peuvent se recevoir sur différents canaux : popup, boîte de notification, messagerie extérieure.
 Si le choix est fait de recevoir les notifications par mail, il existe la possibilité de recevoir des récapitulatifs quotidien, hebdomadaire ou mensuel.
@@ -98,8 +99,45 @@ Sur l'onglet //Paramétrage//.
 
 [[retour>>#notification]]
 
+== Puis-je déléguer mes alertes (pendant des périodes de congés, …) ? ==
+
+Cette fonctionnalité n'est actuellement pas couverte.
+
+[[retour>>#notification]]
 
 {{note}}
 **EN COURS DE CREATION : POINTS A ABORDER**
 * notification manuelle
 {{/note}}
+
+
+{{anchor id=comments /}}
+= Commentaires =
+
+[[haut>>#haut]]
+
+== Peut-on insérer des commentaires sur des contenus ? ==
+
+Oui, chaque contenu peut être commenté. Les gestionnaires de l'application qui gère le contenu peuvent à tout moment modérer à posteriori un commentaire. 
+Pour assurer le fil conversationnel, les contributeurs ainsi que les utilisateurs ayant posté un commentaire sur un contenu sont notifiés à chaque nouveau commentaire. 
+Ils sont indexés par le moteur de recherche. 
+
+[[retour>>#comments]]
+
+== Peut-on interdire les commentaires sur les contenus ? ==
+
+Oui. Chaque application dispose d'un paramètre « Commentaires » qui permet d'activer ou non les commentaires sur les contenus qu'il gère. 
+C'est donc l'administrateur général ou l'administrateur d'espace qui autorise ou pas les commentaires.
+
+[[retour>>#comments]]
+
+== Peut-on s’abonner aux commentaires sur un contenu ? ==
+
+Oui, l'abonnement est automatique à partir du moment où l'on a participé aux échanges. 
+Les contributeurs du contenu sont eux aussi automatiquement alertés même s'ils n'ont pas laissé de commentaires.
+
+[[retour>>#comments]]
+
+
+
+

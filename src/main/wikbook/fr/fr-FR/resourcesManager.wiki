@@ -1,0 +1,18 @@
+[[haut>>#haut]]
+
+= Peut-on déléguer la gestion d’une ressource à un utilisateur, à un groupe ? =
+
+Sur chaque ressource, il est possible de désigner un responsable qui aura en charge la validation de cette ressource lors d'une réservation.
+
+[[retour>>#resourcesManager]]
+
+= Quelle sont les manipulations que l’on peut faire sur une ressource ? =
+
+Chaque ressource peut être décrite finement grâce à l'utilisation d'un formulaire dédié. 
+La réservation d'une ressource est entièrement gérée par l'application elle-même (réservation, modification, validation, refus). 
+Un planning de réservation d'une ressource et/ou de toutes les ressources de la catégorie (salles, véhicules, portables, vidéoprojecteurs...) est disponible. 
+L'application embarque un workflow de réservation.
+Les catégories et les ressources sont entièrement paramétrables et personnalisables par le(s) gestionnaire(s) de l'application.
+Seules les ressources disponibles (non réservées) sont proposées au demandeur à la date souhaitée.
+
+[[retour>>#resourcesManager]]

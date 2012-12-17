@@ -1,28 +1,79 @@
+
+{{anchor id=general /}}
+= Général = 
+{{include document="general.wiki" /}}
+
+
+= Espace personnel =
+
+{{anchor id=agenda /}}
+== Agenda ==
+{{include document="agenda.wiki" /}}
+
+
+{{anchor id=admin /}}
+= Administration = 
+{{include document="admin.wiki" /}}
+
+{{anchor id=form /}}
+== Les formulaires ==
+{{include document="form.wiki" /}}
+
+{{anchor id=search /}}
+== Moteur de recherche ==
+{{include document="search.wiki" /}}
+
+{{anchor id=workflow /}}
+== Moteur de Workflow ==
+{{include document="workflow.wiki" /}}
+
+
 = Les applications =
 
+{{anchor id=almanach /}}
+== Almanach == 
+{{include document="almanach.wiki" /}}
+
+{{anchor id=infoletter /}}
 == Lettre informative == 
 {{include document="infoletter.wiki" /}}
 
+{{anchor id=questionreply /}}
 == Questions réponses ==
 {{include document="questionReply.wiki" /}}
 
+{{anchor id=mailinglist /}}
 == Liste de diffusion ==
 {{include document="mailingList.wiki" /}}
 
+{{anchor id=blog /}}
 == Blog ==
 {{include document="blog.wiki" /}}
 
+{{anchor id=kmelia /}}
 == Gestion documentaire ==
 {{include document="kmelia.wiki" /}}
 
+{{anchor id=gallery /}}
 == Galerie d'images ==
 {{include document="gallery.wiki" /}}
 
+{{anchor id=resourcesManager /}}
+== Réservation de ressources ==
+{{include document="resourcesManager.wiki" /}}
+
+{{anchor id=forum /}}
+== Forum ==
+{{include document="forum.wiki" /}}
+
+{{anchor id=survey /}}
+== Enquête ==
+{{include document="survey.wiki" /}}
+
+
+{{anchor id=services /}}
 = Les services transverses =
+{{include document="services.wiki" / }}
 
-== Abonnement ==
 
-== Commentaires ==
 
-== Notifications ==
-{{include document="notification.wiki" / }}

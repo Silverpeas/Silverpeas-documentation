@@ -1,0 +1,24 @@
+[[haut>>#haut]]
+
+= Comment créer un forum ? =
+
+La création d'un forum est aussi simple que la création de n'importe quel autre contenu dans Silverpeas.
+Les forums peuvent être organisés en catégories. 
+Sur chaque forum peut être défini un ou plusieurs modérateurs. Les messages peuvent être validés à priori ou à posteriori.
+
+[[retour>>#forum]]
+
+= Comment limiter la création d’un nouveau forum à certains utilisateurs ? =
+
+Grâce à la gestion des droits sur l'application, il suffit de désigner ces utilisateurs comme Gestonnaires de l'application.
+
+[[retour>>#forum]]
+
+= Comment sont définis les droits de participation à un forum ? =
+
+Grâce à la gestion des droits sur l'application. 
+Il suffit de désigner les utilisateurs voulus comme Participants de l'application. Il est également possible de désigner de simples lecteurs grâce au rôle Lecteurs.
+
+[[retour>>#forum]]
+
+

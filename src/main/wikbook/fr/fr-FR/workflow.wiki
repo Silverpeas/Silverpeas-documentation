@@ -1,0 +1,78 @@
+﻿[[haut>>#haut]]
+
+= Quelles sont les possibilités de création de workflow ?  =
+
+Silverpeas dispose d'un moteur de workflow permettant de décrire principalement des processus administratifs (demande de congés, demande de création de produit/fournisseur, commande de mobilier, de travaux d'imprimerie...). 
+La gestion documentaire embarque un workflow simple mais suffisant pour l'ensemble de nos clients. Selon la définition des droits, un rédacteur crée un contenu (mode brouillon). 
+Lorsque sa contribution est prête, il la sort du mode brouillon. Elle est alors soumise à validation auprès des publieurs et gestionnaires. 
+L'un d'eux peut alors valider ou refuser la contribution. Si elle est validée, la contribution est immédiatement publiée et visible aux utilisateurs habilités. 
+Si elle est refusée, le valideur peut saisir le motif de son refus. Dans tous les cas, contributeurs et valideurs sont avertis par notification.
+La validation peut être ciblée sur un publieur particulier ou sur plusieurs publieurs. Elle peut également être collégiale. 
+Dans ce cas, tous les valideurs doivent donner leur accord pour que la contribution soit validée définitivement et publiée.
+
+[[retour>>#workflow]]
+
+= Comment sont créés les workflows (à l’intérieur du portail, outil dédié, codage nécessaire ou uniquement paramétrage) ? =
+
+Les workflows sont décrits à l'intérieur du portail via le backoffice (Outils > Workflows). 
+La création peut se résumer à du paramétrage pour un workflow simple via les différents écrans de l'éditeur de workflow. 
+Dans les cas moins simples, l'édition XML du processus peut être nécessaire. 
+Pour les cas plus compliqués (interaction avec des applications du portail ou avec le reste du SI), il est nécessaire de développer des extensions écrites en JAVA.
+
+[[retour>>#workflow]]
+
+= Faut-il un informaticien pour créer un workflow ? =
+
+Pour un workflow d'une complexité simple à modérée, il n'est pas nécessaire d'être informaticien. 
+Il faut cependant connaître les notions de base de la gestion des processus (acteurs, états, actions, conséquences...). 
+Silverpeas propose une formation dédiée à la réalisation de workflow dans Silverpeas.
+
+[[retour>>#workflow]]
+
+= Peut-on voir les différentes étapes du workflow et savoir où il en est ? =
+
+Sur chaque demande d'un workflow, l'étape courante est clairement indiquée. Il est possible de filtrer entre autres sur les différentes étapes possibles. 
+A tout moment, l'historique détaillé de chaque demande est disponible afin d'assurer une traçabilité parfaite.
+
+[[retour>>#workflow]]
+
+= Comment sont alertés les acteurs d’un workflow ? =
+
+A chaque fois qu'un acteur doit agir, il reçoit une notification contenant notamment un lien vers la demande. 
+De plus, cette action en attente vient enrichir sa liste de tâches dans son espace personnel.
+
+[[retour>>#workflow]]
+
+= Peuvent-ils définir des suppléants eux-mêmes en cas d’absence? =
+
+Oui, un tel système peut être défini dans les processus eux-mêmes.
+
+[[retour>>#workflow]]
+
+= Conserve-t-on les traces des différentes étapes de validation ou de refus ? =
+
+A tout moment, l'historique détaillé de chaque demande est disponible afin d'assurer une traçabilité parfaite.
+
+[[retour>>#workflow]]
+
+= Une suppression de contenu peut-elle faire partie d’un workflow ? =
+
+Oui. Ceci n'est pas couvert en standard mais une extension simple peut réaliser la suppression d'un contenu.
+
+[[retour>>#workflow]]
+
+= Peut-on déclencher un workflow depuis l’extérieur (envoi d’un email, webservice, API, …) ? =
+
+Cette fonctionnalité n'est actuellement pas couverte.
+
+[[retour>>#workflow]]
+
+= Peut-on réaliser le workflow décrit (alerte jour J pour les chefs de centres, J+1 pour les chefs de services, …) ? =
+
+Oui. Grâce à la notion de « timeout », il est possible de réaliser cela. 
+Chaque alerte correspond à un état. A chaque état est associé une notification. Le passage d'un état à un autre est automatique selon le délai souhaité (ici un jour).
+
+[[retour>>#workflow]]
+
+
+

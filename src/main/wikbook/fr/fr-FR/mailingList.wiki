@@ -1,7 +1,5 @@
 [[haut>>#haut]]
 
-{{anchor id=mailinglist /}}
-
 Cette application permet de stocker, partager, indexer et diffuser les courriels relatifs à un projet, un client, une mission... 
 Elle n'a pas pour vocation de remplacer les outils de messagerie utilisés au quotidien mais vient en complément de ceux-ci.
 

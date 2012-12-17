@@ -1,0 +1,53 @@
+﻿[[haut>>#haut]]
+
+= Principe et moteur utilisé ?  =
+
+Silverpeas utilise le moteur de recherche Lucene de la fondation Apache. 
+Tous les contenus sont indexés en mode « plein texte » (contenus des fichiers également). 
+Les contenus des applications personnelles de l'utilisateur sont également indexés. Seul l'utilisateur peut les voir...
+
+[[retour>>#search]]
+
+= La recherche peut-elle s’effectuer en texte intégral dans les documents bureautiques (pdf, word, ….) ? Quels sont les types de document indexés ? =
+
+Tous les types de document sont indexés grâce aux parsers fournis par la bibliothèque open source Tika.
+
+[[retour>>#search]]
+
+= Quels sont les moyens d’affiner une recherche lorsqu’un trop grand nombre de documents sont retournés ? Peut-on se limiter à un thème à une partie de l’arborescence ? =
+
+Les facettes sont le moyen idéal pour affiner une recherche. Si l'utilisateur est confronté à un trop grand nombre de résultats, les facettes « Auteur », « Type de contribution » et « Application » lui permettent de limiter successivement les résultats. 
+D'autres facettes spécifiques peuvent être mises en place grâce aux champs des formulaires.
+Avant de lancer sa recherche, l'utilisateur peut limiter sa portée à un espace, à une application, à un contributeur, à un type de contribution, à une période de création, à une période de modification.
+
+[[retour>>#search]]
+
+== Puis-je m'abonner à une recherche ? ==
+
+Chaque utilisateur peut enregistrer une recherche. En un clic, depuis sa page d'accueil, il peut lancer la recherche enregistrée de son choix.
+Si le plan de classement est utilisé par la plateforme, chaque utilisateur peut s'abonner à un centre d'intérêt. Dès qu'une contribution est classée sur ce centre d'intérêt, il reçoit également une notification.
+
+[[retour>>#search]]
+
+= La recherche respecte-t-elle les droits de l’utilisateur sur les contenus retournés ? =
+
+Oui. La recherche tient compte des droits de l'utilisateur connecté afin de lui présenter exclusivement des contenus autorisés.
+
+[[retour>>#search]]
+
+= La recherche tient-elle compte du respect des pluriels, des conjugaisons, des synonymes ? =
+
+La recherche tient compte des singuliers/pluriels, des formes conjuguées, des masculins/féminins.
+L'aspect synonymie est plus délicat et n'est actuellement pas géré par Silverpeas.
+
+[[retour>>#search]]
+
+= Peut-on indexer un lecteur réseau et intégrer les résultats à la recherche (avec respect des droits sur les dossiers) ? =
+
+Notre catalogue contient l'application « SilverCrawler ». Elle permet de partager un lecteur réseau depuis le portail. 
+Les utilisateurs autorisés peuvent naviguer à l'intérieur comme s'il s'agissait d'un site web.
+Cette application indexe automatiquement les fichiers. Ils sont ensuite retrouvables par le moteur de recherche. 
+A noter que dans ce cas les droits sur les dossiers ne sont pas utilisés.
+
+[[retour>>#search]]
+

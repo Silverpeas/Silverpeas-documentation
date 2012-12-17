@@ -1,7 +1,5 @@
 ﻿[[haut>>#haut]]
 
-{{anchor id=blog /}}
-
 Ce service permet de gérer le contenu d’un blog. Utile pour le suivi quotidien d’un projet par exemple. Il permet de classer les billets par catégories et de laisser des commentaires.
 
 = Comment mettre à disposition mon billet ? =

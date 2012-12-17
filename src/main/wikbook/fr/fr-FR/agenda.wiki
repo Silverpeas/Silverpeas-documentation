@@ -1,0 +1,31 @@
+﻿[[haut>>#haut]]
+
+Chaque utilisateur dispose de son agenda personnel. L'utilisateur crée des événements privés ou publics. 
+Il peut inviter d'autres utilisateurs après avoir identifié leurs disponibilités respectives.
+Le catalogue des applications propose un « Almanach » plus collaboratif. 
+
+= Est-il possible de faire un lien avec l’agenda Outlook de l'utilisateur (synchronisation des informations) ? =
+
+Oui, il est possible de synchroniser l'agenda personnel avec l'agenda Outlook de l'utilisateur (synchronisation depuis le poste client).
+
+[[retour>>#agenda]]
+
+= Est-il possible de faire un lien avec le serveur MDaemon qui héberge les agendas de chacun ? =
+
+Non, malheureusement l'API offerte par MDaemon est assez pauvre. 
+Nous savons nous interfacer avec des serveur tels que MS Exchange ou Zimbra mais MDaemon n'offre pas une interface moderne et de haut niveau permettant une intégration dans le portail.
+
+[[retour>>#agenda]]
+
+= Est-il possible de générer des événements et de donner la possibilité aux utilisateurs de s’y inscrire ? =
+
+Actuellement non.
+
+[[retour>>#agenda]]
+
+= Est-il possible de filtrer et d’effectuer des recherches sur l’agenda ? =
+
+Oui, il est possible de filtrer les événements sur l'agenda selon leurs types. 
+Il n'y a pas de recherche embarquée dans l'agenda mais les événements sont retrouvables via le moteur de recherche global.
+
+[[retour>>#agenda]]

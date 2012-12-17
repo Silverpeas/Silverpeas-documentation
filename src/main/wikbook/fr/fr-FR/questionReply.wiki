@@ -1,7 +1,5 @@
 [[haut>>#haut]]
 
-{{anchor id=questionreply /}}
-
 Le principe de l'application //Questions/Réponses// est de créer des FAQ, de permettre aux utilisateurs de poser des questions et/ou de donner des réponses.
 
 = Comment poser une question ? =

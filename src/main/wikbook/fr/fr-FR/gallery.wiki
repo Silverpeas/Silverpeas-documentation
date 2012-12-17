@@ -1,7 +1,5 @@
 [[haut>>#haut]]
 
-{{anchor id=gallery /}}
-
 L'application **galerie d'images** permet de gérer et d'organiser des images.
 Chaque image peut être définie avec précision grâce à un formulaire personnalisable.
 Organisées en album, les images peuvent être ajoutées par glisser-déposer.
@@ -189,6 +187,8 @@ devient :
 = Comment ajouter des images ? =
 
 Les gestionnaires, publieurs et contributeurs peuvent ajouter des images dans les albums de la photothèque.
+Les photos sont redimensionnées à la volée en trois résolutions.
+
 Pour cela, l'utilisateur se positionne dans l'album voulu, 2 possibilités sont offertes : 
 
 1/ Le bouton [[image:images/GAL-addImage.jpg]] ou l'option //Créer une image// dans le menu //Que voulez-vous faire ?// permet d'ajouter une image unitaire
@@ -227,6 +227,13 @@ Cette réorganisation se fait directement depuis la liste des albums, en dépla�
 [[image:images/GAL-orga_2.jpg||height="90%" width="90%"]]
 
 [[image:images/GAL-orga_3.jpg||height="90%" width="90%"]]
+
+[[retour>>#gallery]]
+
+= Peut-on incorporer de la vidéo, comment ? =
+
+L'application Photothèque ne gère actuellement que les images. 
+Mais il est tout à fait possible d'intégrer des vidéos dans un contenu soit en utilisant l'éditeur Wysiwyg soit en utilisant le champ « Vidéo » des formulaires.
 
 [[retour>>#gallery]]
 

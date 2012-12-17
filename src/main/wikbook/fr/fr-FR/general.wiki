@@ -1,0 +1,495 @@
+﻿[[haut>>#haut]]
+
+== La solution Silverpeas est-elle compatible avec tous les navigateurs actuels ? Quelles sont les versions minimales de compatibilité et faut-il des plug-ins additionnels ? ==
+
+Oui, Silverpeas est compatible avec les navigateurs  suivants : IE7+ (IE8+ préconisé), Firefox, Chrome, Safari... 
+En tant que simples utilisateurs, aucun plugin n'est nécessaire. 
+Les contributeurs peuvent avoir besoin du plugin Java pour partager rapidement et facilement des fichiers par glisser/déposer directement depuis leur explorateur de fichiers.
+
+[[retour>>#general]]
+
+== La solution Silverpeas peut-elle respecter la notion hiérarchique de mes services ? ==
+
+Oui, les utilisateurs peuvent être organisés en groupes et sous groupes répondant à une hiérarchie. 
+Ces groupes pourront ensuite être utilisés lors de la définition des droits. 
+Il sera par exemple possible de déléguer la gestion d'un service au chef de service... 
+Les services pourront être totalement cloisonnés, partiellement cloisonnés ou bien publics. Vous pouvez gérer la visibilité des informations comme vous le souhaitez...
+
+[[retour>>#general]]
+
+== Comment gérer les utilisateurs interne et externes ? ==
+
+Silverpeas permet de gérer plusieurs provenances d'utilisateurs. Un domaine d'utilisateurs pourrait être synchronisé avec un annuaire LDAP. 
+Un autre domaine pourrait permettre de créer les comptes des utilisateurs externe au LDAP au sein de Silverpeas. Ces comptes peuvent être créés rapidement via un import CSV.
+Le domaine « mixte » permet ensuite de regrouper des utilisateurs des différents domaines afin de faciliter la gestion des droits notamment.
+
+[[retour>>#general]]
+
+== Comment se fait la mise à jour des contenus (séparation entre backoffice et frontoffice) ? ==
+
+Le back office est réservé aux administrateurs généraux et aux administrateurs d'espaces. Les contributeurs mettent à jour les contenus directement depuis le front office. 
+Tous les utilisateurs qu'ils soient simples lecteurs ou bien contributeurs sont guidés grâce au menu unique « Que voulez-vous faire ? ».
+
+[[retour>>#general]]
+
+== Le portail peut-il être paramétré par l'utilisateur ? ==
+
+Chaque utilisateur identifié dispose de son espace personnel. 
+Il contient tous les services offerts par la plateforme aux utilisateurs finaux : agenda, tâches, notifications, abonnements, favoris, doodle... 
+Par défaut, la page d'accueil de cet espace regroupe un certain nombre de « portlets » : dernières publications, favoris, actualités... 
+Chaque utilisateur peut personnaliser cette page en déplaçant ces blocs les uns par rapport aux autres , en les supprimant ou en ajoutant d'autres : site web, application particulière, portlet métier spécifique... 
+Chaque portlet est plus ou moins paramétrable.
+
+[[retour>>#general]]
+
+== L’administrateur peut-il forcer l’affichage de certains modules ? ==
+
+Pour cette page personnelle, il est tout à fait possible de bloquer la suppression de certaines portlets.  
+Attention ! Cette page n'est pas la page d'accueil du portail. Par défaut, elle l'est mais très souvent une page d'accueil spécifique est réalisée pour coller aux besoins fonctionnels et ergonomiques de nos clients.
+
+[[retour>>#general]]
+
+== Comment est construit le gabarit des pages et l’organisation des modules entre eux par l’administrateur ? Nécessité de coder, paramétrage graphique ? ==
+
+Chaque application met en œuvre son propre gabarit selon la nature des informations gérées (document, images, sondages, projet, questions/réponses...). 
+Pour les pages d'accueil (générale ou d'espaces), les gabarits sont construits en accord avec l'équipe projet suite aux différentes réunions projet. 
+Afin d'offrir une ergonomie et un look en adéquation avec la charte graphique, les pages sont conçues par notre ergonome/webdesigner et vont bien plus loin qu'un simple empilage de blocs. 
+Dans ce contexte, sur les pages d'accueil, l'administrateur ne peut pas organiser les modules comme il le souhaite. 
+Par contre, créer un nouvel espace, offrir de nouveaux services (de nouvelles applications) est réaliser depuis le backoffice sans aucune contrainte.
+Silverpeas est particulièrement adapté pour une approche itérative et offrir, au fur et à mesure des mois, de nouvelles fonctionnalités, de nouvelles applications aux utilisateurs. 
+
+[[retour>>#general]]
+
+== Peut-on accéder au portail via l’explorateur de documents standard de windows ? ==
+
+Non, cette fonctionnalité n'est pour l'instant pas couverte par Silverpeas.
+
+[[retour>>#general]]
+
+== Comment sont indexés les nouveaux contenus insérés dans le portail ? Immédiatement, en différé ? ==
+
+Tous les contenus insérés dans le portail (textes saisis via le navigateur, fichiers, utilisateurs...) sont indexés de manière homogène et instantanée. 
+Silverpeas utilise le moteur de recherche Lucene de la fondation Apache. 
+
+[[retour>>#general]]
+
+== Est-ce que les opérations (création, modification, suppression...) de contributions sont tracées ?  ==
+
+Oui, un fichier de log regroupe ces opérations. Dans le cas de la création et de la modification, ces informations sont disponibles depuis la contribution elle-même (date, utilisateur et avatar). 
+Elles font partie des méta-données.
+
+[[retour>>#general]]
+
+== Quelle est la facilité de création d’un nouveau contenu ? ==
+
+La création d'un contenu peut se résumer à un glisser/déposer de fichier. Elle est donc très facile.
+Sinon, le contributeur doit saisir le formulaire des méta-données et éventuellement le formulaire dédié au contenu lui-même.
+
+[[retour>>#general]]
+
+== Existe-t-il un éditeur wysiwyg ? ==
+
+Oui, Silverpeas intègre le leader des éditeurs Wysiwyg open source : Ckeditor. 
+Il permet toutes les mises en forme. Le menu peut être entièrement personnalisé (styles, suppression de boutons...).
+
+[[retour>>#general]]
+
+== Comment se fait la création de contenu à partir d’un fichier Word, Excel, PowerPoint ? ==
+
+L'éditeur Wysiwyg dispose d'un bouton « Coller depuis Word » qui permet une récupération intelligente des données à coller. 
+Cette fonction est utilisable avec Powerpoint. Pour Excel, un copier/coller génère un tableau HTML conforme.
+
+[[retour>>#general]]
+
+== Comment peut-on insérer un lien vers un autre contenu du portail ? ==
+
+Chaque contenu dispose d'un permalien (lien court et unique). Il peut être utilisé au sein du portail ou dans des documents externes, des mails, des présentations... 
+Ce lien suit toute la vie du contenu et n'est jamais altéré.
+
+[[retour>>#general]]
+
+== Le portail peut-il être accessible sans authentification en interne ? ==
+
+Oui, plusieurs possibilités existent.
+* Tout d'abord, il est possible de paramétrer la plateforme pour autoriser un accès anonyme. 
+Les utilisateurs s'authentifient uniquement pour accéder aux informations privées ainsi qu'à leur espace personnel.
+* Il est possible d'utiliser la session Windows grâce à l'utilisation d'une bibliothèque externe intégrée à Silverpeas : Jespa. 
+Dans ce cas, l'utilisateur connecté à sa session Windows est automatiquement authentifié par la plateforme.
+* Il est également possible de mettre en place une solution de SSO basée sur le système open source CAS (Central Authentication Server). 
+Ce mécanisme permet également d'éviter la ré-authentification auprès des applications web métiers.
+
+[[retour>>#general]]
+
+== Peut-on utiliser des pages différentes suivant la personne connectée ? ==
+
+Oui, il est possible d'adapter le contenu des pages d'accueil en fonction de la personne connectée (par rapport à une information de son profil, à son appartenance à un domaine, à un groupe...). 
+Cela doit être défini pendant les ateliers de travail liés à la charte graphique. Dans tous les cas, cela nécessite un développement et un paramétrage spécifique.
+
+[[retour>>#general]]	
+
+== Quels sont les filtres de sélection des documents ? Peut-on y associer la notion hiérarchique ? ==
+
+Le filtre des documents peut être naturel selon l'organisation en espaces, sous espaces et applications. La notion hiérarchique sera déclinée sur cette organisation.
+Mais il est également possible de mettre en place un Plan de classement transverse au portail permettant de mettre en évidence une hiérarchie. 
+Il serait par exemple possible de retrouver très rapidement tous les compte rendus de réunion pour un centre ou un service donné. 
+Les utilisateurs peuvent s'abonner à ce Plan de classement.
+
+[[retour>>#general]]
+
+== Est-il possible d’automatiser la diffusion de certains contenus sur une page Facebook ? ==
+
+Cette pratique n'a de sens que si la page Facebook est réservée aux utilisateurs ou si une partie de l'intranet est publique. 
+Silverpeas ne propose pas par défaut de diffusion vers les réseaux sociaux.
+
+[[retour>>#general]]
+
+== Quels sont les flux disponibles intégrables dans le portail (XML, JSON, RSS, HTML) ? ==
+
+Grâce au framework Jquery et à l'ouverture technique du portail, il est tout à fait possible d'intégrer des données externes aux formats XML, JSON, RSS ou encore HTML.
+Pour les flux RSS, Silverpeas fournit en standard l'application « Agrégateur RSS » qui permet d'agréger au sein d'une même page plusieurs flux RSS.
+Silverpeas fournit également l'application « Hyperlien » qui permet d'afficher simplement une page/site web externe dans le portail.
+
+[[retour>>#general]]
+
+== Peut-on réaliser une requête SQL simple et l’intégrer sous forme tabulaire ou graphique ? ==
+
+Notre catalogue contient l'application «Connecteur JDBC». Le gestionnaire de l'application paramètre la source de données ainsi que la requête. 
+Les lecteurs consultent les données retournées par la requête sous forme tabulaire. Les données peuvent être filtrées et exportées au format CSV.
+
+[[retour>>#general]]
+
+== Peut-on réaliser des graphiques de base à partir de données externes ? ==
+
+Silverpeas ne propose pas ce type d'intégration en standard mais un développement complémentaire peut être réalisé. 
+Il est notamment tout à fait possible de créer une page web utilisant un plugin Jquery de génération de graphique et d'exploiter des données fournis en XML et/ou JSON.
+
+[[retour>>#general]]
+
+== Est-il possible d’intégrer des cartes simplifiées (carte du département par secteur, coloriée en fonction de certaines données) ? ==
+
+Oui, il est possible d'utiliser les données issues des formulaires pour les intégrer sur une carte (exemple : carte départementale des groupements et des centres reliée à l'annuaire des agents).
+
+[[retour>>#general]]
+
+== En l’absence de module spécifique est-il possible d’insérer des bibliothèques type JQuery pour intégrer de telles fonctionnalités ? ==
+
+Jquery est le framework Javascript de référence pour Silverpeas. Il est intégré dans le produit et est utilisé par de nombreuses fonctionnalités. 
+Il peut donc être utiliser sans problème pour intégrer des fonctionnalités.
+
+[[retour>>#general]]
+
+== Quels sont les moyens techniques disponibles pour intégrer les outils déjà réalisés ? ==
+
+Il existe plusieurs moyens d'intégrer les outils internes (du plus standard au plus spécifique) :
+* utilisation de l'application « Hyperlink » en activant ou pas le paramètre « SSO client »,
+* utilisation d'une portlet Iframe,
+* développement d'une portlet dédiée à chaque outil
+Silverpeas permet d'intégrer des données fournies selon différents formats : XML, RSS, JSON, SOAP, HTML...
+Un développement plus ou moins complexe selon la nature, le format des données et le niveau d'interaction voulu est nécessaire dans ce cas.
+
+[[retour>>#general]]
+
+== Existe-t-il des méthodes d’authentification unique (SSO) supportées ? ==
+
+Silverpeas supporte la solution de SSO serveur CAS. Ceci nécessite de « CASsifier » les applications web à intégrer dans le périmètre de l'authentification unique.
+Silverpeas propose également une solution moins intrusive vis-à-vis des applications webs existantes via le paramètre « SSO client » de l'application « Hyperlien ».  
+Dans ce cas, les identifiants de connexion des applications web sont stockées de manière sécurisée dans le portail et sont utilisées pour authentifier les utilisateurs lors de l'accès à telle ou telle application. 
+Le portail offre à l'utilisateur un écran unique pour gérer l'ensemble de ses identifiants (Espace personnel > Mes connexions).
+
+[[retour>>#general]]
+
+== Comment pourrait-être réalisé l’automatisation de l’authentification ? ==
+
+Plusieurs possibilités pour automatiser l'authentification au portail :
+* Récupération de la session Windows via Jespa (nécessite Active Directory)
+* Authentification automatique via cookie
+
+[[retour>>#general]]
+
+== Peut-on intégrer d’autres sites via des iframe ou autre procédé ? ==
+
+La portlet Iframe permet d'intégrer d'autres sites. L'application « Hyperlink » permet de faire un lien depuis le menu vers le site. 
+De manière facultative, elle permet de passer un certains nombre de paramètre au site, à l'application cible.
+
+[[retour>>#general]]
+
+== Quels sont les modes d’alerte des agents (email, information visible sur le portail) ? ==
+
+Les [[notifications>>#notification]] sont un point central dans le portail. Elles permettent à l'utilisateur d'être informé des informations qu'il juge intéressante pour lui (mode pull). 
+Elles permettent également d'attirer l'attention des autres utilisateurs sur une information jugée importante par autrui (mode push).
+L'utilisateur choisit comment il souhaite recevoir ces notifications. Depuis son espace personnel, il paramètre sa boîte de notifications. 
+Il peut décider de les laisser dans le portail, de les recevoir exclusivement dans sa boite email ou bien les deux. 
+Dans le cas de l'utilisation de sa boite email, il peut choisir la fréquence de réception (immédiate, quotidienne, hebdomadaire, mensuelle).
+Il peut même aller plus loin en définissant un canal supplémentaire pour un espace et/ou une application  donnée.
+
+[[retour>>#general]]
+
+== Le portail permet-il de suivre une liste de diffusion d’un contenu ? ==
+
+Oui, de nombreux contenus dispose de la fonction « Notifier ». 
+Elle permet de diffuser un contenu à un ensemble d'utilisateurs. Avant l'envoi, il est possible d'ajouter un message complémentaire qui sera joint à la [[notification>>#notification]].
+
+[[retour>>#general]]
+
+== Peut-on associer un « espace projet » à un groupe d'utilisateurs ? ==
+
+C'est l'essence même de Silverpeas. Il est même possible d'industrialiser la création des espaces grâce aux modèles d'espaces. 
+Les espaces peuvent être couper/copier/coller afin de facilement réorganiser tout ou partie du plan du site.
+
+[[retour>>#general]]
+
+== Comment est constitué un groupe, est-il possible d’inclure des membres extérieurs ? ==
+
+Un groupe peut être librement constitué. Il peut être limité à des utilisateurs internes ou bien ouvert à des utilisateurs extérieurs.
+
+[[retour>>#general]]
+
+== Peut-on visualiser les membres du groupe ? ==
+
+L'annuaire des utilisateurs peut être limité à un groupe. Il permet ainsi de fournir un annuaire et un trombinoscope des membres du groupe.
+
+[[retour>>#general]]
+
+== Est-il possible, sur un espace, de définir une partie publique et une partie réservée aux seuls membres du groupe ? ==
+
+Oui. Certaines applications de l'espace peuvent être publiques et d'autres réservées aux seuls membres du groupe. 
+Par exemple, la fiche identité de l'espace (réalisée à partir de l'application « Page web ») peut être publique. Le reste de l'espace peut être privé.
+
+[[retour>>#general]]
+
+== Quels sont les outils spécifiques utilisables dans un espace projet ? ==
+
+Toutes les applications de Silverpeas sont utilisables dans ce type d'espace comme dans tous les autres : gestion de projet, wiki, blog, sondages, photothèque, gestion documentaire, lecteur réseau, FAQ, agrégateur RSS, annuaire d'experts...
+
+[[retour>>#general]]
+
+== Peut-on utiliser les sondages pour fixer une réunion « à la doodle » ? ==
+
+Oui. Chaque utilisateur dispose dans son espace personnel d'un outil nommé « Trouver une date ». 
+Il permet de créer un événement, de définir une liste de dates, d'inviter d'autres utilisateurs à donner leurs disponibilités et de calculer automatiquement la date qui convient au plus grand nombre. 
+Chaque utilisateur peut laisser un commentaire.
+
+[[retour>>#general]]
+
+== Quels sont les modules existants intégrés ?  ==
+
+Silverpeas est une solution clé en mains et offre l'ensemble des applications de son catalogue en standard :
+* [[Gestion documentaire>>#kmelia]]
+* [[Almanach>>#almanach]]
+* [[Blog>>#blog]]
+* Annuaire de sites web
+* Petites annonces
+* Actualités décentralisées
+* Formulaires en ligne
+* [[Forums>>#forum]]
+* [[Photothèque>>#gallery]]
+* Hyperlien
+* [[Lettre d'information>>#infoletter]]
+* [[Archivage d'emails>>#mailinglist]]
+* Vote
+* Gestion de projet
+* [[FAQ>>#questionreply]]
+* Actualités simples
+* Quizz (e-learning)
+* [[Réservation de ressources>>#resourcesManager]]
+* Connecteur réseau
+* [[Enquête>>#survey]]
+* Designer de pages web
+* Designer de sites web
+* Annuaire pages blanches
+* Annuaire d'experts
+* Wiki
+* Connecteur SQL
+* Agrégateur RSS
+
+[[retour>>#general]]
+
+== Quels sont les modules en option ?  ==
+
+Toutes les applications sont disponibles en standard.
+
+[[retour>>#general]]
+
+== Est-il possible de faire développer un module spécifique en cas de besoin ? ==
+
+Oui, il est possible de développer une application spécifique. 
+Nous pouvons réaliser ce développement pour vous. 
+Grâce au Silverpeas Developement Kit, vous pouvez le développer vous même !
+
+[[retour>>#general]]
+
+== Que se passe-t-il pour ces développements spécifiques en cas de mise à jour ? ==
+
+Tous les développements que nous réalisons sont supportés dans le cadre de la maintenance de la solution. 
+Si l'API de Silverpeas est modifiée, les impacts sur ces développements spécifiques sont pris en charge par Silverpeas.
+Pour les développements réalisés par un intégrateur ou par le client lui-même, nous essayons de garder une compatibilité ascendante de l'API de Silverpeas afin de minimiser les adaptations de code. 
+Si dans certains cas cela n'est pas possible, nous alertons les tiers via nos listes de diffusion...
+
+[[retour>>#general]]
+
+== Quels sont les préconisations minimales pour l’utilisation du portail ? ==
+
+Windows XP et 7, Linux, Mac
+Navigateur IE8+ (même si Silverpeas fonctionne actuellement bien avec IE7), Firefox, Chrome, Safari
+Résolution d'écran 1024x768
+
+[[retour>>#general]]
+
+== Y a-t-il besoins de version particulière des navigateurs, de plugin spécifiques ? ==
+
+Seul le plugin Java est nécessaire pour les fonctionnalités de glisser/déposer utiles (mais pas indispensable) aux contributeurs.
+
+[[retour>>#general]]
+
+== Existe-t-il des limitations en fonction de la version des navigateurs utilisés ? ==
+
+Non.
+
+[[retour>>#general]]
+
+== Peut-on détecter les connexions externes des connexions internes et éventuellement interdire certaines pages / modules / information en fonction de la provenance de l’utilisateur? ==
+
+Oui, il est possible de détecter les connexions externes en utilisant un reverse proxy en frontal.
+Il est facile de créer un groupe des utilisateurs externes. Ensuite, il suffit de gérer les droits en fonction de ce groupe afin de lui interdire l'accès à certaines applications.
+Mais ce qui est le plus important ici, n'est-ce pas qui se connecte plutôt que la provenance ?
+
+[[retour>>#general]]
+
+== Peut-on rediriger certains utilisateurs sur des pages ou des modules spécifiques ? ==
+
+Oui, dans le cadre d'un look spécifique, il est possible de rediriger des utilisateurs selon certaines règles (appartenance à un domaine d'utilisateurs, à un groupe donné, selon une donnée du profil de l'utilisateur...).
+
+[[retour>>#general]]
+
+== Comment se fait l’accès d’un mobile sur le portail ? Existe-t-il une mise en forme spécifique automatique ou faut-il définir à l’avance des modèles ? ==
+
+Silverpeas propose une application mobile avec une mise en forme standard adaptée aux smartphones.
+
+[[retour>>#general]]
+
+== Quels sont les limitations dans l’utilisation du portail à travers un mobile  ? ==
+
+Cette application mobile couvre actuellement une partie du portail :
+* gestion documentaire
+* photothèque (utile pour partager en direct des photos d'intervention par exemple)
+* contacts
+
+[[retour>>#general]]
+
+== Est-il possible d’extraire une partie du portail (documents opérationnels ou techniques) pour les insérer dans la tablette ? ==
+
+L'application Gestion documentaire propose l'option « Export » qui permet de télécharger un Zip contenant l'ensemble des publications d'un dossier (et de ses sous dossiers). 
+Ce Zip contient un mini site web qui permet une navigation au sein de l'arborescence via un navigateur Web comme si l'utilisateur était connecté au portail. 
+Il consulte ainsi les publications, leurs contenus ainsi que les fichiers joints. S'il le souhaite il peut également récupérer uniquement les fichiers et pas les publications. 
+Les fichiers sont disponibles dans leur format d'origine.
+Il suffit donc de copier le contenu de ce Zip sur la tablette. L'index est généré automatiquement. Il est sous forme arborescente si une arborescence a été exportée.
+Cette fonctionnalité pourrait être facilement enrichie afin d'exporter tous les documents en PDF.
+
+[[retour>>#general]]
+
+== Quelles sont les méthodes d’authentification disponibles pour les utilisateurs du portail ? ==
+
+Les méthodes d'authentification sont multiples :
+* Authentification par login/mot de passe
+* Authentification automatique par mémorisation du mot de passe dans un cookie crypté
+* Authentification automatique par récupération de la session Windows (nécessite Active Directory)
+* Authentification unique par mise en place d'un SSO serveur (nécessite CAS)
+
+[[retour>>#general]]
+
+== Peut-on avoir une authentification dynamique (style LDAP) et en parallèle des utilisateurs hors LDAP ? ==
+
+Oui. Les utilisateurs issus de LDAP s'authentifient avec leur identifiants habituels (authentification déléguée à l'annuaire LDAP). 
+Silverpeas ne stocke pas les mots de passe issus de l'annuaire LDAP. Les utilisateurs hors LDAP s'authentifient directement auprès de Silverpeas.
+
+[[retour>>#general]]
+
+== Est-il possible de générer des codes d’authentification à usage unique (token envoyé par mail par exemple) ? ==
+
+Oui. La Gestion documentaire permet par exemple de partager un fichier ou un dossier avec n'importe quel internaute grâce à un token. 
+Il peut être limité dans le temps ou pas. Cette fonctionnalité est parfaite pour partager des fichiers volumineux.
+
+[[retour>>#general]]
+
+== Est-il possible d’automatiser une alimentation d'un site internet ? ==
+
+Oui, Silverpeas fourni un certain nombre de services web REST/JSON. 
+Il est ainsi possible d'exploiter librement les données fournies quelque soit la technologie employée pour motoriser le site web. 
+Les flux RSS produits par certaines applications peuvent également être facilement utilisés dans un site web.
+
+[[retour>>#general]]
+
+== Peut-on envisager une utilisation du portail collaboratif avec une partie publique (site internet) et une partie privée (après authentification)  ? ==
+
+Oui, il existe deux solutions.
+* Lorsque le portail est paramétré pour accepter un accès anonyme, une partie du site est publique. 
+Cette solution, même si elle présente l'avantage d'être immédiate, est délicate vis-à-vis du référencement par les moteurs de recherche grand public. 
+* Il est également possible d'utiliser le portail en tant que backoffice du site web public. 
+Dans ce cas, l'ergonomie et le look du site sont complètement libres. Les données sont fournies soit via nos services web REST/JSON soit via une bibliothèque de tags. 
+Pas de problème de référencement et de réécriture d'URL... 
+
+[[retour>>#general]]
+
+== L’infrastructure virtualisée décrite peut-elle héberger la solution du soumissionnaire ? ==
+
+Oui, Silverpeas préconise l'utilisation d'environnements virtualisés. Il n'y a pas d'incompatibilité connue à ce jour avec l'infrastructure décrite.
+
+[[retour>>#general]]
+
+== Quels sont les prérequis techniques nécessaires pour un fonctionnement correct ? ==
+
+Nous préconisons un environnement distribué à savoir : un serveur applicatif qui héberge Silverpeas et JBoss (installés par Silverpeas), un serveur de base de données (peut être partagé avec d'autres applications) et un serveur de fichiers (type NAS) pour stocker principalement les fichiers partagés via le portail.
+Concernant le serveur applicatif, il doit être dédié au portail. Silverpeas tourne sous Windows 64bits ou sous Linux (notre préconisation). 8 Go de RAM minimum. Quadruple cœur.
+
+[[retour>>#general]]
+
+== Existe-t-il un mode de déploiement en cluster ? ==
+
+Oui. Silverpeas peut être déployé en cluster grâce à JBoss. 
+Mais nous tenons à préciser que la mise en cluster n'est utile qu'avec des milliers d'utilisateurs connectés simultanément. 
+Nos clients qui utilisent Silverpeas avec le même nombre d'utilisateurs (et même supérieur) n'ont pas besoin de cluster.
+
+[[retour>>#general]]
+
+== Quelles sont les autres méthodes permettant d’obtenir de la haute disponibilité ? ==
+
+Sans parler de réelle haute disponibilité, l'usage de disque RAID permet de s'abstraire des problèmes sur ce matériel. 
+Dans un environnement virtualisé, il est également très rapide de passer d'un serveur physique à un autre.
+De plus, réaliser une restauration complète de Silverpeas (applicatif et données) sur un nouveau serveur est rapide.
+
+[[retour>>#general]]
+
+== Comment se passent les mises à jour du portail collaboratif ? Quelle est leur durée ? ==
+
+La mise à jour du portail est simple et facilitée par l'utilisation de Maven. Elle se résume aux actions suivantes :
+* modification de la version à installer dans un fichier texte
+* récupération de la mise à jour grâce à une ligne de commande
+* exécution d'un script (fourni par Silverpeas) pour construire l'application, la déployer  et mettre à jour la base de données
+Chaque mise à jour est annoncée via une newsletter. Chaque mise à jour évolutive est accompagnée d'une release note détaillée et illustrée.
+L'installation d'une mise à jour corrective nécessite une interruption de 30 minutes.
+L'installation d'une mise à jour évolutive nécessite une interruption allant de 30 minutes à 2 heures.
+
+[[retour>>#general]]
+
+== Quels sont les impacts sur les modules utilisés ? Conformité des versions ? ==
+
+Nous assurons la compatibilité de tous les modules utilisés (y compris les modules spécifiques réalisés par Silverpeas). 
+Silverpeas est un package global avec une version unique. La question sur la conformité des versions ne se pose donc pas.
+
+[[retour>>#general]]
+
+== Est-il possible de mettre en place un environnement de test indépendant de l’environnement de production ? Quelles sont dans ce cas les manipulations à effectuer pour passer d’un environnement à l’autre ? ==
+
+Oui. Nous conseillons vivement à nos clients d'avoir deux environnements distincts : l'un de production, l'autre de tests. 
+Chaque environnement est accessible via une URL spécifique. Les deux environnements sont totalement disjoints pour éviter de potentielles erreurs sur l'environnement de production.
+
+[[retour>>#general]]
+
+== Quelle est la méthode de prise de contrôle à distance privilégiée en cas d’intervention nécessaire ? Est-ce que la solution Teamviewer suffit ? ==
+
+L'idéal pour nous est un accès VPN avec accès illimité ou à la demande. C'est le moyen le plus efficace et le plus rapide. 
+Pour la majorité de nos clients, nous utilisons donc un VPN. Pour d'autres, nous utilisons Netviewer ou Teamviewer.
+
+[[retour>>#general]]
+
+

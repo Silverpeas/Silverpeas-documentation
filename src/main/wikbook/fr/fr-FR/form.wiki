@@ -1,0 +1,66 @@
+﻿[[haut>>#haut]]
+
+= {{anchor id=newForm /}}Comment créer un nouveau formulaire ?  =
+
+Vous êtes totalement autonomes quant à la création de nouveau type de contenu. 
+Depuis le backoffice, il est facile de créer un nouveau formulaire dédié à un nouveau type de contenu via un outil graphique intégré au backoffice (Outils > Formulaires).
+L'administrateur crée un nouveau formulaire (nom, description, visible, picto) et ajoute les champs souhaités. 
+Chaque champ peut être paramétré. Le formulaire prend forme directement sous ses yeux. 
+Chaque formulaire peut ensuite être habillé avec une surcouche HTML pour coller parfaitement à la charte graphique. 
+Ainsi le contributeur ne se préoccupera que du fond et pas de la forme.
+
+[[retour>>#form]]
+
+= Quels sont les types de champs disponibles ?  =
+
+Tous les champs HTML sont disponibles ainsi que d'autres à plus forte valeur ajoutée :
+* texte simple
+* texte multiligne (textarea)
+* texte riche (wysiwyg)
+* boutons radio
+* case à cocher
+* liste déroulante
+* URL
+* date
+* heure
+* fichier
+* image
+* vidéo
+* utilisateur(s)
+* groupe
+* explorateur GED
+* connecteur LDAP
+* connecteur SQL
+* séquence
+
+[[retour>>#form]]
+
+= Puis-je rendre certains champs obligatoires ? =
+
+Oui, chaque champ peut être défini comme obligatoire.
+
+[[retour>>#form]]
+
+= Quel est le format de récupération des données saisies ? =
+
+Comme ces données sont structurées, elles peuvent être facilement exploitées par le moteur de recherche. 
+Il est possible d'avoir une interface de recherche dédié à un formulaire et de faire des recherches en combinant certains champs du formulaire.
+Dans le contexte d'utilisation par un workflow, ces données peuvent être exportées au format CSV.
+
+[[retour>>#form]]
+
+= Peut-on définir une liste de diffusion du formulaire et suivre l’avancée des saisies ? =
+
+Le catalogue de Silverpeas contient l'application « Formulaires en ligne ». 
+Une fois le formulaire créé, le gestionnaire de l'application désigne qui peut soumettre une demande associée à ce formulaire et qui doit valider les demandes soumises. 
+A tout moment, demandeurs et valideurs voient l'état des demandes : Non lue, lue, Validée ou Refusée. A chaque demande, le valideur est notifié. 
+A chaque décision, le demandeur l'est aussi. En cas de refus, le motif peut être saisi et est inséré dans la notification.
+
+[[retour>>#form]]
+
+= Un formulaire peut-il être utilisé dans un workflow ? =
+
+Oui, la puissance de nos formulaires est disponible dans le moteur de workflow.
+
+[[retour>>#form]]
+

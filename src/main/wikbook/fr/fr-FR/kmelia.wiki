@@ -1,7 +1,5 @@
 ﻿[[haut>>#haut]]
 
-{{anchor id=kmelia /}}
-
 Le service de **Gestion documentaire**, offre la possibilité de créer une arborescence de dossiers dans lesquels des publications seront classées.
 Chaque publication est constituée de diverses informations rassemblées dans des onglets :
 * une entête incluant les métadonnées standard (titre, dates de publication et de modification, auteurs, résumé, mots clefs renforçant le référencement)
@@ -279,6 +277,143 @@ Ces dernières sont alors listées pour les lecteurs et accessibles d'un simple 
 [[image:images/GED-ref_2.jpg||height="100%" width="100%"]] 
 
 [[retour>>#kmelia]] [[image:images/to-the-top.png]] 
+
+= Des feuilles de styles CSS seront-elles fournies ? =
+
+L'application Gestion documentaire dispose de sa propre ergonomie (adapté à la gestion de documents). Cette application ne nécessite pas de feuille de styles particulière. 
+Par défaut, la Gestion documentaire bénéficiera automatiquement des styles du portail. Les feuilles CSS du portail seront évidemment fournies. 
+Cependant, comme pour n'importe quelle autre application, il est possible de surcharger les styles pour toutes les applications du même type ou juste pour une instance d'une application.
+
+[[retour>>#kmelia]] 
+
+= Quels sont les types de contenus existants ? =
+
+L'application Gestion documentaire permet de partager n'importe quel type de documents et de les visualiser sans contraintes. A ces documents peut être ajouté un contenu. 
+Ce contenu peut être riche (utilisation de l'éditeur Wysiwyg) ou structuré (utilisation des formulaires). L'éditeur est paramétrable, les formulaires aussi.  
+Depuis le backoffice, vous pouvez très facilement créer un nouveau formulaire pour saisir un nouveau type de contenu (article, mission, formation, intervention...). 
+Une publication peut très bien se résumer à un contenu sans document joint.
+
+[[retour>>#kmelia]] 
+
+= Puis-je créer un nouveau type de contenu ?  =
+
+Vous êtes totalement autonomes quant à la création de nouveau type de contenu. 
+Pour cela il suffit de créer un [[nouveau formulaire>>#newForm]].
+
+[[retour>>#kmelia]] 
+
+= {{anchor id=export /}} Puis-je récupérer l’intégralité d’un dossier ? =
+
+L'application Gestion documentaire propose l'option « Export » qui permet de télécharger un Zip contenant l'ensemble des publications d'un dossier (et de ses sous dossiers). 
+Ce Zip contient un mini site web qui permet une navigation au sein de l'arborescence via un navigateur Web comme si l'utilisateur était connecté au portail. 
+Il consulte ainsi les publications, leurs contenus ainsi que les fichiers joints. S'il le souhaite il peut également récupérer uniquement les fichiers et pas les publications.
+
+[[retour>>#kmelia]] 
+
+= Puis-je alimenter en volume ma gestion documentaire ? =
+
+La méthode la plus simple et la plus rapide pour alimenter la gestion documentaire en volume est l'utilisation du glisser/déposer. 
+Le contributeur fait un glisser/déposer d'un répertoire de son ordinateur vers le portail. 
+Le système réplique alors l'arborescence du répertoire dans la gestion documentaire et crée automatiquement autant de publications que de fichiers. 
+Si ces fichiers disposent de propriétés (titre, description, mots-clés...), elles sont utilisées pour générer la publication. 
+Ce système de glisser/déposer est également disponible au sein même d'une publication pour ajouter rapidement un ou plusieurs fichiers.
+La Gestion documentaire peut également être alimentée par un Zip qui sera décompressé sur le serveur et dont le contenu sera traité de la même manière que lors du glisser/déposer.
+Silverpeas offre également un moteur d'importation qui permet d'importer des répertoires et/ou de créer des publications basées sur des données issues de systèmes tiers.
+
+[[retour>>#kmelia]] 
+
+= Puis-je utiliser les titres des dossiers d’import comme mots clefs ? =
+
+Cela n'est pas nécessaire car les titres des dossiers seront indexés automatiquement par notre moteur de recherche. 
+Ils seront alors retrouvables et un clic sur le résultat affichera la liste des publications du dossier.
+
+[[retour>>#kmelia]] 
+
+= Quels sont les métadonnées associées à un contenu ou à un document ?  =
+
+Une publication est caractérisée par :
+- un titre
+- un état (Brouillon, En attente de validation, Validé, Refusé)
+- une description
+- des mots-clés
+- une importance
+- un auteur (en supplément du créateur et du dernier contributeur)
+- une période de visibilité (à la minute près)
+- une vignette
+- un classement sur le Plan de classement
+Seule la métadonnée titre est obligatoire. Les informations de traçabilité sont automatiques (date de création par qui, date de dernière modification par qui).
+
+[[retour>>#kmelia]] 
+
+= La gestion documentaires est-elle en conformité avec le protocole CMIS ? =
+
+Silverpeas ne supporte pas pour l'instant le protocole CMIS mais le moteur d'export de la gestion documentaire permet de générer un fichier XML contenant toutes les données des publications (méta-données, contenu, fichiers joints). 
+Comme les données sont structurées au sein de ce descripteur XML, il est facile de les exploiter par un système tiers. Cela assure la réversibilité de la gestion documentaire.
+
+[[retour>>#kmelia]] 
+
+= Puis-je m'abonner à un « dossier » ? =
+
+Chaque utilisateur peut s'abonner à un dossier. Dans ce cas, dès qu'une publication est créée ou modifiée, il sera alerté selon la méthode de son choix (canal de notification et fréquence).
+
+[[retour>>#kmelia]] 
+
+= Un contenu peut-il être présent à plusieurs endroits du portail sans duplication ? =
+
+Grâce à l'option « Emplacements multiples » il est possible de créer des raccourcis d'une publication de l'application A dans un dossier de l'application B et dans un dossier de l'application C. 
+L'application A reste l'application maîtresse pour la gestion de la publication qui est en lecture seule pour les applications B et C. 
+
+[[retour>>#kmelia]] 
+
+= Faut-il passer par l’ajout d’un document multimédia dans une bibliothèque avant de s’en servir dans le contenu wysiwyg de ma publication ? =
+
+Non. Les éléments multimédias peuvent être ajoutés directement à un contenu (wysiwyg ou formulaire).
+Cependant il existe une fonction qui permet de spécifier qu'une photothèque serve de banque d'images. 
+Ainsi, les images seront disponibles immédiatement lors de l'édition de différents contenus du portail.
+
+[[retour>>#kmelia]] 
+
+= Comment est géré le « versionning » ? Peut-on définir un versionning différent à différents endroits du portail ? =
+
+Le versionning est géré sur les fichiers. Il permet une numérotation automatique selon la version majeure (publique) ou mineure (de travail). 
+Il est être activé au niveau de l'application. Dans la version 5.12, il pourra être activé à la demande sur chaque fichier.
+
+[[retour>>#kmelia]] 
+
+= Peut-on définir des dates de publication et de retrait automatique d’un contenu ? =
+
+Oui, la période de visibilité des publications permet de faire cela à la minute près.
+
+[[retour>>#kmelia]] 
+
+= L’auteur est-il être averti de la publication et du retrait ? =
+
+Non, cette fonctionnalité n'est pour l'instant pas couverte. 
+
+[[retour>>#kmelia]] 
+
+= Est-il possible d’extraire une partie des documents pour les mettre sur une clef USB pour consultation déconnectée ? =
+
+[[L'export d'un dossier>>#export]] ou l'export sur mesure permet de générer un Zip contenant les documents pour les consulter en mode déconnecté.
+
+[[retour>>#kmelia]] 
+
+= Faut-il mettre en place des règles de nommages des documents ? =
+
+Non, puisque le moteur de recherche indexe le contenu des documents en mode « plein texte ».
+
+[[retour>>#kmelia]] 
+
+= Puis-je suivre l’avancée de la prise en compte de ma publication ? =
+
+La gestion documentaire dispose de la fonction « Contrôles de lecture ». 
+Non disponible pour les simples lecteurs, elle permet de connaître l'historique des consultations d'une publication.
+
+[[retour>>#kmelia]] 
+
+
+
+
 
 {{note}}
 **EN COURS DE CREATION : POINTS A ABORDER**

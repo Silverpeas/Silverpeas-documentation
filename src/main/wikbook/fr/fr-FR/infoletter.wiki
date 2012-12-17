@@ -1,7 +1,5 @@
 [[haut>>#haut]]
 
-{{anchor id=infoletter /}}
-
 Le but de l'application //Lettre informative// est de créer des parutions périodiques.
 Le principe est de publier des parutions de façon périodique, à partir ou non d'un modèle.
 Il est possible de préparer plusieurs parutions et de les publier une par une au moment voulu.
