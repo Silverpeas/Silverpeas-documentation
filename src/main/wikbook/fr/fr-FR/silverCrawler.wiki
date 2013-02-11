@@ -1,0 +1,8 @@
+[[haut>>#haut]]
+
+L'application permet d'exposer via l'interface web de la plate-forme, le contenu de n'importe quel répertoire de votre SI. 
+Doté d'un moteur de recherche performant, l'utilisateur peut également naviguer dans ce répertoire. Par défaut en lecture seule, l'application peut aussi autoriser l'écriture.
+
+ 
+[[retour>>#silverCrawler]]
+

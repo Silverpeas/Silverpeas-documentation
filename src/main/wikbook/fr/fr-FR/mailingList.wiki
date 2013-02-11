@@ -1,8 +1,9 @@
 [[haut>>#haut]]
 
 Cette application permet de stocker, partager, indexer et diffuser les courriels relatifs à un projet, un client, une mission... 
+La modération est possible. Si l’abonnement est activé, l’application se transforme en liste de diffusion.
 Elle n'a pas pour vocation de remplacer les outils de messagerie utilisés au quotidien mais vient en complément de ceux-ci.
-
+        
 = Les fichiers joints aux courriels sont-ils gérés ? =
 
 Oui, les fichiers joints sont stockés dans la plate-forme au même titre que les courriels. Ils sont indexés et peuvent donc être retrouvés par le moteur de recherche.

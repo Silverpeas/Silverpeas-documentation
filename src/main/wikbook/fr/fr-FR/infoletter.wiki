@@ -1,8 +1,9 @@
 [[haut>>#haut]]
 
-Le but de l'application //Lettre informative// est de créer des parutions périodiques.
+Le but de l'application //Lettre informative// est de créer des parutions périodiques et de les envoyer à des utilisateurs de la plateforme ou bien à des contacts externes.
 Le principe est de publier des parutions de façon périodique, à partir ou non d'un modèle.
 Il est possible de préparer plusieurs parutions et de les publier une par une au moment voulu.
+La gestion des contacts est facilitée grâce à l’import/export CSV.
 
 = Comment gérer les abonnés internes ? =
 

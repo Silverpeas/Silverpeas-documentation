@@ -22,7 +22,7 @@ Avant de lancer sa recherche, l'utilisateur peut limiter sa portée à un espace
 
 [[retour>>#search]]
 
-== Puis-je m'abonner à une recherche ? ==
+= Puis-je m'abonner à une recherche ? =
 
 Chaque utilisateur peut enregistrer une recherche. En un clic, depuis sa page d'accueil, il peut lancer la recherche enregistrée de son choix.
 Si le plan de classement est utilisé par la plateforme, chaque utilisateur peut s'abonner à un centre d'intérêt. Dès qu'une contribution est classée sur ce centre d'intérêt, il reçoit également une notification.

@@ -1,0 +1,8 @@
+[[haut>>#haut]]
+
+Supporte les processus de communication synchrone de type chat. Des salons peuvent être ouverts sur des thèmes variés. 
+Des communications en mode 'privé' sont possibles, au sein d'un chat multi-participants.
+      
+        
+[[retour>>#chat]]
+

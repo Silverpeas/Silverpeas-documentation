@@ -1,5 +1,11 @@
 [[haut>>#haut]]
 
+Une enquête est constituée de plusieurs questions ouvertes ou fermées. Il est possible de programmer sa mise en ligne. 
+Les résultats sont présentés selon deux restitutions différentes (anonyme ou nominative) afin de les exploiter pleinement selon les besoins.
+
+L’application « Vote » permet de créer rapidement une question à choix multiples et de programmer sa mise en ligne. 
+La participation ainsi que les résultats sont calculés automatiquement et peuvent être exportés.
+       
 = Comment sont restitués les résultats ? =
 
 La restitution des réponses peut être globale ou individuelle (à la doodle). Les résultats peuvent être exportés au format CSV.

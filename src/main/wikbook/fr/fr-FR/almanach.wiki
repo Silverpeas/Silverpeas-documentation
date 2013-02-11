@@ -1,5 +1,9 @@
 [[haut>>#haut]]
 
+Les différentes vues proposées présentent des événements ponctuels ou périodiques. 
+L’application permet l’agrégation et l’accès rapide vers d’autres almanachs. 
+Tous les événements peuvent être exportés au format iCal.
+
 = Est-il possible de regrouper dans un même agenda tous les événements concernant un utilisateur (agenda global de son service, du ou des projets dont il fait partie) ? =
 
 L'application « Almanach » peut être agrégée afin de regrouper les événements de plusieurs autres almanach. 

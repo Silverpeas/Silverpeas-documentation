@@ -53,9 +53,9 @@ Si la gestion documentaire a le mode brouillon activé, 2 zones sont disponibles
 
 Une fois le fichier déposé, une publication est créée, le fichier déposé est ajouté aux fichiers joints de la publication et l'entête de cette dernière est préalimentée par les métadonnées du fichier : 
 
-- le nom de la publication reprend le titre du documentaire
-- la description de la publication reprend le sujet du document 
-- les mots-clés de la publication sont alimentés avec les mots-clés du fichier
+* le nom de la publication reprend le titre du documentaire
+* la description de la publication reprend le sujet du document 
+* les mots-clés de la publication sont alimentés avec les mots-clés du fichier
 
 [[image:images/GED-depose_3.jpg||height="100%" width="100%"]]
 
@@ -107,10 +107,8 @@ Une fenêtre de paramétrage de ce ticket apparaît
 
 elle permet à l'utilisateur de renseigner les caractéristiques du ticket.
 Il est possible de renseigner :
-
-- le nombre d'accès maximum et la date de fin de validité
-
-- ou simplement de rendre ce ticket permanent.
+* le nombre d'accès maximum et la date de fin de validité
+* ou simplement de rendre ce ticket permanent.
 
 [[image:images/GED-partage_2.jpg||height="60%" width="60%"]]
 
@@ -152,12 +150,12 @@ A côté de chaque fichier, le bouton [[image:images/GED-fichier.jpg]] donne acc
 Les lecteurs n'ont le choix que de télécharger le fichier, en cliquant directement sur le nom de ce dernier.
 Pour les autres utilisateurs, les opérations toujours disponibles sont : 
 
-- Réserver
-- Réserver et télécharger
-- Libérer
-- Modifier
-- Supprimer
-- [[Notifier>>#notification]]
+* Réserver
+* Réserver et télécharger
+* Libérer
+* Modifier
+* Supprimer
+* [[Notifier>>#notification]]
 
 [[retour>>#kmelia]]
 
@@ -332,15 +330,15 @@ Ils seront alors retrouvables et un clic sur le résultat affichera la liste des
 = Quels sont les métadonnées associées à un contenu ou à un document ?  =
 
 Une publication est caractérisée par :
-- un titre
-- un état (Brouillon, En attente de validation, Validé, Refusé)
-- une description
-- des mots-clés
-- une importance
-- un auteur (en supplément du créateur et du dernier contributeur)
-- une période de visibilité (à la minute près)
-- une vignette
-- un classement sur le Plan de classement
+* un titre
+* un état (Brouillon, En attente de validation, Validé, Refusé)
+* une description
+* des mots-clés
+* une importance
+* un auteur (en supplément du créateur et du dernier contributeur)
+* une période de visibilité (à la minute près)
+* une vignette
+* un classement sur le Plan de classement
 Seule la métadonnée titre est obligatoire. Les informations de traçabilité sont automatiques (date de création par qui, date de dernière modification par qui).
 
 [[retour>>#kmelia]] 

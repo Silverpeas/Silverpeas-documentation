@@ -1,5 +1,8 @@
 [[haut>>#haut]]
 
+L’application permet de gérer des ressources (salles, véhicules, matériel informatique...). Les utilisateurs créent des réservations sur une ou plusieurs ressources. 
+Seules les ressources disponibles aux dates demandées sont proposées. Un système de validation est activable.
+       
 = Peut-on déléguer la gestion d’une ressource à un utilisateur, à un groupe ? =
 
 Sur chaque ressource, il est possible de désigner un responsable qui aura en charge la validation de cette ressource lors d'une réservation.

@@ -1,0 +1,7 @@
+[[haut>>#haut]]
+
+Cette application permet de faciliter la gestion de contenu (page d’accueil, page de présentation...).
+Son contenu peut être totalement libre ou bien structuré. La mise en page peut être personnalisée.    
+        
+[[retour>>#webPages]]
+

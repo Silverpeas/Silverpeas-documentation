@@ -1,6 +1,8 @@
 ﻿[[haut>>#haut]]
 
-Ce service permet de gérer le contenu d’un blog. Utile pour le suivi quotidien d’un projet par exemple. Il permet de classer les billets par catégories et de laisser des commentaires.
+Ce service permet de gérer le contenu d’un blog. Utile pour le suivi quotidien d’un projet par exemple. 
+Il permet de classer les billets par catégories et de laisser des commentaires.
+Chaque utilisateur peut s’abonner et participer en laissant des commentaires. La gestion des catégories est possible. Les billets sont également accessibles via RSS.
 
 = Comment mettre à disposition mon billet ? =
 

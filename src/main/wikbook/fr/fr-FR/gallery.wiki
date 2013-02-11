@@ -3,7 +3,9 @@
 L'application **galerie d'images** permet de gérer et d'organiser des images.
 Chaque image peut être définie avec précision grâce à un formulaire personnalisable.
 Organisées en album, les images peuvent être ajoutées par glisser-déposer.
-
+Le moteur de recherche exploite les données EXIF, IPTC et les données personnalisées. 
+Retaillées automatiquement, de nombreux traitements par lot sont possibles.
+		
 = Comment obtenir une image en Haute définition ? =
 
 Sur chaque image, il existe une donnée qui permet au publieur de mettre à disposition la haute définition de celle-ci aux lecteurs.
