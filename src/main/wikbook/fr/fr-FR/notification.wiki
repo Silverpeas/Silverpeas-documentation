@@ -1,0 +1,8 @@
+﻿[[haut>>#haut]]
+
+Permet d'envoyer une notification manuelle et de consulter ses notifications envoyées.
+Chaque utilisateur peut choisir le canal de réception de ses notifications.
+Voir aussi : [[Services transverses : notification>>#notifications]]
+
+
+[[retour>>#notif]]

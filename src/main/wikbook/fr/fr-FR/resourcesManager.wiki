@@ -1,15 +1,10 @@
 [[haut>>#haut]]
 
-L’application permet de gérer des ressources (salles, véhicules, matériel informatique...). Les utilisateurs créent des réservations sur une ou plusieurs ressources. 
+L’application **Gestion de ressources** permet de gérer des ressources (salles, véhicules, matériel informatique...). 
+Les utilisateurs créent des réservations sur une ou plusieurs ressources. 
 Seules les ressources disponibles aux dates demandées sont proposées. Un système de validation est activable.
-       
-= Peut-on déléguer la gestion d’une ressource à un utilisateur, à un groupe ? =
 
-Sur chaque ressource, il est possible de désigner un responsable qui aura en charge la validation de cette ressource lors d'une réservation.
-
-[[retour>>#resourcesManager]]
-
-= Quelle sont les manipulations que l’on peut faire sur une ressource ? =
+= Quelles sont les manipulations que l’on peut faire sur une ressource ? =
 
 Chaque ressource peut être décrite finement grâce à l'utilisation d'un formulaire dédié. 
 La réservation d'une ressource est entièrement gérée par l'application elle-même (réservation, modification, validation, refus). 
@@ -17,5 +12,255 @@ Un planning de réservation d'une ressource et/ou de toutes les ressources de la
 L'application embarque un workflow de réservation.
 Les catégories et les ressources sont entièrement paramétrables et personnalisables par le(s) gestionnaire(s) de l'application.
 Seules les ressources disponibles (non réservées) sont proposées au demandeur à la date souhaitée.
+
+[[retour>>#resourcesManager]]
+
+= {{anchor id=roles /}} Quels sont les rôles mis en jeu ? =
+
+L'application **Gestion de ressources** propose plusieurs rôles :
+* Gestionnaire : les gestionnaires ont la charge de créer et gérer les catégories et les ressources. 
+Pour chaque ressource, un gestionnaire a la possibilité de désigner un responsable de cette ressource.
+* Responsables : sur chaque ressource, il est possible de désigner un ou plusieurs responsables qui auront en charge la validation de cette ressource lors d'une réservation. 
+Au moment de la création d'une réservation, l'utilisateur choisira les ressources parmi les ressources disponibles. 
+Si une ressource est soumise à validation, le responsable de celle-ci devra alors valider cette ressource pour cette réservation.
+Une réservation ne sera validée que quand toutes ses ressources seront validées.
+* Lecteurs : les lecteurs effectuent des réservations, en sélectionnant une ou plusieurs ressources. 
+
+On notera qu'un gestionnaire ou un responsable est aussi lecteur, il peut donc effectuer une réservation. Attention toutefois, un gestionnaire n'est pas automatiquement responsable, 
+seuls les utilisateurs ajoutés au rôle responsable peuvent être affectés comme responsable sur une ressource.
+
+[[retour>>#resourcesManager]]
+
+= Quel est le rôle des responsables de ressources ? =
+
+Comme décrit dans le paragraphe définissant [[les rôles>>#roles]], le gestionnaire, au moment de la création d'une ressource, a la possibilité de choisir un ou plusieurs responsables pour cette ressource.
+Le responsable d'une ressource a pour rôle de valider cette dernière lors de son ajout dans une réservation.
+
+On notera que lors d'une réservation, si le responsable d'une ressource ajoute cette dernière à sa réservation, celle-ci n'est pas soumise à validation, elle est validée automatiquement.
+
+[[retour>>#resourcesManager]]
+
+= Comment sont définies les ressources ? =
+
+Les ressources sont gérées et définies par les gestionnaires, elles sont regroupées par catégories.
+L'accès à l'interface de gestion des ressources se fait via :
+* le bouton [[image:images/GR-cat_1.jpg]]
+* l'option //Gérer les catégories et les ressources// du menu //Que voulez-vous faire ?//
+
+Il faut donc commencer par créer une catégorie : [[image:images/GR-cat_2.jpg]] ou option //Créer une catégorie// du menu //Que voulez-vous faire ?//
+
+Une catégorie est définie par un nom et une description.
+Il est possible de choisir si les ressources de cette catégorie peuvent être réservées ou non, il est aussi possible d'ajouter un formulaire xml pour décrire les ressources de cette catégorie.
+
+[[image:images/GR-cat_3.jpg||height="100%" width="100%"]]
+
+Une fois la catégorie créée, il faut créer les ressources proprement dites. 
+
+Le nom de la catégorie est cliquable et amène sur la page de gestion des ressources de cette dernière.
+La création d'une ressource se fait via le bouton [[image:images/GR-cat_4.jpg]] ou option //Créer une ressource// du menu //Que voulez-vous faire ?//
+
+Une ressource est définie par un nom et une description.
+Si la catégorie est réservable, il est possible de choisir si cette ressource peut être réservée.
+De même, si un formulaire est associé à cette catégorie, il sera nécessaire de remplir les champs obligatoires de ce dernier pour cette ressource.
+
+[[image:images/GR-cat_5.jpg||height="100%" width="100%"]]
+
+[[retour>>#resourcesManager]]
+
+= {{anchor id=resa /}} Qu'est-ce qu'une réservation ? =
+
+Tout utilisateur ayant accès à l'application de gestion de ressource est susceptible de pouvoir faire une réservation :
+* bouton [[image:images/GR-resa_1.jpg]]
+* option //Faire une réservation// du menu //Que voulez-vous faire ?//
+
+Une réservation est définie par 
+* une entête : le nom de l'évènement, des dates de début et de fin 
+[[image:images/GR-resa_2.jpg||height="100%" width="100%"]]
+* une sélection de ressources. 
+Pour chaque catégorie, les ressources disponibles pour la période demandée sont proposées.
+
+[[image:images/GR-resa_3.jpg||height="100%" width="100%"]]
+
+En cliquant sur la catégorie, la liste de ses ressources disponibles est présentée 
+
+[[image:images/GR-resa_5.jpg||height="100%" width="100%"]]
+
+La sélection d'une ressource se fait grâce au bouton [[image:images/GR-resa_4.jpg]] ou en cliquant directement sur le nom de la ressource.
+
+[[image:images/GR-resa_6.jpg||height="100%" width="100%"]]
+
+* Il est possible d'ajouter des fichiers joints à une réservation.
+
+Un écran récapitulatif de la réservation reprend les ressources sélectionnées et leur état de validation.
+
+[[image:images/GR-resa_7.jpg||height="100%" width="100%"]]
+
+{{anchor id=visuResa /}}
+
+La réservation apparaît sur le planning.
+
+[[image:images/GR-resa_8.jpg||height="100%" width="100%"]]
+
+Elle est présentée 
+* en rouge : si une de ses ressources est en attente de validation
+* en noir : quand toutes ses ressources sont validées
+* en gris : si une de ses ressources a été refusée 
+
+[[retour>>#resourcesManager]]
+
+= Quel est le workflow de validation associé ? =
+
+Si une ressource affectée à une réservation est soumise à validation, son responsable est notifié, dès son affectation à la réservation.
+Le responsable peut accéder à cette réservation :
+* par le lien présent dans la notification
+* par l'option //Réservations à valider// du menu //Que voulez-vous faire ?//
+* Eventuellement en visualisant les réservations de l'utilisateur
+
+Sur chaque ressource à valider, 
+
+[[image:images/GR-resa_11.jpg]]
+
+le responsable a le choix de la valider [[image:images/GR-resa_9.jpg]] ou de la refuser [[image:images/GR-resa_10.jpg]]
+
+[[retour>>#resourcesManager]]
+
+= Dans quel état est une réservation si l'une des ressources n'est pas validée ? =
+
+A la suite de sa création, une réservation apparaît sur le planning de l'utilisateur. La [[restitution d'une réservation>>#visuResa]] est fonction de l'état de ses ressources.
+
+Une réservation est donc en attente de validation si une de ses ressources est en attente de validation.
+
+[[retour>>#resourcesManager]]
+
+= Comment savoir si une ressource est disponible ? =
+
+Comme évoqué dans la [[définition d'une réservation>>#resa]], seules les ressources disponibles aux dates demandées sont proposées à l'utilisateur.
+Les ressources non réservables ou déjà utilisées sur la plage horaire demandée ne sont pas proposées.
+
+Il en est de même pour les ressources réservées mais non encore validées.
+
+Il est aussi possible de [[visualiser toutes les réservations associées>>#visu]] à une catégorie ou une ressource. 
+
+[[retour>>#resourcesManager]]
+
+= {{anchor id=visuUser /}} Quel est le niveau de confidentialité d'une réservation ? =
+
+Chaque utilisateur voit ses propres réservations en arrivant sur le planning.
+
+[[image:images/GR-resa_12.jpg||height="100%" width="100%"]]
+
+En choisissant l'option //Visualiser les réservations d'un utilisateur// du menu //Que voulez-vous faire ?// 
+il a la possibilité de voir les réservations de n'importe quel utilisateur ayant des droits d'accès à cette application.
+
+[[image:images/GR-resa_13.jpg||height="100%" width="100%"]]
+
+Il est aussi possible de [[visualiser toutes les réservations associées>>#visu]] à une catégorie ou une ressource.
+
+[[retour>>#resourcesManager]]
+
+= {{anchor id=visu /}} Peut-on voir toutes les réservations ? =
+
+Il n'est pas possible de voir toutes les réservations de tous les utilisateurs sur le planning.
+Toutefois, il est possible de visualiser les [[réservations d'un autre utilisateur>>#visuUser]] mais aussi les [[réservations par catégories>>#visuCat]].
+
+[[retour>>#resourcesManager]]
+
+= {{anchor id=visuCat /}} Comment visualiser toutes les réservations concernant une ressource ? =
+
+Il est possible de faire afficher sur le planning toutes les réservations associées à une ressource ou une catégorie.
+
+Grâce à la liste déroulante des catégories, il est possible de sélectionner la catégorie à afficher : 
+
+[[image:images/GR-visu_1.jpg]]
+
+La sélection d'une catégorie permet d'afficher toutes les réservations contenant une des ressources de cette catégorie.
+
+[[image:images/GR-visu_2.jpg||height="100%" width="100%"]]
+
+Il est possible d'affiner cet affichage en n'affichant que les réservations pour une ressource. 
+Pour cela il suffit de choisir la ressource voulue dans la liste déroulante "Toutes les ressources".
+
+[[retour>>#resourcesManager]]
+
+= Y a-t-il un système de "surbooking" ? =
+
+Non, seules les réservations réellement disponibles sont présentées à l'utilisateur lors de la création de sa réservation.
+
+[[retour>>#resourcesManager]]
+
+= {{anchor id=modifResa /}} Une réservation peut-elle être modifiée ? Dans quelles limites ? =
+
+Chaque utilisateur a le droit de modifier ses réservations.
+* modification des ressources
+
+Il est possible d'ajouter ou de supprimer des ressources sur une réservation.
+L'ajout d'une ressource soumise à validation passera automatiquement la réservation dans un état d'attente de validation, comme en création.
+
+* modification de l'entête.
+
+Lors de la modification de l'entête, et plus particulièrement de la date ou de la plage horaire, 
+toutes les ressources réservées sont alors contrôlées pour vérifier qu'elles sont toujours disponibles sur la nouvelle plage horaire.
+Si toutes les ressources sont disponibles, pas de problème, la modification est validée. 
+Si une ou plusieurs ressources ne sont plus disponibles sur la nouvelle plage horaire, un message est envoyé au demandeur pour savoir s'il confirme sa modification ou non.
+La confirmation de sa modification supprimera alors les ressources non disponibles de sa réservation.
+
+[[retour>>#resourcesManager]]
+
+= Une ressource réservée peut-elle être remplacée par une autre ? =
+
+Il est tout à fait possible de remplacer une ressource par une autre.
+Il faut pour cela [[modifier la réservation>>#modifResa]], supprimer la ressource à retirer et ajouter la nouvelle ressource à partir de la liste des ressources disponibles.
+
+[[retour>>#resourcesManager]]
+
+= Une réservation peut-elle être supprimée ? = 
+
+Oui une réservation peut être supprimée. Il faut se positionner dans la réservation et choisir l'option //Supprimer la réservation// du menu //Que voulez-vous faire ?//.
+Cette opération aura pour effet de rendre disponible automatiquement et immédiatement toutes les ressources attachées à cette réservation.
+
+[[retour>>#resourcesManager]]
+
+= Une ressource peut-elle être momentanément rendue indisponible et donc non réservable ? =
+
+La possibilité est offerte, au gestionnaire de l'application, sur chaque ressource de pouvoir la rendre réservable ou non
+
+[[image:images/GR-ressource_1.jpg||height="100%" width="100%"]]
+
+Pour rendre momentanément indisponible une ressource, il suffit alors de la rendre non réservable. 
+La liste des ressources d'une catégorie présente, grâce aux puces de couleur, une différenciation entre les ressources réservables ou non.
+
+[[image:images/GR-ressource_2.jpg||height="100%" width="100%"]]
+
+Elle ne sera alors plus présentée dans la liste des ressources disponibles lors d'une réservation.
+
+[[image:images/GR-ressource_3.jpg||height="100%" width="100%"]]
+
+[[retour>>#resourcesManager]]
+
+= Les ressources peuvent-elles être partagées entre plusieurs instances de l'application ? = 
+
+Non, les différentes instances de l'application de gestion de ressources sont totalement indépendantes.
+Chaque instance a ses propres catégories et ressources,  ce sont les gestionnaires respectifs qui les définissent.
+
+[[retour>>#resourcesManager]]
+
+= L'application propose t-elle des statistiques d'utilisation des ressources ? = 
+
+Il n'existe pas de statistiques propres à l'application de gestion de ressources.
+[[Les statistiques>>#stats]] de cette application sont visibles, comme pour toute application, en administration.
+
+[[image:images/GR-stat_1.jpg||height="100%" width="100%"]]
+
+[[retour>>#resourcesManager]]
+
+= Les ressources et les réservations sont-elles retrouvables par le moteur de recherche ? =
+
+Comme tous les éléments de la plateforme, les réservations, les catégories et les ressources sont bien évidemment retrouvables par le moteur de recherche.
+
+[[retour>>#resourcesManager]]
+
+= L'application peut-elle s'interfacer avec un système tiers ? = 
+
+**EN COURS**
 
 [[retour>>#resourcesManager]]

@@ -29,7 +29,7 @@ Il est aussi possible d'ajouter plusieurs photos sélectionnées depuis un album
 
 A chaque ajout d'images (unitaire ou par lot), l'utilisateur visualise le contenu de son panier. 
 Il peut aussi y revenir par l'option //Voir le panier//. 
-Dans le panier, les images sont supprimables, de façon unitaire avec l'icône [[image:images/suppression.jpg]], par lot, après sélection des images via les cases à cocher ou simplement vider complètement le panier.
+Dans le panier, les images sont supprimables, de façon unitaire ou par lot. Une option permet aussi de vider complètement le panier.
 
 Une fois toutes les images choisies, l'utilisateur peut créer sa demande par l'option //Créer une demande// :
 
@@ -82,9 +82,11 @@ Chaque demande reprend le nom du demandeur, la date, le contenu du formulaire (s
 
 Il existe la possibilité d'apposer un watermark sur les images déposées dans une galerie.
 Pour cela, le paramètre //Watermark// doit être activé.
-__Attention__ : pour que cette option fonctionne, il faut que les métadonnées soient activées (option //Méta-données// cochée) et que les [[méta-données>>#metadata]] demandées en watermark soient référencées pour cette photothèque.
+
+__Attention__ : pour que cette option fonctionne, il faut que les métadonnées soient activées (option //Méta-données// cochée) et que les [[métadonnées>>#metadata]] demandées en watermark soient référencées pour cette photothèque.
+
 Par défaut, c'est le nom du photographe qui est apposé sur les images. 
-Mais le gestionnaire peut choisir, pour chaque photothèque, la méta-donnée à afficher, en différenciant le watermark à apposer sur les images haute définition (téléchargée) et les vignettes.
+Mais le gestionnaire peut choisir, pour chaque photothèque, la métadonnée à afficher, et différencier le watermark à apposer sur les images haute définition (téléchargée) et les vignettes.
 
 [[image:images/GAL-watermark_1.jpg||height="100%" width="100%"]]
 
@@ -108,16 +110,16 @@ Afin de ne perdre, ni le lien (qui peut être utilisé) vers ces images, ni les 
 {{anchor id=metadata /}}
 = Je veux afficher des métadonnées différentes en fonction de ma photothèque, est-ce possible ?= 
 
-Pour faire afficher les méta-données des images, il faut cocher le paramètre //Méta-données// sur l'instance.
-La liste des méta-données susceptibles d'être affichées est définie par le gestionnaire de la plateforme via le fichier //metadataSettings.properties// dans les properties de l'application gallery.
-Ce fichier contient, en plus de la description de chaque méta-donnée, une donnée **display** qui permet de lister les méta-données à afficher.
-Cette liste contient toutes les données suceptibles d'être affichées, mais seule celles contenant une valeur sont affichées sur les images.
+Pour faire afficher les métadonnées des images, il faut cocher le paramètre //Méta-données// sur l'instance.
+La liste des métadonnées susceptibles d'être affichées est définie par le gestionnaire de la plateforme via le fichier //metadataSettings.properties// dans les properties de l'application gallery.
+Ce fichier contient, en plus de la description de chaque métadonnée, une donnée **display** qui permet de lister les métadonnées à afficher.
+Cette liste contient toutes les données susceptibles d'être affichées, mais seule celles contenant une valeur sont affichées sur les images.
 
 Ce fichier, est commun à toutes les photothèques.
-Toutefois, il est possible, pour une photothèque donnée, de créer une liste différente des méta-données à afficher.
+Toutefois, il est possible, pour une photothèque donnée, de créer une liste différente des métadonnées à afficher.
 Pour cela, sur le modèle du fichier //metadataSettings_galleryXXX.properties//, il faut créer un fichier pour une instance particulière de l'application gallery, en remplaçant les XXX par l'id de l'instance : 
 par exemple pour l'instance gallery138, il faut créer le fichier //metadataSettings_gallery138.properties//. Ce fichier contient simplement le paramètre display reprenant la liste des 
-méta-données à afficher sur cette instance.
+métadonnées à afficher sur cette instance.
 
 [[retour>>#gallery]]
 
@@ -138,7 +140,7 @@ Ce paramètre permet d'obtenir une zone de recherche propre à la photothèque, 
 
 qui permet de coupler :
 * une recherche plein texte [[image:images/1.jpg]]
-* une recherche sur les méta-données (la liste présentée est celle définie pour cette instance, voir [[affichage des méta-données>>#metadata]]) [[image:images/2.jpg]]
+* une recherche sur les métadonnées (la liste présentée est celle définie pour cette instance, voir [[affichage des métadonnées>>#metadata]]) [[image:images/2.jpg]]
 * une recherche sur le formulaire associé aux images (voir comment associer un [[formulaire aux images>>#formImage]]) [[image:images/3.jpg]]
 * une recherche sur le plan de classement [[image:images/4.jpg]]
 
@@ -238,11 +240,3 @@ L'application Photothèque ne gère actuellement que les images.
 Mais il est tout à fait possible d'intégrer des vidéos dans un contenu soit en utilisant l'éditeur Wysiwyg soit en utilisant le champ « Vidéo » des formulaires.
 
 [[retour>>#gallery]]
-
-{{note}}
-**EN COURS DE CREATION : POINTS A ABORDER**
-* placement par lot
-* classement par lot
-* copier-coller de photos, copier-coller d'album
-* images non visibles
-{{/note}}

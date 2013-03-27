@@ -3,7 +3,7 @@
 = {{anchor id=newForm /}}Comment créer un nouveau formulaire ?  =
 
 Vous êtes totalement autonomes quant à la création de nouveau type de contenu. 
-Depuis le backoffice, il est facile de créer un nouveau formulaire dédié à un nouveau type de contenu via un outil graphique intégré au backoffice (Outils > Formulaires).
+Depuis le back-office, il est facile de créer un nouveau formulaire dédié à un nouveau type de contenu via un outil graphique intégré au back-office (Outils > Formulaires).
 L'administrateur crée un nouveau formulaire (nom, description, visible, picto) et ajoute les champs souhaités. 
 Chaque champ peut être paramétré. Le formulaire prend forme directement sous ses yeux. 
 Chaque formulaire peut ensuite être habillé avec une surcouche HTML pour coller parfaitement à la charte graphique. 
@@ -44,7 +44,7 @@ Oui, chaque champ peut être défini comme obligatoire.
 = Quel est le format de récupération des données saisies ? =
 
 Comme ces données sont structurées, elles peuvent être facilement exploitées par le moteur de recherche. 
-Il est possible d'avoir une interface de recherche dédié à un formulaire et de faire des recherches en combinant certains champs du formulaire.
+Il est possible d'avoir une interface de recherche dédiée à un formulaire et de faire des recherches en combinant certains champs du formulaire.
 Dans le contexte d'utilisation par un workflow, ces données peuvent être exportées au format CSV.
 
 [[retour>>#form]]

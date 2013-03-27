@@ -1,6 +1,7 @@
-[[haut>>#haut]]
+﻿[[haut>>#haut]]
 
-    
-        
+Cet outil permet de créer librement un mini sondage afin de trouver la meilleure date possible pour organiser un évènement.
+Il permet de soumettre des créneaux d'une demi-journée à une liste d'utilisateurs prédéfinie, invités par notification.
+
 [[retour>>#scheduleEvent]]
 

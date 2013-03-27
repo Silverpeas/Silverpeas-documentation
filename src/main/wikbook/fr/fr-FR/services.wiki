@@ -105,11 +105,6 @@ Cette fonctionnalité n'est actuellement pas couverte.
 
 [[retour>>#notification]]
 
-{{note}}
-**EN COURS DE CREATION : POINTS A ABORDER**
-* notification manuelle
-{{/note}}
-
 
 {{anchor id=comments /}}
 = Commentaires =

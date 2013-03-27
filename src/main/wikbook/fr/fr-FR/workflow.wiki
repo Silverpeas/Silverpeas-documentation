@@ -14,7 +14,7 @@ Dans ce cas, tous les valideurs doivent donner leur accord pour que la contribut
 
 = Comment sont créés les workflows (à l’intérieur du portail, outil dédié, codage nécessaire ou uniquement paramétrage) ? =
 
-Les workflows sont décrits à l'intérieur du portail via le backoffice (Outils > Workflows). 
+Les workflows sont décrits à l'intérieur du portail via le back-office (Outils > Workflows). 
 La création peut se résumer à du paramétrage pour un workflow simple via les différents écrans de l'éditeur de workflow. 
 Dans les cas moins simples, l'édition XML du processus peut être nécessaire. 
 Pour les cas plus compliqués (interaction avec des applications du portail ou avec le reste du SI), il est nécessaire de développer des extensions écrites en JAVA.

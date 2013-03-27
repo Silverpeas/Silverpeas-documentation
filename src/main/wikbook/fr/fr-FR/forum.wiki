@@ -12,7 +12,7 @@ Sur chaque forum peut être défini un ou plusieurs modérateurs. Les messages p
 
 = Comment limiter la création d’un nouveau forum à certains utilisateurs ? =
 
-Grâce à la gestion des droits sur l'application, il suffit de désigner ces utilisateurs comme Gestonnaires de l'application.
+Grâce à la gestion des droits sur l'application, il suffit de désigner ces utilisateurs comme Gestionnaires de l'application.
 
 [[retour>>#forum]]
 

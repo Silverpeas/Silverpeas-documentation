@@ -18,7 +18,7 @@ Oui. Le gestionnaire crée une enquête en saisissant les questions les unes apr
 
 [[retour>>#survey]]
 
-= Quels sont les types de réponses possible ? =
+= Quels sont les types de réponses possibles ? =
 
 Les réponses peuvent être de plusieurs types :
 * case à cocher (pour une question à réponse multiple)

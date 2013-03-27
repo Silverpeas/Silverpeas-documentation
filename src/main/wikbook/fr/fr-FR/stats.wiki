@@ -1,0 +1,5 @@
+﻿[[haut>>#haut]]
+
+Des statistiques sont disponibles pour les connexions, les accès, le plan de classement et le volume des pièces jointes.
+
+[[retour>>#stats]]

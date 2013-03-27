@@ -21,8 +21,6 @@ faire un clic droit et sélectionner l'opération //Créer un dossier//.
 [[image:images/GED-dossier_1.jpg||height="30%" width="30%"]]
 * Depuis le menu //Que voulez-vous faire ?//, option //Créer un dossier//.
 
-[[image:images/GED-dossier_2.jpg||height="25%" width="25%"]]
-
 Une fenêtre apparaît, il faut renseigner le nom du dossier et éventuellement une description.
 L'option //notifications// permet d'envoyer de façon automatique une notification, aux publieurs ou à tous les utilisateurs, leur signalant la création de ce nouveau dossier.
 
@@ -78,6 +76,7 @@ Note : Si le mode brouillon est activé, la publication ainsi créée sera en b
 Se positionner  sur l'onglet **Prévisualisation** de la publication.
 2 méthodes sont offertes pour ajouter un fichier : 
 1. par glisser-déposer
+
 Sur le pavé **Fichiers joints**, cliquer sur //Pour déposer rapidement un fichier...// pour ouvrir la zone de glisser-déposer.
 
 [[image:images/GED-fichier_1.jpg||height="100%" width="100%"]]
@@ -85,6 +84,7 @@ Sur le pavé **Fichiers joints**, cliquer sur //Pour déposer rapidement un fich
 [[image:images/GED-fichier_2.jpg||height="25%" width="25%"]]
 
 2. par recherche du fichier
+
 Il est possible d'ajouter un fichier sans passer par la zone de glisser-déposer, pour cela, sélectionner l'opération //Ajouter un fichier// dans le menu //Que voulez-vous faire ?//. 
 Une fenêtre s'ouvre, permettant d'aller sélectionner le fichier à ajouter.
 
@@ -211,7 +211,7 @@ Par principe, toute information présente dans la plateforme n'est accessible qu
 Toutefois, la possibilité existe de pouvoir donner [[accès à un fichier joint>>#partageFichier]] particulier, à un utilisateur n'ayant pas les droits suffisant pour accéder à la publication ou à une personne non déclarée dans le référentiel.
 
 Mais il est possible d'aller encore plus loin et de partager tous les fichiers joints d'un dossier !
-Cette option sera disponible pour les gestionnaires seulement, et sur les //gestion documentaire// ayant le paramètre **Dossiers partageables** activé.
+Cette option sera disponible pour les gestionnaires seulement, et sur les //gestions documentaires// ayant le paramètre **Dossiers partageables** activé.
 
 Dans le menu //Que voulez-vous faire ?// du dossier à partager, choisir l'option //Partager le dossier//.
 Tout comme pour le partage d'un fichier, une fenêtre permet de paramétrer le ticket associé à ce partage : avec une date de fin de validité ou permanent.
@@ -256,14 +256,14 @@ Sur un dossier sensible, le gestionnaire peut décider de passer en simple lecte
 A l'inverse, sur un dossier plus générique, il est possible de passer publieur un utilisateur qui serait simple lecteur sur l'application. 
 Mais il n'est toutefois pas possible d'ajouter un utilisateur, la redéfinition des droits permet simplement de réorganiser, par dossier, les utilisateurs affectés à cette application.
 
-[[retour>>#kmelia]] [[image:images/to-the-top.png]] 
+[[retour>>#kmelia]]
 
 = A quoi sert le "voir aussi" ?=
 
 L'onglet **Voir aussi** permet de référencer d'autres publications, sur la publication.
 Cet onglet permet aussi de visualiser rapidement la liste des publications : 
 * du même dossier : liste des publications présentes dans le dossier.
-* du même sujet : 
+* du même sujet 
 * les publications qui référencent la publication présente
 
 Pour référencer de façon manuelle une publication, choisir l'option //Référencer des publications//, naviguer dans l'arborescence représentant toutes les gestions documentaires, cocher les publications à référencer.
@@ -274,12 +274,12 @@ Ces dernières sont alors listées pour les lecteurs et accessibles d'un simple 
 
 [[image:images/GED-ref_2.jpg||height="100%" width="100%"]] 
 
-[[retour>>#kmelia]] [[image:images/to-the-top.png]] 
+[[retour>>#kmelia]] 
 
 = Des feuilles de styles CSS seront-elles fournies ? =
 
-L'application Gestion documentaire dispose de sa propre ergonomie (adapté à la gestion de documents). Cette application ne nécessite pas de feuille de styles particulière. 
-Par défaut, la Gestion documentaire bénéficiera automatiquement des styles du portail. Les feuilles CSS du portail seront évidemment fournies. 
+L'application **Gestion documentaire** dispose de sa propre ergonomie (adapté à la gestion de documents). Cette application ne nécessite pas de feuille de styles particulière. 
+Par défaut, la gestion documentaire bénéficiera automatiquement des styles du portail. Les feuilles CSS du portail seront évidemment fournies. 
 Cependant, comme pour n'importe quelle autre application, il est possible de surcharger les styles pour toutes les applications du même type ou juste pour une instance d'une application.
 
 [[retour>>#kmelia]] 
@@ -327,7 +327,7 @@ Ils seront alors retrouvables et un clic sur le résultat affichera la liste des
 
 [[retour>>#kmelia]] 
 
-= Quels sont les métadonnées associées à un contenu ou à un document ?  =
+= Quelles sont les métadonnées associées à un contenu ou à un document ?  =
 
 Une publication est caractérisée par :
 * un titre
@@ -343,7 +343,7 @@ Seule la métadonnée titre est obligatoire. Les informations de traçabilité s
 
 [[retour>>#kmelia]] 
 
-= La gestion documentaires est-elle en conformité avec le protocole CMIS ? =
+= La gestion documentaire est-elle en conformité avec le protocole CMIS ? =
 
 Silverpeas ne supporte pas pour l'instant le protocole CMIS mais le moteur d'export de la gestion documentaire permet de générer un fichier XML contenant toutes les données des publications (méta-données, contenu, fichiers joints). 
 Comme les données sont structurées au sein de ce descripteur XML, il est facile de les exploiter par un système tiers. Cela assure la réversibilité de la gestion documentaire.
@@ -374,7 +374,7 @@ Ainsi, les images seront disponibles immédiatement lors de l'édition de diffé
 = Comment est géré le « versionning » ? Peut-on définir un versionning différent à différents endroits du portail ? =
 
 Le versionning est géré sur les fichiers. Il permet une numérotation automatique selon la version majeure (publique) ou mineure (de travail). 
-Il est être activé au niveau de l'application. Dans la version 5.12, il pourra être activé à la demande sur chaque fichier.
+Il est activé au niveau de l'application. Dans la version 5.12, il pourra être activé à la demande sur chaque fichier.
 
 [[retour>>#kmelia]] 
 
@@ -408,19 +408,3 @@ La gestion documentaire dispose de la fonction « Contrôles de lecture ».
 Non disponible pour les simples lecteurs, elle permet de connaître l'historique des consultations d'une publication.
 
 [[retour>>#kmelia]] 
-
-
-
-
-
-{{note}}
-**EN COURS DE CREATION : POINTS A ABORDER**
-* Voir aussi : compléter "même sujet"
-* Copier-coller de publication => attendre le glisser-déposer de publication...
-* abonnement, favoris et notification => lien vers les paragraphes globaux
-* Validation (ou refus) de publication
-* paramétrage et utilisation (classement) du PDC
-* définition et utilisation des permaliens
-* tri des publications => ordonnancement des publications par gestionnaire
-{{/note}}
-

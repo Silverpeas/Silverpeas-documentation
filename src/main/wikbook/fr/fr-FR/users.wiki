@@ -1,0 +1,24 @@
+﻿[[haut>>#haut]]
+
+Le référentiel permet de gérer les utilisateurs autorisés à accéder à Silverpeas.
+Chaque utilisateur appartient à un domaine. Dans ce domaine, les utilisateurs peuvent être regroupés en groupes et sous groupes.
+Les groupes peuvent être gérés manuellement ou automatiquement (groupe synchronisé).
+
+Il existe plusieurs types de domaines :
+* Les domaines utilisateurs : créés manuellement (domaine SQL) ou branchés sur un annuaire externe (domaine LDAP).
+* Le domaine mixte : dans ce domaine, aucune création d'utilisateur n'est possible, il permet simplement de regrouper des utilisateurs provenant des différents domaines.
+
+= Comment créer un domaine SQL ? =
+
+La création de domaine se fait avec le bouton [[image:images/USERS-create_domain_1.jpg]] ou à partir de l'option //Créer un domaine SQL// du menu //Que voulez-vous faire ?//.
+Un domaine SQL est représenté par : 
+* un nom (obligatoire)
+* une description
+* une url d'accès : de la forme http://myextranet.mydomain.com (obligatoire)
+
+Attention, à la création le nom du domaine ne doit pas contenir de caractères spéciaux ni d'espaces.
+Il sera possible de modifier ce nom une fois créé.
+
+[[retour>>#users]]
+
+

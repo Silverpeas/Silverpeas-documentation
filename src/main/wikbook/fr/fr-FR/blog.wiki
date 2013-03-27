@@ -15,7 +15,7 @@ Une fois publié, ce billet est alors visible de tous les lecteurs du blog.
 [[image:images/BLOG-publier_2.jpg||height="100%" width="100%"]]
 
 {{important}}
-Une fois publié, le billet reste modifiable par tous les bloggeurs, toutefois il ne peut plus être repassé en brouillon.
+Une fois publié, le billet reste modifiable par tous les blogueurs, toutefois il ne peut plus être repassé en brouillon.
 {{/important}}
 
 [[retour>>#blog]]
@@ -69,6 +69,7 @@ pour cela il existe une zone de recherche [[image:images/BLOG-recherche_1.jpg]]
 * par catégorie
 Si la [[catégorie>>#categorie]] est connue, une restriction sur cette dernière permet de réduire le nombre de billet 
 * par date
+
 De la même façon, si la date du billet est connue, il est très facile de faire afficher les billets relatifs à une date.
 
 Il est possible de sélectionner le mois voulu à partir des archives

@@ -6,7 +6,7 @@ Tous les événements peuvent être exportés au format iCal.
 
 = Est-il possible de regrouper dans un même agenda tous les événements concernant un utilisateur (agenda global de son service, du ou des projets dont il fait partie) ? =
 
-L'application « Almanach » peut être agrégée afin de regrouper les événements de plusieurs autres almanach. 
+L'application « Almanach » peut être agrégée afin de regrouper les événements de plusieurs autres almanachs. 
 Il est ensuite possible de filtrer les événements affichés selon leurs provenances (service, projet). 
 Seuls les almanachs visibles par l'utilisateur et donc les événements accessibles sont affichés dans cette agrégation.
 

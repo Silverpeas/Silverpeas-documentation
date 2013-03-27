@@ -3,7 +3,6 @@
 L’application permet de créer des contacts et des entreprises (utilisateurs de la plate-forme ou non). 
 Chaque contact peut être défini grâce à un formulaire personnalisé. Une arborescence de catégories permet de les organiser en toute liberté. 
 Ils peuvent être importés et exportés au format CSV. Les contacts peuvent être associés à une entreprise.
-        
 
 [[retour>>#yellowpages]]
 

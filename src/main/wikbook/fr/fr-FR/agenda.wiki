@@ -13,7 +13,7 @@ Oui, il est possible de synchroniser l'agenda personnel avec l'agenda Outlook de
 = Est-il possible de faire un lien avec le serveur MDaemon qui héberge les agendas de chacun ? =
 
 Non, malheureusement l'API offerte par MDaemon est assez pauvre. 
-Nous savons nous interfacer avec des serveur tels que MS Exchange ou Zimbra mais MDaemon n'offre pas une interface moderne et de haut niveau permettant une intégration dans le portail.
+Nous savons nous interfacer avec des serveurs tels que MS Exchange ou Zimbra mais MDaemon n'offre pas une interface moderne et de haut niveau permettant une intégration dans le portail.
 
 [[retour>>#agenda]]
 

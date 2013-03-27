@@ -1,0 +1,7 @@
+﻿[[haut>>#haut]]
+
+Permet de créer des abonnements sur le plan de classement.
+Sur l'onglet "Dossiers", l'utilisateur consulte de façon centralisée tous ses abonnements aux dossiers de toute la plateforme. 
+Les abonnements aux dossiers sont supprimables depuis cet onglet.
+
+[[retour>>#abonnement]]

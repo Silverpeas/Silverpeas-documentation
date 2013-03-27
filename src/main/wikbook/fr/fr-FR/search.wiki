@@ -3,8 +3,32 @@
 = Principe et moteur utilisé ?  =
 
 Silverpeas utilise le moteur de recherche Lucene de la fondation Apache. 
-Tous les contenus sont indexés en mode « plein texte » (contenus des fichiers également). 
+Tous les contenus (espaces, applications, dossiers, publications, fichiers joints (nom et contenu), utilisateurs, groupes...) sont indexés en mode « plein texte ».
+Pour Lucene, tout est « Document ».
+Pour chaque document, une partie des informations est stockée, l'autre est simplement indexée.
+Les informations stockées permettent d'être exploitées rapidement lors de la restitution des résultats (nom, description, auteur...). 
+Elles permettent aussi de générer facilement les facettes.
 Les contenus des applications personnelles de l'utilisateur sont également indexés. Seul l'utilisateur peut les voir...
+
+Les informations sont indexées par Lucene après être passées par plusieurs analyseurs : 
+* Suppression de la ponctuation
+* Suppression de la casse, passage en minuscule
+* Suppression des termes non explicites (pronoms, adverbes, conjonctions...)
+* Suppression des apostrophes et assimilés ([cdjlmnst-qu]')
+* Suppression des accents
+* Suppression du féminin/masculin
+* Suppression du singulier/pluriel
+
+Ces mêmes analyseurs sont utilisés pour traiter les recherches des utilisateurs. 
+L'indexation est ensuite entièrement déléguée à Lucene. Un index par application est généré. Il est enrichi au fur et à mesure des modifications de l'application.
+
+[[retour>>#search]]
+
+= Comment est gérée la pertinence des résultats ? =
+
+La pertinence est gérée directement par Lucene. 
+Elle est basée sur la fréquence des termes recherchés par rapport à la fréquence des autres termes indexés. 
+La pertinence est exprimée en pourcentage. Silverpeas propose à la place un système d'étoiles (de 1 à 5). Cet aspect peut être facilement masqué.
 
 [[retour>>#search]]
 
@@ -19,6 +43,7 @@ Tous les types de document sont indexés grâce aux parsers fournis par la bibli
 Les facettes sont le moyen idéal pour affiner une recherche. Si l'utilisateur est confronté à un trop grand nombre de résultats, les facettes « Auteur », « Type de contribution » et « Application » lui permettent de limiter successivement les résultats. 
 D'autres facettes spécifiques peuvent être mises en place grâce aux champs des formulaires.
 Avant de lancer sa recherche, l'utilisateur peut limiter sa portée à un espace, à une application, à un contributeur, à un type de contribution, à une période de création, à une période de modification.
+La recherche peut aussi être croisée avec le plan de classement.
 
 [[retour>>#search]]
 
@@ -42,12 +67,30 @@ L'aspect synonymie est plus délicat et n'est actuellement pas géré par Silver
 
 [[retour>>#search]]
 
+= Puis-je rechercher dans un formulaire ? = 
+
+Une recherche ciblée peut être réalisée sur un formulaire donné. 
+La structuration de l'information va être exploitée au maximum dans ce cas. Tous les champs peuvent être utilisés par l'utilisateur. 
+Les champs multivalués peuvent être utilisés tels quels (bouton radio, case à cocher, liste déroulante...). 
+Ceci favorise une recherche précise. La recherche peut combiner plusieurs champs (ET entre champs). 
+Dans ce cas d'utilisation, on peut voir cette recherche comme une requête SQL qui assure un maximum de résultats pertinents. 
+Ce type de recherche est pourtant bien géré par Lucene.
+
+[[retour>>#search]]
+
 = Peut-on indexer un lecteur réseau et intégrer les résultats à la recherche (avec respect des droits sur les dossiers) ? =
 
 Notre catalogue contient l'application « SilverCrawler ». Elle permet de partager un lecteur réseau depuis le portail. 
 Les utilisateurs autorisés peuvent naviguer à l'intérieur comme s'il s'agissait d'un site web.
 Cette application indexe automatiquement les fichiers. Ils sont ensuite retrouvables par le moteur de recherche. 
 A noter que dans ce cas les droits sur les dossiers ne sont pas utilisés.
+
+[[retour>>#search]]
+
+= Puis-je réindexer mes contenus ? =
+
+Oui, Silverpeas propose un outil de réindexation qui permet d'agir sur l'ensemble de la plateforme, sur un espace ou sur une application. 
+Il permet de réindexer tous les contenus en cas de changement de politique d'indexation.
 
 [[retour>>#search]]
 

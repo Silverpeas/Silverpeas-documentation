@@ -7,8 +7,6 @@ Les réponses enrichissent progressivement cette base de connaissances.
 
 Pour les utilisateurs ayant les droits, cliquer sur le bouton [[image:images/QR-add.jpg]] en page d'accueil ou choisir l'option //Poser une question// dans le menu //Que voulez-vous faire ?//.
 
-[[image:images/QR-poserQuestion.jpg||height="30%" width="30%"]]
-
 Une fenêtre apparaît et permet de saisir le titre de la question ainsi qu'une éventuelle description.
 Une fois validée, la question est alors disponible pour tous les utilisateurs et ceux autorisés, peuvent y répondre. 
 Une notification est automatiquement envoyée aux utilisateurs désignés comme expert.
@@ -44,6 +42,7 @@ Une fois validée, la réponse est alors disponible à tous les utilisateurs que
 = Comment modifier ma question ? =
 
 Il faut se positionner sur la question et cliquer sur l'icône de modification : [[image:images/modif.jpg]]
+
 De la même façon, il est possible de modifier une réponse.
 
 [[retour>>#questionreply]]
