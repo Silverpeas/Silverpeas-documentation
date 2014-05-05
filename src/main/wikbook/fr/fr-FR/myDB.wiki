@@ -1,0 +1,8 @@
+[[haut>>#haut]]
+
+Silverpeas permet grâce à //MyDB// de définir et gérer une base de données relationnelle. Le gestionnaire crée sa structure. 
+Les contributeurs saisissent les données, les lecteurs les consultent.
+
+
+[[retour>>#myDB]]
+

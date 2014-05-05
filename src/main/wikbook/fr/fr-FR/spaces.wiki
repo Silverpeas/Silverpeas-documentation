@@ -1,0 +1,63 @@
+﻿[[haut>>#haut]]
+
+Silverpeas est structuré en espaces qui contiennent des applications. Chaque espace peut également contenir des sous espaces.
+Un large choix d'applications prêtes à l'emploi est offert pour répondre à tous les besoins : gestion documentaire, galerie d'images, blog, sondages, gestion de projet...
+
+Tous les espaces de premier niveau sont accessibles dans la liste déroulante située à gauche. 
+Pour modifier, supprimer ou enrichir un espace, il suffit de le sélectionner dans cette liste.
+Le contenu de l'espace sélectionné apparait alors sous cette liste déroulante. 
+Toutes les opérations disponibles sur l'espace sélectionné sont accessibles via le menu //Que voulez-vous faire ?//.
+
+= Comment créer un espace ? =
+
+Pour créer un espace de premier niveau il suffit de choisir l'opération //Créer un espace// du menu //Que voulez-vous faire ?//.
+Pour un sous espace, il faut se positionner dans l'espace père, choisir le bouton [[image:images/SPACES-create_space_1.jpg]] ou l'opération //Créer un sous espace// du menu //Que voulez-vous faire ?//.
+
+Un espace est défini par un nom et une description. Il est possible, au moment de la création de choisir son positionnement par rapport aux espaces existants.
+
+Une fois créé, il est possible de ""prédéfinir" les droits sur les futures applications déployées dans cet espace. 
+Pour cela, 
+
+Par défaut un sous espace hérité automatiquement des droits prédéfinis de l'espace père. Il est possible de pas conserver cet héritage, pour cela il faut modifier l'espace en cochant
+//Ce sous espace n'hérite pas des droits de l'espace// au lieu de //Ce sous espace hérite des droits de l'espace//.
+
+[[image:images/SPACES-create_space_2.jpg]]
+
+[[retour>>#spaces]]
+
+= Comment ajouter, modifier, supprimer des applications dans mon espace ? =
+
+[[retour>>#spaces]]
+
+= Comment définir les droits d'accès sur mes applications ? = 
+
+[[retour>>#spaces]]
+
+= Puis-je déléguer la gestion d'un espace à n'importe quels utilisateurs ? =
+
+[[retour>>#spaces]]
+
+= Comment définir une page d'accueil spécifique pour un espace ? = 
+
+[[retour>>#spaces]]
+
+= J'ai supprimé une application, puis-je la récupérer ? =
+
+corbeille d'espaces et d'applications
+
+Afin d'éviter les dégats engendrés par une mauvaise manipulation, les espaces et les applications ne sont pas définitivement supprimés.
+Avant leurs suppressions définitives, ils peuvent être restaurés via la corbeille en cliquant ici ou en choisissant l'opération Corbeille d'espaces et d'applications du menu Que voulez-vous faire ?.
+Cette corbeille est réservée aux administrateurs. Vous êtes donc seul(s) à pouvoir restaurer et supprimer définitivement des espaces ou des applications.
+Il est à noter que lors de la restauration les droits spécifiques doivent être définis de nouveau.
+
+[[retour>>#spaces]]
+
+= mode Maintenance =
+
+Ce mode permet de rendre temporairement indisponible la plateforme. Utile lors de changements profonds, seuls les administrateurs pourront accéder à la plateforme et à son contenu.
+Ce mode est disponible également au niveau de chaque espace via l'opération Activer le mode maintenance du menu Que voulez-vous faire ?.
+Dans ce cas, un message avertit les utilisateurs de l'indisponibilité momentanée.
+
+[[retour>>#spaces]]
+
+

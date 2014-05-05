@@ -1,0 +1,8 @@
+[[haut>>#haut]]
+
+Idéale pour contrôler les connaissances ou comme solution de e-learning, cette application ludique permet de créer une suite de questions fermées. 
+Un scoring précis ainsi qu’un indice peuvent être définis sur chaque question. La notion de bonne ou de mauvaise réponse ainsi qu’une note finale permet la constitution d’un podium.
+
+
+[[retour>>#quizz]]
+

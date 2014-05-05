@@ -1,0 +1,7 @@
+[[haut>>#haut]]
+
+L’application permet de créer des tâches, d’affecter des ressources. Chaque tâche (et ses sous-taches) est gérée par un responsable. 
+L’allocation des ressources associées est calculée automatiquement et permet de détecter la sur-allocation. Le diagramme de Gantt permet une visualisation optimale.
+
+[[retour>>#projectManager]]
+

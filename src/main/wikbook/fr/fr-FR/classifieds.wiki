@@ -1,0 +1,8 @@
+[[haut>>#haut]]
+
+Les annonces peuvent être classées par thématiques.
+La structure des annonces est personnalisable. Elles peuvent être modérées. Les utilisateurs peuvent laisser des commentaires et s'abonner aux thématiques de leurs choix.
+
+
+[[retour>>#classifieds]]
+

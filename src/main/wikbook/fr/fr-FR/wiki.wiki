@@ -1,0 +1,9 @@
+[[haut>>#haut]]
+
+Un wiki rend ses pages web librement modifiables par tous les contributeurs.
+Un wiki est utilisé pour faciliter l'écriture collaborative de documents avec un minimum de contraintes. 
+Toutes les fonctions de base sont présentes : éditeur Wysiwyg, annotations, suivi des modifications, ajout de fichiers...
+
+
+[[retour>>#wiki]]
+

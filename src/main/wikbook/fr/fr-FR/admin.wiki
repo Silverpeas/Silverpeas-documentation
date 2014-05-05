@@ -1,0 +1,35 @@
+﻿[[haut>>#haut]]
+
+= Comment sont gérés les droits ? =
+
+Silverpeas propose une gestion fine des droits à plusieurs niveaux. Il existe des administrateurs généraux, des administrateurs d'espace, des gestionnaires d'applications. 
+Sur ces dernières, il existe également des profils Publieurs, Rédacteurs et Lecteurs. Il est évidemment possible d'affecter les droits à des groupes et/ou à des utilisateurs. 
+Silverpeas préconise fortement l'utilisation des groupes pour gérer les droits.
+Silverpeas permet une gestion décentralisée du portail et offre une réponse fiable au problème de « goulet d'étranglement » souvent rencontré avec d'autres solutions.
+
+[[retour>>#admin]]
+
+= Quelle est la granularité des droits ? =
+
+Il est possible de définir des droits sur les espaces afin que toutes ses applications héritent de ses droits. 
+Il est possible de « couper l'héritage » pour définir des droits spécifiques à un sous espace ou à une application. 
+Chaque application met en œuvre ses propres droits. Dans l'application Gestion documentaire, les droits peuvent être affinés au niveau des dossiers.
+
+[[retour>>#admin]]
+
+= Est-il possible d’assigner des thèmes différents (code couleur) en fonction de la navigation à l’intérieur du portail (ex une couleur par service) ? =
+
+Oui, il est possible d'assigner un thème (décliné du look du portail) à n'importe quel espace de n'importe quel niveau. 
+Ceci est réalisé depuis le back-office et sans connaissances techniques particulières.
+
+[[retour>>#admin]]
+
+= Peut-on ajouter des documents par l’intermédiaire d’un webservice, d’une API, par l’envoi d’un mail ? =
+
+Actuellement, il est possible d'ajouter des documents par l'intermédiaire du moteur d'import. L'importation peut être réalisée à la demande ou de manière périodique et automatique. 
+Cela est idéal pour intégrer des documents sans développement particulier.
+Silverpeas est en train de s'enrichir de services web de type REST. Actuellement, ils permettent seulement la lecture. Ils permettront bientôt l'écriture.
+Nous envisageons également d'enrichir la gestion documentaire en pouvant associer une adresse mail à un dossier. 
+L'envoi d'un fichier à l'adresse mail générera une publication contenant le fichier transmis par mail.
+
+[[retour>>#admin]]

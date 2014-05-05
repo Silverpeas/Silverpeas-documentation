@@ -1,0 +1,7 @@
+[[haut>>#haut]]
+
+L'application permet d'afficher le contenu d'une base de données via une requête SQL définie par le gestionnaire. Idéal pour exposer rapidement vos données existantes.
+
+  
+[[retour>>#connecteurJDBC]]
+

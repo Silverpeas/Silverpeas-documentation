@@ -1,0 +1,7 @@
+[[haut>>#haut]]
+
+L’application a pour objectif de retrouver les utilisateurs experts dans un domaine et de se mettre en relation avec eux. 
+Les experts sont qualifiés grâce à un formulaire personnalisable et la cartographie de connaissances (Plan de classement).
+
+[[retour>>#whitePages]]
+

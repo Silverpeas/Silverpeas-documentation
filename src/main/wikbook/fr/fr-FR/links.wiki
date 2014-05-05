@@ -1,0 +1,7 @@
+﻿[[haut>>#haut]]
+
+Permet de gérer les liens favoris affichés en page d'accueil.
+Les liens peuvent être des liens externes ou des hyperliens internes.
+
+[[retour>>#links]]
+

@@ -1,0 +1,9 @@
+﻿[[haut>>#haut]]
+
+Le profil centralise toutes les informations de l'utilisateur.
+Il offre la possibilité de modifier sa photo et son statut, mais aussi, avec l'onglet "Préférences", son identité et ses préférences.
+Le mur permet d'avoir une vision ante-chronologique de son activité au travers de son statut, de ses mises en relations, de ses contributions (publications, images, évènements.
+Le fil d'information permet de suivre l'activité de son réseau, de ses contacts.
+
+[[retour>>#profil]]
+

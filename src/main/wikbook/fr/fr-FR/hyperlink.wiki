@@ -1,0 +1,5 @@
+[[haut>>#haut]]
+
+Répondant de prime abord à un besoin très basique, l'application permet de mettre en place un véritable système de SSO client vers n'importe quels sites web nécessitant une authentification.
+
+[[retour>>#hyperlink]]

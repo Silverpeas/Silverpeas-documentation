@@ -1,0 +1,410 @@
+﻿[[haut>>#haut]]
+
+Le service de **Gestion documentaire**, offre la possibilité de créer une arborescence de dossiers dans lesquels des publications seront classées.
+Chaque publication est constituée de diverses informations rassemblées dans des onglets :
+* une entête incluant les métadonnées standard (titre, dates de publication et de modification, auteurs, résumé, mots clefs renforçant le référencement)
+* les axes du plan de classement, sur lesquels la publication sera éventuellement indexée
+* des métadonnées, sous forme de formulaire XML ou d'un contenu WYSIWYG
+* des fichiers joints attachés 
+* des fonctions collaboratives : Contrôle de lecture, commentaires, abonnements, etc
+
+Un cycle de vie (brouillon, à valider, validé) et des versions sur les fichiers (travail, publique) peuvent être gérées. 
+
+= Comment créer un dossier ? =
+
+Pour pouvoir créer un dossier, il faut avoir les droits d'administrateur sur cette application.
+3 options possibles :
+* Depuis la page d'accueil, en cliquant directement sur le bouton [[image:images/GED-add.jpg]]
+* Depuis l'arborescence, dans la partie gauche de la fenêtre, à la racine de l'application ou sur un dossier (pour créer un sous-dossier), 
+faire un clic droit et sélectionner l'opération //Créer un dossier//.
+
+[[image:images/GED-dossier_1.jpg||height="30%" width="30%"]]
+* Depuis le menu //Que voulez-vous faire ?//, option //Créer un dossier//.
+
+Une fenêtre apparaît, il faut renseigner le nom du dossier et éventuellement une description.
+L'option //notifications// permet d'envoyer de façon automatique une notification, aux publieurs ou à tous les utilisateurs, leur signalant la création de ce nouveau dossier.
+
+[[image:images/GED-dossier_3.jpg||height="20%" width="20%"]]
+
+Cette option ne conditionne en aucun cas la possibilité d'envoyer des notifications depuis les publications de ce dossier.
+
+[[retour>>#kmelia]]
+
+= Comment créer une publication ? =
+
+Il est possible de créer une publication de différentes manières : 
+* avec l'assistant de publication
+* de [[façon manuelle>>#manuel]], en créant une entête
+* en [[déposant un fichier>>#depose]] dans le dossier 
+
+[[retour>>#kmelia]]
+
+= {{anchor id=depose /}} Comment créer une publication en déposant un fichier ? =
+
+Se positionner dans le dossier voulu, cliquer sur //Pour déposer rapidement un fichier...// pour ouvrir le (ou les) zone(s) de glisser-déposer.
+
+[[image:images/GED-depose_1.jpg||height="60%" width="60%"]]
+
+Si la gestion documentaire a le mode brouillon activé, 2 zones sont disponibles pour déposer un fichier : en mode brouillon et en mode normal.
+
+[[image:images/GED-depose_2.jpg||height="60%" width="60%"]]
+
+Une fois le fichier déposé, une publication est créée, le fichier déposé est ajouté aux fichiers joints de la publication et l'entête de cette dernière est préalimentée par les métadonnées du fichier : 
+
+* le nom de la publication reprend le titre du documentaire
+* la description de la publication reprend le sujet du document 
+* les mots-clés de la publication sont alimentés avec les mots-clés du fichier
+
+[[image:images/GED-depose_3.jpg||height="100%" width="100%"]]
+
+[[retour>>#kmelia]]
+
+= {{anchor id=manuel /}} Comment créer une publication manuellement ? =
+
+Se positionner dans le dossier voulu, et choisir le bouton [[image:images/GED-addPubli.jpg]] ou choisir l'option //Créer une publication// dans le menu //Que voulez-vous faire ?//.
+
+[[image:images/GED-manuel_1.jpg||height="100%" width="100%"]]
+
+Remplir alors le formulaire d'entête et valider.
+La publication est alors créée, l'utilisateur a la possibilité d'ajouter un contenu et/ou des fichiers.
+Note : Si le mode brouillon est activé, la publication ainsi créée sera en brouillon, pour la rendre visible à tous les lecteurs de ce dossier, il faut la sortir du mode brouillon par l'opération //sortir du mode brouillon// du menu //Que voulez-vous faire ?//.
+
+[[retour>>#kmelia]]
+
+= Comment ajouter un fichier à une publication ? =
+
+Se positionner  sur l'onglet **Prévisualisation** de la publication.
+2 méthodes sont offertes pour ajouter un fichier : 
+1. par glisser-déposer
+
+Sur le pavé **Fichiers joints**, cliquer sur //Pour déposer rapidement un fichier...// pour ouvrir la zone de glisser-déposer.
+
+[[image:images/GED-fichier_1.jpg||height="100%" width="100%"]]
+
+[[image:images/GED-fichier_2.jpg||height="25%" width="25%"]]
+
+2. par recherche du fichier
+
+Il est possible d'ajouter un fichier sans passer par la zone de glisser-déposer, pour cela, sélectionner l'opération //Ajouter un fichier// dans le menu //Que voulez-vous faire ?//. 
+Une fenêtre s'ouvre, permettant d'aller sélectionner le fichier à ajouter.
+
+[[retour>>#kmelia]]
+
+{{anchor id=partageFichier /}}
+= Je veux partager mon fichier avec une personne extérieure, comment faire ? =
+
+Par principe, toute information présente dans la plateforme n'est accessible qu'aux utilisateurs déclarés dans le référentiel et ayant les droits d'accès à cette information. 
+Toutefois, la possibilité existe de pouvoir donner accès à un fichier joint à un utilisateur n'ayant pas les droits suffisant pour accéder à la publication ou à une personne non déclarée dans le référentiel.
+
+Cette option n'est disponible que sur les gestions documentaires ayant le paramètre **Fichiers partageables** activé et n'est accessible qu'aux gestionnaires de l'application.
+
+Dans le menu contextuel du fichier, l'opération //Partager ce fichier//, 
+
+[[image:images/GED-partage_1.jpg||height="25%" width="25%"]]
+
+permets de générer un ticket d'accès (lien privé) pour donner accès à ce fichier.
+Une fenêtre de paramétrage de ce ticket apparaît 
+
+elle permet à l'utilisateur de renseigner les caractéristiques du ticket.
+Il est possible de renseigner :
+* le nombre d'accès maximum et la date de fin de validité
+* ou simplement de rendre ce ticket permanent.
+
+[[image:images/GED-partage_2.jpg||height="60%" width="60%"]]
+
+La création d'un ticket génère une url qui devra être transmise à l'utilisateur.
+
+[[image:images/GED-partage_3.jpg||height="60%" width="60%"]]
+
+{{important}}
+la centralisation de tous mes tickets se fait depuis mon espace personnel sous la rubrique **Mes tickets**. 
+Ce service permet de visualiser tous les partages, mais aussi de modifier les paramètres des tickets existants.
+Les accès à un ticket sont tracés par adresse IP et par date.
+{{/important}}
+
+[[retour>>#kmelia]]
+
+= Comment ordonner les dossiers ? =
+
+Il est possible d'ordonner les dossiers de premier niveau d'une application de gestion documentaire, mais aussi d'ordonner les sous-dossiers d'un dossier.
+L'opération //Ordonner les dossiers// est disponible dans le menu contextuel sur le dossier parent ou dans le menu //Que voulez-vous faire ?//
+L'ordonnancement se fait pas glisser-déposer des dossiers.
+
+[[image:images/GED-ordonner.jpg||height="60%" width="60%"]]
+
+[[retour>>#kmelia]]
+
+= Afin de rendre mon dossier plus explicite, je voudrais saisir un descriptif, comment faire ? =
+
+Il existe la possibilité de mettre un descriptif sur le dossier, afin de rendre plus conviviale l'arrivée sur ce dernier, avant la liste des publications.
+L'option //Descriptif wysiwyg du dossier//, disponible dans le menu contextuel du dossier et dans le menu //Que voulez-vous faire ?// permet de saisir un contenu riche.
+
+[[image:images/GED-descriptifDossier.jpg||height="100%" width="100%"]]
+
+[[retour>>#kmelia]]
+
+= Comment gérer les fichiers joints ? =
+
+Les fichiers joints apparaissent sur l'onglet de //Prévisualisation// d'une publication.
+A côté de chaque fichier, le bouton [[image:images/GED-fichier.jpg]] donne accès aux opérations disponibles pour ce fichier, en fonction des droits et du paramétrage de l'application.
+Les lecteurs n'ont le choix que de télécharger le fichier, en cliquant directement sur le nom de ce dernier.
+Pour les autres utilisateurs, les opérations toujours disponibles sont : 
+
+* Réserver
+* Réserver et télécharger
+* Libérer
+* Modifier
+* Supprimer
+* [[Notifier>>#notification]]
+
+[[retour>>#kmelia]]
+
+= Comment éditer en ligne mon fichier ? =
+
+Cette fonctionnalité permet d'éditer et de modifier un fichier joint directement en ligne, sans avoir besoin de le télécharger sur son poste.
+Choisir l'option //Editer en ligne// du menu du fichier à éditer.
+
+[[image:images/GED-editer_1.jpg||height="25%" width="25%"]]
+
+Dès son ouverture, le fichier est automatiquement réservé, ce qui interdit toute modification de la part d'un autre utilisateur. 
+
+Ouvrir avec Java :
+
+[[image:images/GED-editer_2.jpg||height="40%" width="40%"]]
+
+une fois authentifié (avec le login et le mot de passe d'accès à la plateforme Silverpeas), 
+
+[[image:images/GED-editer_3.jpg||height="40%" width="40%"]]
+
+Le fichier est ouvert et prêt à être modifié !
+La modification terminée, enregistrer le fichier et le fermer, puis le libérer.
+C'est à ce stade, qu'il vous est demandé si vous voulez enregistrer vos modifications.
+
+[[retour>>#kmelia]]
+
+= Comment ajouter une nouvelle version à mon fichier ? =
+
+Comme pour toutes les opérations sur les fichiers, c'est dans le menu associé au fichier que l'opération //Créer une nouvelle version// est disponible.
+Le fichier en cours de modification est alors automatiquement réservé.
+La nouvelle version peut être déposée directement par glisser-déposer ou être recherchée sur le poste.
+
+[[image:images/GED-version_1.jpg||height="60%" width="60%"]]
+
+Le choix de la version, publique ou de travail est demandé : 
+une version de travail ne sera visible que par les gestionnaires et les publieurs, alors qu'une version publique sera disponible pour les utilisateurs ayant des droits de lecture sur ce fichier.
+Le numéro de version est incrémenté en fonction du type de version (premier chiffre pour les versions publiques, second pour les versions de travail).
+
+Les utilisateurs ont la possibilité de voir et télécharger toutes les versions disponibles en fonction de leur droits.
+En cliquant sur la ligne //Toutes les versions...//, sous le fichier, 
+
+[[image:images/GED-version_2.jpg]]
+
+les utilisateurs auront la possibilité de visualiser et télécharger toutes les versions disponibles (en fonction de leurs droits).
+
+[[image:images/GED-version_3.jpg||height="80%" width="80%"]]
+
+[[retour>>#kmelia]]
+
+= Puis-je partager plus qu'un fichier ? = 
+
+Par principe, toute information présente dans la plateforme n'est accessible qu'aux utilisateurs déclarés dans le référentiel et ayant les droits d'accès à cette information. 
+Toutefois, la possibilité existe de pouvoir donner [[accès à un fichier joint>>#partageFichier]] particulier, à un utilisateur n'ayant pas les droits suffisant pour accéder à la publication ou à une personne non déclarée dans le référentiel.
+
+Mais il est possible d'aller encore plus loin et de partager tous les fichiers joints d'un dossier !
+Cette option sera disponible pour les gestionnaires seulement, et sur les //gestions documentaires// ayant le paramètre **Dossiers partageables** activé.
+
+Dans le menu //Que voulez-vous faire ?// du dossier à partager, choisir l'option //Partager le dossier//.
+Tout comme pour le partage d'un fichier, une fenêtre permet de paramétrer le ticket associé à ce partage : avec une date de fin de validité ou permanent.
+
+[[image:images/GED-partage_4.jpg||height="60%" width="60%"]]
+
+Ce ticket génère l'url qui devra être transmise à l'utilisateur destinataire.
+
+[[image:images/GED-partage_3.jpg||height="60%" width="60%"]]
+
+Il est possible de partager un dossier, mais aussi toute une gestion documentaire, en se plaçant sur le dossier racine.
+La restitution se présente de façon arborescente, reprenant la structure du dossier partagé, avec des liens disponibles pour chaque fichier joint des publications de ce(s) dossier(s).
+
+[[image:images/GED-partage_6.jpg||height="100%" width="100%"]]
+
+{{important}}
+la centralisation de tous mes tickets se fait depuis mon espace personnel sous la rubrique **Mes tickets**. 
+Ce service permet de visualiser tous les partages, mais aussi de modifier les paramètres des tickets existants.
+{{/important}}
+
+[[retour>>#kmelia]]
+
+= Puis-je réorganiser les droits sur les dossiers ? =
+
+Par principe, sur toutes les applications, les droits sont affectés sur les différents rôles par le gestionnaire de la plateforme.
+Pour la gestion documentaire, le principe est le même, mais, afin de pouvoir affiner les droits, il existe une option qui permet aux gestionnaires de l'application de redéfinir les droits, dossier par dossier.
+Pour cela, il faut que l'option **Droits sur les dossiers** soit activée.
+
+L'écran de modification d'un dossier, passe de 
+
+[[image:images/GED-droits_1.jpg||height="100%" width="100%"]]
+
+et devient
+
+[[image:images/GED-droits_2.jpg||height="100%" width="100%"]]
+
+Le gestionnaire peut alors choisir de laisser les droits hérités (définis au niveau de l'application ou du dossier précédent) ou de redéfinir les droits pour ce dossier.
+Pour redéfinir les droits, il faut cocher //Droits spécifiques à ce dossier// sur le dossier et réaffecter tous les droits sur les onglets //Gestionnaires//, //Publieurs//, //Rédacteurs// et //Lecteurs//.
+Le choix de l'héritage se répercute dans l'arborescence, si un dossier a des droits redéfinis, ses sous-dossiers auront par défaut (option //Droits hérités//) les droits redéfinis du dossier parent.
+
+Sur un dossier sensible, le gestionnaire peut décider de passer en simple lecteur tous les publieurs et rédacteurs.
+A l'inverse, sur un dossier plus générique, il est possible de passer publieur un utilisateur qui serait simple lecteur sur l'application. 
+Mais il n'est toutefois pas possible d'ajouter un utilisateur, la redéfinition des droits permet simplement de réorganiser, par dossier, les utilisateurs affectés à cette application.
+
+[[retour>>#kmelia]]
+
+= A quoi sert le "voir aussi" ?=
+
+L'onglet **Voir aussi** permet de référencer d'autres publications, sur la publication.
+Cet onglet permet aussi de visualiser rapidement la liste des publications : 
+* du même dossier : liste des publications présentes dans le dossier.
+* du même sujet 
+* les publications qui référencent la publication présente
+
+Pour référencer de façon manuelle une publication, choisir l'option //Référencer des publications//, naviguer dans l'arborescence représentant toutes les gestions documentaires, cocher les publications à référencer.
+
+[[image:images/GED-ref_1.jpg||height="60%" width="60%"]] 
+
+Ces dernières sont alors listées pour les lecteurs et accessibles d'un simple clic !
+
+[[image:images/GED-ref_2.jpg||height="100%" width="100%"]] 
+
+[[retour>>#kmelia]] 
+
+= Des feuilles de styles CSS seront-elles fournies ? =
+
+L'application **Gestion documentaire** dispose de sa propre ergonomie (adapté à la gestion de documents). Cette application ne nécessite pas de feuille de styles particulière. 
+Par défaut, la gestion documentaire bénéficiera automatiquement des styles du portail. Les feuilles CSS du portail seront évidemment fournies. 
+Cependant, comme pour n'importe quelle autre application, il est possible de surcharger les styles pour toutes les applications du même type ou juste pour une instance d'une application.
+
+[[retour>>#kmelia]] 
+
+= Quels sont les types de contenus existants ? =
+
+L'application Gestion documentaire permet de partager n'importe quel type de documents et de les visualiser sans contraintes. A ces documents peut être ajouté un contenu. 
+Ce contenu peut être riche (utilisation de l'éditeur Wysiwyg) ou structuré (utilisation des formulaires). L'éditeur est paramétrable, les formulaires aussi.  
+Depuis le backoffice, vous pouvez très facilement créer un nouveau formulaire pour saisir un nouveau type de contenu (article, mission, formation, intervention...). 
+Une publication peut très bien se résumer à un contenu sans document joint.
+
+[[retour>>#kmelia]] 
+
+= Puis-je créer un nouveau type de contenu ?  =
+
+Vous êtes totalement autonomes quant à la création de nouveau type de contenu. 
+Pour cela il suffit de créer un [[nouveau formulaire>>#newForm]].
+
+[[retour>>#kmelia]] 
+
+= {{anchor id=export /}} Puis-je récupérer l’intégralité d’un dossier ? =
+
+L'application Gestion documentaire propose l'option « Export » qui permet de télécharger un Zip contenant l'ensemble des publications d'un dossier (et de ses sous dossiers). 
+Ce Zip contient un mini site web qui permet une navigation au sein de l'arborescence via un navigateur Web comme si l'utilisateur était connecté au portail. 
+Il consulte ainsi les publications, leurs contenus ainsi que les fichiers joints. S'il le souhaite il peut également récupérer uniquement les fichiers et pas les publications.
+
+[[retour>>#kmelia]] 
+
+= Puis-je alimenter en volume ma gestion documentaire ? =
+
+La méthode la plus simple et la plus rapide pour alimenter la gestion documentaire en volume est l'utilisation du glisser/déposer. 
+Le contributeur fait un glisser/déposer d'un répertoire de son ordinateur vers le portail. 
+Le système réplique alors l'arborescence du répertoire dans la gestion documentaire et crée automatiquement autant de publications que de fichiers. 
+Si ces fichiers disposent de propriétés (titre, description, mots-clés...), elles sont utilisées pour générer la publication. 
+Ce système de glisser/déposer est également disponible au sein même d'une publication pour ajouter rapidement un ou plusieurs fichiers.
+La Gestion documentaire peut également être alimentée par un Zip qui sera décompressé sur le serveur et dont le contenu sera traité de la même manière que lors du glisser/déposer.
+Silverpeas offre également un moteur d'importation qui permet d'importer des répertoires et/ou de créer des publications basées sur des données issues de systèmes tiers.
+
+[[retour>>#kmelia]] 
+
+= Puis-je utiliser les titres des dossiers d’import comme mots clefs ? =
+
+Cela n'est pas nécessaire car les titres des dossiers seront indexés automatiquement par notre moteur de recherche. 
+Ils seront alors retrouvables et un clic sur le résultat affichera la liste des publications du dossier.
+
+[[retour>>#kmelia]] 
+
+= Quelles sont les métadonnées associées à un contenu ou à un document ?  =
+
+Une publication est caractérisée par :
+* un titre
+* un état (Brouillon, En attente de validation, Validé, Refusé)
+* une description
+* des mots-clés
+* une importance
+* un auteur (en supplément du créateur et du dernier contributeur)
+* une période de visibilité (à la minute près)
+* une vignette
+* un classement sur le Plan de classement
+Seule la métadonnée titre est obligatoire. Les informations de traçabilité sont automatiques (date de création par qui, date de dernière modification par qui).
+
+[[retour>>#kmelia]] 
+
+= La gestion documentaire est-elle en conformité avec le protocole CMIS ? =
+
+Silverpeas ne supporte pas pour l'instant le protocole CMIS mais le moteur d'export de la gestion documentaire permet de générer un fichier XML contenant toutes les données des publications (méta-données, contenu, fichiers joints). 
+Comme les données sont structurées au sein de ce descripteur XML, il est facile de les exploiter par un système tiers. Cela assure la réversibilité de la gestion documentaire.
+
+[[retour>>#kmelia]] 
+
+= Puis-je m'abonner à un « dossier » ? =
+
+Chaque utilisateur peut s'abonner à un dossier. Dans ce cas, dès qu'une publication est créée ou modifiée, il sera alerté selon la méthode de son choix (canal de notification et fréquence).
+
+[[retour>>#kmelia]] 
+
+= Un contenu peut-il être présent à plusieurs endroits du portail sans duplication ? =
+
+Grâce à l'option « Emplacements multiples » il est possible de créer des raccourcis d'une publication de l'application A dans un dossier de l'application B et dans un dossier de l'application C. 
+L'application A reste l'application maîtresse pour la gestion de la publication qui est en lecture seule pour les applications B et C. 
+
+[[retour>>#kmelia]] 
+
+= Faut-il passer par l’ajout d’un document multimédia dans une bibliothèque avant de s’en servir dans le contenu wysiwyg de ma publication ? =
+
+Non. Les éléments multimédias peuvent être ajoutés directement à un contenu (wysiwyg ou formulaire).
+Cependant il existe une fonction qui permet de spécifier qu'une photothèque serve de banque d'images. 
+Ainsi, les images seront disponibles immédiatement lors de l'édition de différents contenus du portail.
+
+[[retour>>#kmelia]] 
+
+= Comment est géré le « versionning » ? Peut-on définir un versionning différent à différents endroits du portail ? =
+
+Le versionning est géré sur les fichiers. Il permet une numérotation automatique selon la version majeure (publique) ou mineure (de travail). 
+Il est activé au niveau de l'application. Dans la version 5.12, il pourra être activé à la demande sur chaque fichier.
+
+[[retour>>#kmelia]] 
+
+= Peut-on définir des dates de publication et de retrait automatique d’un contenu ? =
+
+Oui, la période de visibilité des publications permet de faire cela à la minute près.
+
+[[retour>>#kmelia]] 
+
+= L’auteur est-il être averti de la publication et du retrait ? =
+
+Non, cette fonctionnalité n'est pour l'instant pas couverte. 
+
+[[retour>>#kmelia]] 
+
+= Est-il possible d’extraire une partie des documents pour les mettre sur une clef USB pour consultation déconnectée ? =
+
+[[L'export d'un dossier>>#export]] ou l'export sur mesure permet de générer un Zip contenant les documents pour les consulter en mode déconnecté.
+
+[[retour>>#kmelia]] 
+
+= Faut-il mettre en place des règles de nommages des documents ? =
+
+Non, puisque le moteur de recherche indexe le contenu des documents en mode « plein texte ».
+
+[[retour>>#kmelia]] 
+
+= Puis-je suivre l’avancée de la prise en compte de ma publication ? =
+
+La gestion documentaire dispose de la fonction « Contrôles de lecture ». 
+Non disponible pour les simples lecteurs, elle permet de connaître l'historique des consultations d'une publication.
+
+[[retour>>#kmelia]] 

@@ -1,0 +1,6 @@
+﻿[[haut>>#haut]]
+
+Permet de gérer les requêtes de recherche.
+
+[[retour>>#interestCenter]]
+

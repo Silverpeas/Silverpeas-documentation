@@ -1,0 +1,8 @@
+[[haut>>#haut]]
+
+Cette application permet d'afficher au sein de la même page plusieurs sources d'informations externes au format RSS. 
+Parfait pour fournir du contenu adéquat et actualisé en permanence sur un sujet donné !
+
+
+[[retour>>#rssAgregator]]
+

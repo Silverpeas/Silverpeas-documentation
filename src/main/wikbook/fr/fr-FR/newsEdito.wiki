@@ -1,0 +1,7 @@
+[[haut>>#haut]]
+
+Permet de créer un journal d'entreprise, contenant des articles, éditoriaux, première page.    
+
+  
+[[retour>>#newsEdito]]
+

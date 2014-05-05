@@ -1,0 +1,41 @@
+[[haut>>#haut]]
+
+Cette application permet de stocker, partager, indexer et diffuser les courriels relatifs à un projet, un client, une mission... 
+La modération est possible. Si l’abonnement est activé, l’application se transforme en liste de diffusion.
+Elle n'a pas pour vocation de remplacer les outils de messagerie utilisés au quotidien mais vient en complément de ceux-ci.
+        
+= Les fichiers joints aux courriels sont-ils gérés ? =
+
+Oui, les fichiers joints sont stockés dans la plate-forme au même titre que les courriels. Ils sont indexés et peuvent donc être retrouvés par le moteur de recherche.
+
+[[retour>>#mailinglist]]
+
+= Est-il possible de transférer les courriels reçus par l'application ? =
+
+Oui, le paramètre d'instance **Liste de diffusion** permet de transformer l'application en liste de diffusion. 
+Une fois stocké par l'application, le courriel est transmis aux abonnés (internes et externes).
+
+[[retour>>#mailinglist]]
+
+= Quelle est la différence entre un abonné interne et un abonné externe ? =
+
+Comme l'application Lettre d'informations, un abonné interne est un utilisateur de la plate-forme. Un abonné externe n'utilise pas la plate-forme et n'est connu que par son adresse mail.
+Lorsque l'application ne fait que de l'archivage (cas par défaut), les abonnés internes reçoivent une notification contenant un lien vers le message archivé.
+Lorsque l'application est paramétrée en tant que liste de diffusion, le message est transmis tel quel aux abonnés internes et externes.
+
+[[retour>>#mailinglist]]
+
+= Est-il possible de modérer les courriels reçus par l'application ? =
+
+Oui, le paramètre d'instance **Modération** permet d'activer la modération des courriels reçus. 
+Seuls les utilisateurs des rôles **Gestionnaires** et **Modérateurs** peuvent modérer les courriels reçus. 
+A chaque nouveau message envoyé à la liste de messagerie, les modérateurs reçoivent une notification et une nouvelle tâche apparaît dans leur gestionnaire de tâches. 
+Le message n’est pas archivé ni diffusé tant qu’il n’a pas été validé.
+
+[[retour>>#mailinglist]]
+
+= Je ne souhaite pas que tous les courriels envoyés à la liste soient stockés. Comment faire ? =
+
+Le paramètre d'instance **Liste ouverte** permet de maîtriser les courriels entrants. Par défaut, la liste est ouverte. Cela signifie que tous les courriels adressés à la liste seront stockés. Si la liste n'est pas ouverte alors seuls les messages envoyés par les abonnés seront considérés et stockés.
+
+[[retour>>#mailinglist]]

@@ -1,0 +1,59 @@
+﻿[[haut>>#haut]]
+
+De la même façon que la gestion documentaire, le service de **Gestion de contenu multi-axes**, permet de gérer des publications. 
+Celles-ci sont classées dans une taxonomie indépendante permettant à l'utilisateur de faire des recherches croisées en toute simplicité.
+
+= Comment créer une publication ? =
+
+Les gestionnaires et les publieurs peuvent créer des publications sans être soumis à validation.
+Les publications des rédacteurs sont soumises à validation.
+
+Quel que soit le rôle, il est possible de créer une publication :
+* par l'icône [[image:images/kmax-creation_1.jpg]]
+* par le menu //Que voulez-vous faire ?//, option //Créer une publication//
+
+Remplir le nom de la publication et éventuellement des dates de validité.
+La publication peut avoir un contenu et des fichiers joints.
+
+Afin que les lecteurs puissent retrouver cette publication via les axes de recherche, il faut la classer. 
+L'onglet **classement** propose la liste des axes disponible.
+Une publication peut être classée sur un ou plusieurs axes : 
+
+[[image:images/kmax-creation_2.jpg]]
+
+Le classement ainsi enregistré apparaît alors en bas de page.
+Il est possible de créer autant de classement que voulu.
+
+[[image:images/kmax-creation_3.jpg]]
+
+[[retour>>#kmax]]
+
+= Comment créer un axe ? =
+
+Pour pouvoir créer un axe, il faut avoir les droits de gestionnaire sur l'application. Il faut se positionner sur l'onglet **Gestion**, 2 options sont possibles :
+* via le bouton [[image:images/kmax-axe_1.jpg]]
+* via le menu //Que voulez-vous faire ?// option //Créer un axe//
+
+Il suffit de choisir un nom (obligatoire) et une description (facultative)
+
+[[image:images/kmax-axe_3.jpg]]
+
+l'axe est alors présent : [[image:images/kmax-axe_4.jpg]]
+
+Reste à saisir les différentes valeurs via le bouton [[image:images/kmax-axe_5.jpg]] puis //Créer une catégorie//
+
+[[image:images/kmax-axe_6.jpg]]
+
+Une fois toutes les catégories saisies, une validation permet de revenir sur la page des axes.
+
+[[retour>>#kmax]]
+
+= Rechercher une publication =
+
+Les publications sont classées sur la taxonomie définie.
+La recherche se fait simplement en croisant les valeurs des axes.
+
+Il est possible de rechercher sur un ou plusieurs axes.
+
+[[retour>>#kmax]]
+

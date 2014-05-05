@@ -1,0 +1,32 @@
+[[haut>>#haut]]
+
+Une enquête est constituée de plusieurs questions ouvertes ou fermées. Il est possible de programmer sa mise en ligne. 
+Les résultats sont présentés selon deux restitutions différentes (anonyme ou nominative) afin de les exploiter pleinement selon les besoins.
+
+L’application « Vote » permet de créer rapidement une question à choix multiples et de programmer sa mise en ligne. 
+La participation ainsi que les résultats sont calculés automatiquement et peuvent être exportés.
+       
+= Comment sont restitués les résultats ? =
+
+La restitution des réponses peut être globale ou individuelle (à la doodle). Les résultats peuvent être exportés au format CSV.
+
+[[retour>>#survey]]
+
+= Peut-on poser plusieurs questions dans la même enquête ? =
+
+Oui. Le gestionnaire crée une enquête en saisissant les questions les unes après les autres.
+
+[[retour>>#survey]]
+
+= Quels sont les types de réponses possibles ? =
+
+Les réponses peuvent être de plusieurs types :
+* case à cocher (pour une question à réponse multiple)
+* bouton radio (pour une question à réponse unique)
+* liste déroulante (pour une question à réponse unique)
+* texte libre (pour une question ouverte)
+Pour les cases à cocher et les boutons radio, il est possible d'ajouter une image sur chaque réponse.
+
+[[retour>>#survey]]
+
+

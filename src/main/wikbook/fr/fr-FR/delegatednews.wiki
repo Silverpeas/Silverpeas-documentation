@@ -1,0 +1,7 @@
+[[haut>>#haut]]
+
+Cette application permet la validation et la mise en ligne en page d'accueil des actualités soumises à validation depuis les //Gestion documentaire I// dont l'option Gestion des actualités est activée.
+
+ 
+[[retour>>#delegatednews]]
+

@@ -1,0 +1,7 @@
+[[haut>>#haut]]
+
+Application très pratique basée sur des formulaires entièrement personnalisables, elle permet aux utilisateurs de soumettre des demandes structurées de toutes natures. 
+Ensuite, les destinataires valident ou refusent les demandes reçues. Les notifications permettent un suivi parfait des demandes.
+
+[[retour>>#formsOnline]]
+

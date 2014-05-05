@@ -1,0 +1,9 @@
+﻿[[haut>>#haut]]
+
+Chaque utilisateur dispose d'un gestionnaire de tâche.
+L'utilisateur crée des tâches qu'il peut affecter à d'autres utilisateurs. 
+
+C'est dans cette partie que toutes les tâches automatiques sont centralisées, comme par exemple, les publications à valider ou les tâches liées à l'application de gestion de projet.  
+
+[[retour>>#todo]]
+

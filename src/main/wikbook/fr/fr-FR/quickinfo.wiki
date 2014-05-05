@@ -1,0 +1,7 @@
+[[haut>>#haut]]
+
+Les actualités remontent automatiquement sur la page d'accueil. Elles sont constituées d'un titre et d'une description riche.
+
+  
+[[retour>>#quickinfo]]
+

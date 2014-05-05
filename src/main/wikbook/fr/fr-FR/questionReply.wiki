@@ -1,0 +1,64 @@
+[[haut>>#haut]]
+
+Le principe de l'application //Questions/Réponses// est de créer des FAQ, de permettre aux utilisateurs de poser des questions et/ou de donner des réponses.
+Les réponses enrichissent progressivement cette base de connaissances.
+
+= Comment poser une question ? =
+
+Pour les utilisateurs ayant les droits, cliquer sur le bouton [[image:images/QR-add.jpg]] en page d'accueil ou choisir l'option //Poser une question// dans le menu //Que voulez-vous faire ?//.
+
+Une fenêtre apparaît et permet de saisir le titre de la question ainsi qu'une éventuelle description.
+Une fois validée, la question est alors disponible pour tous les utilisateurs et ceux autorisés, peuvent y répondre. 
+Une notification est automatiquement envoyée aux utilisateurs désignés comme expert.
+
+[[retour>>#questionreply]]
+
+= Comment choisir les experts ? =
+
+La liste des experts est un paramétrage de l'application défini par le gestionnaire. 
+Les experts sont les utilisateurs associés à l'onglet //Expert// de l'application.
+
+[[image:images/QR-choixExpert.jpg||height="100%" width="100%"]]
+
+Les experts sont notifiés automatiquement à la création d'une question.
+
+[[retour>>#questionreply]]
+
+= Comment répondre à une question ? =
+
+Il faut se positionner sur la question et cliquer sur l'icône de réponse : [[image:images/QR-repondre_1.jpg]]
+
+[[image:images/QR-repondre_2.jpg||height="100%" width="100%"]]
+
+Une fenêtre s'ouvre permettant de saisir le titre de la réponse ainsi que le contenu (éditeur Wysiwyg). 
+La possibilité est offerte de pouvoir ajouter des fichiers joints à une réponse.
+
+Une fois validée, la réponse est alors disponible à tous les utilisateurs quels que soient leurs rôles.
+
+[[image:images/QR-repondre_3.jpg||height="100%" width="100%"]]
+
+[[retour>>#questionreply]]
+
+= Comment modifier ma question ? =
+
+Il faut se positionner sur la question et cliquer sur l'icône de modification : [[image:images/modif.jpg]]
+
+De la même façon, il est possible de modifier une réponse.
+
+[[retour>>#questionreply]]
+
+= Puis-je choisir à qui poser ma question ? =
+
+Afin d'avoir la meilleure réponse possible à une question, toutes les questions sont visibles et disponibles à chaque utilisateur de l'application, les opérations possibles restant bien évidemment dépendante du rôle de ce dernier.
+De ce fait, tous les utilisateurs ayant le droit de répondre peuvent apporter une contribution à cette question.
+Les utilisateurs définis comme animateurs, experts ou demandeurs peuvent poser des questions.
+Les utilisateurs, définis comme animateurs ou experts, peuvent ajouter une FAQ et apporter des réponses.
+
+[[retour>>#questionreply]]
+
+= A quoi servent les experts ? =
+
+Les experts (utilisateurs définis dans l'onglet //Expert// de l'application) sont habilités à poser des questions, ajouter des FAQ et répondre aux questions.
+Ce sont eux, qui seront notifiés dès qu'une question est posée.
+
+[[retour>>#questionreply]]

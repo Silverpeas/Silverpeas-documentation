@@ -1,0 +1,138 @@
+[[haut>>#haut]]
+
+{{anchor id=notification /}}
+= Notifications =
+
+Une notification sert à informer une ou plusieurs personnes (internes à la plateforme) de l'existence d'une information.
+L'option de notification est disponible sur la plupart des éléments de la plateforme, en fonction toutefois du paramétrage de chaque instance.
+
+== Comment notifier ? ==
+
+Pour notifier de la présence d'un élément, une publication par exemple, il faut au préalable se placer sur cette dernière.
+Dans le menu //Que voulez-vous faire ?// l'option //Notifier// est proposée à tous les utilisateurs ayant accès à cette information, quel que soit son rôle.
+
+[[image:images/NOTIF-1.jpg||height="100%" width="100%"]]
+
+Reste à sélectionner les personnes à notifier parmi la liste des personnes ayant des droits d'accès à cet élément. 
+
+[[image:images/NOTIF-2.jpg||height="80%" width="80%"]]
+
+Il est possible d'ajouter un texte de commentaire à la notification avant de l'envoyer.
+La notification est alors envoyée aux utilisateurs sélectionnés. 
+Chaque utilisateur la recevra sur le canal défini par son paramétrage. 
+
+[[retour>>#notification]]
+
+== Comment vais-je recevoir mes notifications ? ==
+
+Chaque utilisateur peut paramétrer la façon de recevoir ses notifications.
+A la création du compte utilisateur, le paramétrage par défaut du canal de réception des notifications est l'adresse de messagerie associée au compte utilisateur.
+Pour modifier ses informations il faut se rendre dans la partie //Mes notifications// de l'//espace personnel//.
+
+[[image:images/NOTIF-6.jpg]]
+
+L'onglet //Paramétrage// permet de choisir le canal de réception des notifications.
+
+[[image:images/NOTIF-7.jpg||height="100%" width="100%"]]
+
+En fonction du paramétrage global de la plateforme, le choix est donné à l'utilisateur de pouvoir sélectionner un ou plusieurs canaux.
+
+[[image:images/NOTIF-8.jpg||height="100%" width="100%"]]
+
+[[image:images/NOTIF-9.jpg||height="100%" width="100%"]]
+
+L'utilisateur a le choix entre :
+* Affichage d'une fenêtre : ouvre une popup contenant l'auteur de la notification, le message et l'objet notifié.
+
+[[image:images/NOTIF-10.jpg	||height="60%" width="60%"]]
+* boîte de notification : la notification arrive dans la boîte de notification présente dans la partie //Mes notifications//. 
+Elle contient l'auteur de la notification, le message, l'objet notifié et un lien pour accéder directement à ce dernier.
+
+[[image:images/NOTIF-11.jpg||height="100%" width="100%"]]
+
+[[image:images/NOTIF-5.jpg||height="60%" width="60%"]]
+* Messagerie par défaut : la notification arrive dans la boîte mail définie dans défaut dans le profil de l'utilisateur.
+Elle contient l'auteur de la notification, le message, l'objet notifié et un lien pour accéder directement à ce dernier.
+
+[[image:images/NOTIF-4.jpg||height="80%" width="80%"]]
+* Suppression automatique : supprime automatiquement la notification.
+
+[[retour>>#notification]]
+
+== Puis-je recevoir mes notifications sur une autre adresse mail ? ==
+
+Par défaut, les canaux pour recevoir les notifications sont : popup, boîte de notification et messagerie par défaut.
+Il est toutefois possible d'ajouter un nouveau canal de notification. 
+Sur l'onglet //Paramétrage//, l'option //Ajouter un canal de notification// du menu //Que voulez-vous faire ?// permet de configurer un nouveau canal de notification.
+
+[[image:images/NOTIF-12.jpg||height="60%" width="60%"]]
+
+Ce nouveau canal est alors disponible dans la liste des choix du canal, il est aussi utilisable dans les [[règles>>#regle]] de réception.
+
+[[retour>>#notification]]
+
+{{anchor id=regle /}}
+== Je ne veux pas recevoir toutes mes notifications de la même façon, est-ce possible ? ==
+
+Par défaut toutes les notifications arrivent sur un seul canal de réception.
+Mais afin de différencier les notifications en fonction de leur provenance, il est possible  d'éditer des règles de réception.
+Une règle permet de définir, pour une provenance donnée (une application d'un espace) sur quel canal les notifications seront reçues.  
+Les règles sont visibles dans l'option //Editer les règles// du menu //Que voulez vous faire ?//.
+
+[[image:images/NOTIF-13.jpg||height="60%" width="60%"]]
+
+L'opération //Ajouter une règle// permet de créer une association entre une application et un canal de réception.
+
+[[image:images/NOTIF-14.jpg||height="60%" width="60%"]]
+
+On notera que toutes les notifications provenant des autres applications (non définies dans des règles) seront bien évidemment reçues sur le canal par défaut.
+
+[[retour>>#notification]]
+
+== Je reçois trop de notifications, puis-je recevoir des récapitulatifs ? ==
+
+Les notifications peuvent se recevoir sur différents canaux : popup, boîte de notification, messagerie extérieure.
+Si le choix est fait de recevoir les notifications par mail, il existe la possibilité de recevoir des récapitulatifs quotidien, hebdomadaire ou mensuel.
+Sur l'onglet //Paramétrage//.
+
+[[image:images/NOTIF-15.jpg||height="100%" width="100%"]]
+
+[[retour>>#notification]]
+
+== Puis-je déléguer mes alertes (pendant des périodes de congés, …) ? ==
+
+Cette fonctionnalité n'est actuellement pas couverte.
+
+[[retour>>#notification]]
+
+
+{{anchor id=comments /}}
+= Commentaires =
+
+[[haut>>#haut]]
+
+== Peut-on insérer des commentaires sur des contenus ? ==
+
+Oui, chaque contenu peut être commenté. Les gestionnaires de l'application qui gère le contenu peuvent à tout moment modérer à posteriori un commentaire. 
+Pour assurer le fil conversationnel, les contributeurs ainsi que les utilisateurs ayant posté un commentaire sur un contenu sont notifiés à chaque nouveau commentaire. 
+Ils sont indexés par le moteur de recherche. 
+
+[[retour>>#comments]]
+
+== Peut-on interdire les commentaires sur les contenus ? ==
+
+Oui. Chaque application dispose d'un paramètre « Commentaires » qui permet d'activer ou non les commentaires sur les contenus qu'il gère. 
+C'est donc l'administrateur général ou l'administrateur d'espace qui autorise ou pas les commentaires.
+
+[[retour>>#comments]]
+
+== Peut-on s’abonner aux commentaires sur un contenu ? ==
+
+Oui, l'abonnement est automatique à partir du moment où l'on a participé aux échanges. 
+Les contributeurs du contenu sont eux aussi automatiquement alertés même s'ils n'ont pas laissé de commentaires.
+
+[[retour>>#comments]]
+
+
+
+
